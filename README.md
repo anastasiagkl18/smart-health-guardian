@@ -1,7 +1,7 @@
 <h1 align="center">Smart Health Guardian</h1>
 
 <p align="center">
-  <b>Σύστημα IoT χαμηλού κόστους για ανάλυση ζωτικών σημάτων και ανίχνευση καταστάσεων υγείας με TinyML</b>
+  <b>A low-cost IoT system for vital-sign analysis and health-state detection with TinyML</b>
 </p>
 
 <p align="center">
@@ -13,86 +13,86 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/device.jpg" width="420" alt="Το πρωτότυπο: ESP32 και αισθητήρας MAX30102">
+  <img src="docs/images/device.jpg" width="420" alt="The prototype: ESP32 and MAX30102 sensor">
 </p>
 
-Μια μικρή συσκευή που, με το δάχτυλο πάνω στον αισθητήρα, μετρά **παλμούς, οξυγόνο και μεταβλητότητα του καρδιακού
-ρυθμού**, και με ένα μικρό νευρωνικό δίκτυο **μέσα στην ίδια τη συσκευή, χωρίς internet**, εκτιμά την κατάσταση του
-χρήστη: ήρεμος, αγχωμένος, σε άσκηση κ.λπ. Όταν δεν είναι σίγουρη, λέει **«δεν ξέρω»** αντί να μαντέψει.
+A small device that, with a finger on the sensor, measures **heart rate, blood oxygen and heart-rate variability**, and
+uses a tiny neural network **running on the device itself, with no internet connection**, to estimate the user's
+state: relaxed, stressed, exercising and so on. When it is not sure, it says **"I don't know"** instead of guessing.
 
-Διπλωματική εργασία, Τμήμα Μηχανικών Παραγωγής και Διοίκησης, Διεθνές Πανεπιστήμιο της Ελλάδος, Θεσσαλονίκη 2026.
-
+Diploma thesis, Department of Industrial Engineering and Management, International Hellenic University,
+Thessaloniki 2026.
 
 > [!IMPORTANT]
-> Ερευνητικό πρωτότυπο (proof-of-concept). **Δεν είναι ιατρική συσκευή** και τα αποτελέσματά του δεν αποτελούν διάγνωση.
+> Research prototype (proof of concept). **It is not a medical device** and its outputs are not a diagnosis.
 
 ---
 
-## Με μια ματιά
+## At a glance
 
 | | |
 |---|---|
-| 💓 **Καρδιακός ρυθμός** | μέση διαφορά **−0,2 bpm** από εμπορικό οξύμετρο |
-| 🩸 **Οξυγόνο (SpO₂)** | μέση διαφορά **−0,2%** από εμπορικό οξύμετρο |
-| 🧠 **Ταξινόμηση σε ηρεμία** | **0 ψευδείς** παθολογικές ενδείξεις (πριν τις διορθώσεις: 82 στις 111) |
-| ⚡ **Χρόνος απόφασης** | **≈ 1,3 ms** μέσα στον ESP32 |
-| 💾 **Μνήμη** | 377 KB Flash (28%) · 28 KB RAM (8%) |
-| 📶 **Internet** | δεν χρειάζεται: όλη η ανάλυση γίνεται στη συσκευή |
+| 💓 **Heart rate** | mean difference **−0.2 bpm** from a commercial pulse oximeter |
+| 🩸 **Blood oxygen (SpO₂)** | mean difference **−0.2%** from a commercial pulse oximeter |
+| 🧠 **Classification at rest** | **0 false** pathological results (before the fixes: 82 out of 111) |
+| ⚡ **Decision time** | **≈ 1.3 ms** on the ESP32 |
+| 💾 **Memory** | 377 KB Flash (28%) · 28 KB RAM (8%) |
+| 📶 **Internet** | not needed: all analysis runs on the device |
 
 ---
 
-## Πώς λειτουργεί
+## How it works
 
 ```mermaid
 flowchart LR
-    A["👆 Δάχτυλο"] --> B["MAX30102<br/>κόκκινο + υπέρυθρο φως"]
-    B -->|"I2C, 100 δείγματα/s"| C["ESP32<br/>επεξεργασία σήματος"]
-    C --> D["Παλμοί · SpO₂ · HRV<br/>(RMSSD, pNN50) · θερμοκρασία"]
-    D --> E["Νευρωνικό δίκτυο<br/>(Edge Impulse)"]
-    D --> F["Ανίχνευση ανωμαλίας<br/>(K-means)"]
-    E --> G{"Κανόνες<br/>ασφαλείας"}
+    A["👆 Finger"] --> B["MAX30102<br/>red + infrared light"]
+    B -->|"I2C, 100 samples/s"| C["ESP32<br/>signal processing"]
+    C --> D["Heart rate · SpO₂ · HRV<br/>(RMSSD, pNN50) · temperature"]
+    D --> E["Neural network<br/>(Edge Impulse)"]
+    D --> F["Anomaly detection<br/>(K-means)"]
+    E --> G{"Safety<br/>rules"}
     F --> G
     G --> H["Relaxed · Stressed · Active<br/>Arrhythmia · Fever · Hypoxia<br/>Poor signal · Uncertain"]
 ```
 
-### 1. Το φως «βλέπει» την καρδιά
+### 1. Light "sees" the heart
 
-Σε κάθε χτύπο φτάνει λίγο περισσότερο αίμα στο δάχτυλο, που απορροφά φως. Ο αισθητήρας μετρά το φως που επιστρέφει
-(φωτοπληθυσμογραφία, PPG). Παρακάτω είναι το **πραγματικό σήμα της συσκευής**: κάθε κορυφή είναι ένας χτύπος.
+With every heartbeat a little more blood reaches the fingertip, and blood absorbs light. The sensor measures the light
+that comes back (photoplethysmography, PPG). Below is the **real signal recorded by the device**: every peak is one
+heartbeat.
 
-<p align="center"><img src="docs/images/ppg_signal.png" width="760" alt="Πραγματικό σήμα PPG με τους χτύπους"></p>
+<p align="center"><img src="docs/images/ppg_signal.png" width="760" alt="Real PPG signal with the detected beats"></p>
 
-Από αυτό το σήμα, ένας **ανιχνευτής παλμών που αναπτύχθηκε στο πλαίσιο της εργασίας** (φίλτρο ζώνης 0,5–4 Hz,
-χρονισμός στο σημείο της πιο απότομης ανόδου με ακρίβεια < 10 ms) υπολογίζει παλμούς, SpO₂ και μεταβλητότητα του
-καρδιακού ρυθμού (HRV).
+From this signal, a **beat detector developed for this project** (0.5–4 Hz band-pass filter, beat time at the
+steepest point of the upstroke with < 10 ms resolution) computes heart rate, SpO₂ and heart-rate variability (HRV).
 
-### 2. Η τεχνητή νοημοσύνη
+### 2. The artificial intelligence
 
-Κάθε δευτερόλεπτο η συσκευή παίρνει τις μετρήσεις των τελευταίων 3 δευτερολέπτων, κρατά τον μέσο όρο 5 τιμών και τις
-δίνει σε ένα μικρό νευρωνικό δίκτυο (5 → 40 → 20 → 7). Παράλληλα, ένας έλεγχος ανωμαλίας (K-means, 32 ομάδες) μετρά
-πόσο «γνώριμη» είναι η μέτρηση. Αν δεν μοιάζει με τα δεδομένα εκπαίδευσης, το αποτέλεσμα εμφανίζεται ως **Uncertain**.
+Every second the device takes the last 3 seconds of measurements, averages 5 values and feeds them to a small neural
+network (5 → 40 → 20 → 7). In parallel, an anomaly detector (K-means, 32 clusters) scores how "familiar" the
+measurement is. If it does not look like the training data, the result is shown as **Uncertain**.
 
-<p align="center"><img src="docs/images/edge_impulse_design.png" width="760" alt="Σχεδιασμός του μοντέλου στο Edge Impulse"></p>
+<p align="center"><img src="docs/images/edge_impulse_design.png" width="760" alt="Model design in Edge Impulse"></p>
 
-Επειδή δεν είναι δυνατόν να προκληθεί αρρυθμία ή χαμηλό οξυγόνο σε άνθρωπο, το μοντέλο εκπαιδεύτηκε σε **συνθετικά
-δεδομένα** (116.000 γραμμές σε 56 αρχεία) που φτιάχνει το [`data/generate_datasets_v2.py`](data/generate_datasets_v2.py)
-με εύρη τιμών από τη βιβλιογραφία.
+Because arrhythmia or low blood oxygen cannot be induced in a person to collect data, the model was trained on
+**synthetic data** (116,000 rows in 56 files) produced by [`data/generate_datasets_v2.py`](data/generate_datasets_v2.py)
+with value ranges taken from the literature.
 
 <table>
 <tr>
-<td width="50%"><img src="docs/images/edge_impulse_results.png" alt="Αποτελέσματα εκπαίδευσης στο Edge Impulse"></td>
+<td width="50%"><img src="docs/images/edge_impulse_results.png" alt="Training results in Edge Impulse"></td>
 <td width="50%">
 
-**Ακρίβεια του μοντέλου** (συνθετικά δεδομένα)
+**Model accuracy** (synthetic data)
 
-| Μετρική | Τιμή |
+| Metric | Value |
 |---|---|
-| Σύνολο επικύρωσης | **94,5%** |
-| Σύνολο ελέγχου | 89,4% |
-| Weighted F1 | 0,94 |
-| Μοντέλο | float32, EON Compiler |
+| Validation set | **94.5%** |
+| Test set | 89.4% |
+| Weighted F1 | 0.94 |
+| Model | float32, EON Compiler |
 
-Τα λίγα λάθη είναι ανάμεσα σε καταστάσεις που μοιάζουν, π.χ. στρες και άσκηση, όπου και στις δύο οι παλμοί είναι ψηλοί.
+The few errors are between similar states, e.g. stress and exercise, where heart rate is high in both.
 
 </td>
 </tr>
@@ -100,52 +100,53 @@ flowchart LR
 
 ---
 
-## Αποτελέσματα
+## Results
 
-Οι μετρήσεις έγιναν με τη συσκευή και ένα **εμπορικό οξύμετρο (Vicko)** ταυτόχρονα, με καταγραφή της ώρας κάθε ένδειξης.
+The device and a **commercial pulse oximeter (Vicko)** were used at the same time, and the time of every oximeter
+reading was logged.
 
-<p align="center"><img src="docs/images/bpm_vs_oximeter.png" width="760" alt="Καρδιακός ρυθμός: συσκευή έναντι οξυμέτρου"></p>
+<p align="center"><img src="docs/images/bpm_vs_oximeter.png" width="760" alt="Heart rate: device vs. oximeter"></p>
 
-| | Συσκευή | Οξύμετρο | Διαφορά |
+| | Device | Oximeter | Difference |
 |---|---|---|---|
-| Καρδιακός ρυθμός (μέσος, 7 σημεία) | 86,0 bpm | 86,1 bpm | **−0,2 bpm** (μέση απόλυτη 1,9) |
-| SpO₂ (μέσο, 7 σημεία) | 98,6% | 98,9% | **−0,2%** (μέγιστη 0,7%) |
+| Heart rate (mean of 7 points) | 86.0 bpm | 86.1 bpm | **−0.2 bpm** (mean absolute 1.9) |
+| SpO₂ (mean of 7 points) | 98.6% | 98.9% | **−0.2%** (max 0.7%) |
 
-<p align="center"><img src="docs/images/results_at_rest.png" width="760" alt="Αποτελέσματα ταξινόμησης σε ηρεμία πριν και μετά"></p>
+<p align="center"><img src="docs/images/results_at_rest.png" width="760" alt="Classification results at rest, before and after"></p>
 
-Σε **δοκιμή ελεγχόμενης κίνησης** (το δάχτυλο κουνιέται για 20 δευτερόλεπτα) η συσκευή δεν έδωσε κανένα αποτέλεσμα όσο
-υπήρχε κίνηση και μετά εμφάνισε «Uncertain»: όταν δεν είναι σίγουρη, το λέει.
+In a **controlled motion test** (the finger moved on the sensor for 20 seconds) the device gave no result while the
+motion lasted and then showed "Uncertain": when it is not sure, it says so.
 
-### Τι «λέει» η συσκευή
+### What the device "says"
 
-Πραγματική έξοδος της τελικής έκδοσης στο Serial Monitor, με τον χρήστη σε ηρεμία:
+Real output of the final version in the Serial Monitor, with the user at rest:
 
-<p align="center"><img src="docs/images/serial_output.png" width="620" alt="Έξοδος της συσκευής στο Serial Monitor"></p>
+<p align="center"><img src="docs/images/serial_output.png" width="620" alt="Device output in the Serial Monitor"></p>
 
 ---
 
-## Τι βελτιώθηκε: από 82 λάθη σε 0
+## What was improved: from 82 errors to 0
 
-Το πρώτο πρωτότυπο, με τον χρήστη σε ηρεμία, έβγαζε «Arrhythmia» 82 φορές στις 111. Με έλεγχο του κώδικα, μετρήσεις
-δίπλα σε οξύμετρο και [ανάλυση του ακατέργαστου σήματος](measurements/) βρέθηκαν τέσσερις αιτίες:
+With the user at rest, the first prototype reported "Arrhythmia" 82 times out of 111. Code review, measurements next
+to an oximeter and an [analysis of the raw sensor signal](measurements/) revealed four causes:
 
-| Πρόβλημα | Λύση |
+| Problem | Fix |
 |---|---|
-| 🔻 **Χάνονταν μετρήσεις**: όσο τύπωνε αποτελέσματα, χανόταν το 5–8% των δειγμάτων, οπότε οι παλμοί έβγαιναν ~5% ψηλότεροι | Μεγαλύτερη μνήμη αποστολής και διόρθωση του χρόνου: **0 απώλειες** |
-| 💓 **Ανακριβής χρονισμός παλμών**: ο έτοιμος αλγόριθμος έπεφτε έξω έως ±50 ms και η ηρεμία έμοιαζε με αρρυθμία | Νέος ανιχνευτής παλμών: ρεαλιστικές τιμές HRV (RMSSD ≈ 45 ms) |
-| 📊 **Πολύ «στενά» δεδομένα εκπαίδευσης**: ένας ήρεμος άνθρωπος με 88 παλμούς δεν ταίριαζε σε καμία κατηγορία | Νέο σύνολο δεδομένων v2 και επανεκπαίδευση |
-| ❓ **Δεν ήξερε να πει «δεν ξέρω»**: σε άγνωστη μέτρηση έδινε τυχαία απάντηση με σιγουριά 99,6% | Έλεγχος ανωμαλίας: πάνω από 0,3 εμφανίζεται «Uncertain» |
+| 🔻 **Samples were lost**: while printing results, 5–8% of the samples were dropped, so heart rate came out ~5% too high | Larger serial transmit buffer and time correction: **0 lost samples** |
+| 💓 **Inaccurate beat timing**: the stock detector was off by up to ±50 ms, so rest looked like arrhythmia | New beat detector: realistic HRV values (RMSSD ≈ 45 ms) |
+| 📊 **Training data too narrow**: a relaxed person with 88 bpm did not fit any class | New dataset v2 and retraining |
+| ❓ **It could not say "I don't know"**: for an unfamiliar input it gave a random answer with 99.6% confidence | Anomaly check: above 0.3 the result is shown as "Uncertain" |
 
-<p align="center"><img src="measurements/fig6_raw_signal.png" width="760" alt="Ανάλυση του ακατέργαστου σήματος"></p>
+<p align="center"><img src="docs/images/raw_signal_analysis.png" width="760" alt="Analysis of the raw sensor signal"></p>
 
 ---
 
-## Υλικό και συνδεσμολογία
+## Hardware and wiring
 
 <table>
 <tr>
-<td width="62%"><img src="docs/images/wiring.png" alt="Συνδεσμολογία ESP32 - MAX30102"></td>
-<td width="38%" align="center"><img src="docs/images/breadboard.jpg" width="230" alt="Το πρωτότυπο σε breadboard"></td>
+<td width="62%"><img src="docs/images/wiring.png" alt="Wiring ESP32 - MAX30102"></td>
+<td width="38%" align="center"><img src="docs/images/breadboard.jpg" width="230" alt="The prototype on a breadboard"></td>
 </tr>
 </table>
 
@@ -156,49 +157,49 @@ flowchart LR
 | SDA | GPIO18 |
 | SCL | GPIO19 |
 
-I2C στα 400 kHz (`Wire.begin(18, 19)`). Μόνο τέσσερα καλώδια.
+I2C at 400 kHz (`Wire.begin(18, 19)`). Just four wires.
 
 ---
 
-## Εγκατάσταση και ανέβασμα στον ESP32
+## Setup and upload to the ESP32
 
-1. **Arduino IDE** με υποστήριξη πλακετών **esp32** (Espressif) και πλακέτα **ESP32 Dev Module**.
-2. **Βιβλιοθήκες**:
-   - *SparkFun MAX3010x Pulse and Proximity Sensor Library* (από τον Library Manager).
-   - Το μοντέλο: *Sketch → Include Library → Add .ZIP Library…* και επιλογή του zip από το [`firmware/library/`](firmware/library/).
-3. Άνοιγμα του [`firmware/smart_health_guardian_v29/smart_health_guardian_v29.ino`](firmware/smart_health_guardian_v29/smart_health_guardian_v29.ino)
-   και **Upload**. Σε ορισμένες πλακέτες χρειάζεται να κρατηθεί πατημένο το κουμπί **BOOT** μέχρι να ξεκινήσει το ανέβασμα.
-4. **Serial Monitor** στα **115200 baud**. Με το δάχτυλο στον αισθητήρα, το πρώτο αποτέλεσμα εμφανίζεται σε περίπου
-   40 δευτερόλεπτα και μετά ανανεώνεται κάθε δευτερόλεπτο.
+1. **Arduino IDE** with the **esp32** board package (Espressif) and the **ESP32 Dev Module** board.
+2. **Libraries**:
+   - *SparkFun MAX3010x Pulse and Proximity Sensor Library* (from the Library Manager).
+   - The model: *Sketch → Include Library → Add .ZIP Library…* and select the zip in [`firmware/library/`](firmware/library/).
+3. Open [`firmware/smart_health_guardian_v29/smart_health_guardian_v29.ino`](firmware/smart_health_guardian_v29/smart_health_guardian_v29.ino)
+   and click **Upload**. On some boards the **BOOT** button must be held until the upload starts.
+4. **Serial Monitor** at **115200 baud**. With a finger on the sensor, the first result appears after about
+   40 seconds and is then refreshed every second.
 
-### Αναπαραγωγή των δεδομένων
+### Reproducing the data
 
 ```bash
 cd data
-python generate_datasets_v2.py      # γράφει ξανά το data/datasets_v2/ (σταθερό seed)
+python generate_datasets_v2.py      # rewrites data/datasets_v2/ (fixed random seed)
 ```
 
 ---
 
-## Δομή του repository
+## Repository layout
 
-| Φάκελος | Τι περιέχει |
+| Folder | Contents |
 |---|---|
-| [`firmware/smart_health_guardian_v29/`](firmware/smart_health_guardian_v29/) | **Τελικός κώδικας** (V29) για Arduino IDE |
-| [`firmware/smart_health_guardian_v28/`](firmware/smart_health_guardian_v28/) | Προηγούμενη έκδοση, για σύγκριση |
-| [`firmware/library/`](firmware/library/) | Βιβλιοθήκη του μοντέλου από το Edge Impulse (v1.0.9) |
-| [`data/datasets_v1/`](data/datasets_v1/) | Πρώτο συνθετικό σύνολο δεδομένων (έως V28) |
-| [`data/datasets_v2/`](data/datasets_v2/) | Τελικό συνθετικό σύνολο (56 αρχεία, 116.000 γραμμές) |
-| [`data/generate_datasets_v2.py`](data/generate_datasets_v2.py) | Πρόγραμμα που παράγει το `datasets_v2` |
-| [`measurements/`](measurements/) | Καταγραφές της συσκευής, ενδείξεις του οξυμέτρου και scripts ανάλυσης |
-| [`docs/images/`](docs/images/) | Εικόνες και γραφήματα αυτού του README |
+| [`firmware/smart_health_guardian_v29/`](firmware/smart_health_guardian_v29/) | **Final firmware** (V29) for the Arduino IDE |
+| [`firmware/smart_health_guardian_v28/`](firmware/smart_health_guardian_v28/) | Previous version, for comparison |
+| [`firmware/library/`](firmware/library/) | Edge Impulse model library (v1.0.9) |
+| [`data/datasets_v1/`](data/datasets_v1/) | First synthetic dataset (up to V28) |
+| [`data/datasets_v2/`](data/datasets_v2/) | Final synthetic dataset (56 files, 116,000 rows) |
+| [`data/generate_datasets_v2.py`](data/generate_datasets_v2.py) | Script that generates `datasets_v2` |
+| [`measurements/`](measurements/) | Device logs, oximeter readings and analysis scripts |
+| [`docs/images/`](docs/images/) | Images and charts used in this README |
 
 ---
 
-## Περιορισμοί
+## Limitations
 
-- Η αξιολόγηση έγινε σε **έναν χρήστη** και με λίγα σημεία σύγκρισης: δεν αποτελεί στατιστική ή κλινική επικύρωση.
-- Το μοντέλο εκπαιδεύτηκε σε **συνθετικά δεδομένα**, όχι σε ασθενείς. Οι 94,5% αφορούν τα συνθετικά δεδομένα.
-- Το **SpO₂** και η **θερμοκρασία** είναι ενδεικτικά (εμπειρική διόρθωση με ένα όργανο σύγκρισης).
-- Επόμενα βήματα: δεδομένα από πολλούς ανθρώπους, σύγκριση με ηλεκτροκαρδιογράφημα (ECG), αισθητήρας κίνησης,
-  οθόνη ή εφαρμογή κινητού.
+- The evaluation used **one person** and few comparison points: it is not a statistical or clinical validation.
+- The model was trained on **synthetic data**, not on patients. The 94.5% refers to synthetic data.
+- **SpO₂** and **temperature** are indicative only (empirical correction against a single reference device).
+- Next steps: data from many people, comparison with an electrocardiogram (ECG), a motion sensor, and a display or
+  phone app.
