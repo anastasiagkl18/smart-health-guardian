@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Arduino build output
+build/
+
+# Office temporary / lock files
+~$*
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

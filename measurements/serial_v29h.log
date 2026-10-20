@@ -1,0 +1,3038 @@
+﻿00:53:34 ets Jul 29 2019 12:21:46
+00:53:34 
+00:53:34 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+00:53:34 configsip: 0, SPIWP:0xee
+00:53:34 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+00:53:34 mode:DIO, clock div:1
+00:53:34 load:0x3fff0030,len:4980
+00:53:34 load:0x40078000,len:16612
+00:53:34 load:0x40080400,len:3500
+00:53:34 entry 0x400805b4
+00:53:34 
+00:53:34 -------------------------------------------
+00:53:34  SMART HEALTH GUARDIAN - V29.0
+00:53:34 -------------------------------------------
+00:53:34  Research prototype - not a medical device.
+00:53:34  DEBUG MODE: ON
+00:53:34  Warmup: 15s after finger detected.
+00:53:34 
+00:53:35 NO FINGER DETECTED
+00:53:36 Warming up... 15s remaining. Hold still.
+00:53:37 Warming up... 14s remaining. Hold still.
+00:53:38 Warming up... 13s remaining. Hold still.
+00:53:39 Warming up... 12s remaining. Hold still.
+00:53:40 Warming up... 11s remaining. Hold still.
+00:53:41 Warming up... 10s remaining. Hold still.
+00:53:42 Warming up... 9s remaining. Hold still.
+00:53:43 Warming up... 8s remaining. Hold still.
+00:53:44 Warming up... 7s remaining. Hold still.
+00:53:45 Warming up... 6s remaining. Hold still.
+00:53:46 Warming up... 5s remaining. Hold still.
+00:53:47 Warming up... 4s remaining. Hold still.
+00:53:48 Warming up... 3s remaining. Hold still.
+00:53:49 Warming up... 2s remaining. Hold still.
+00:53:50 Warming up... 1s remaining. Hold still.
+00:53:51 Waiting for valid BPM / SpO2 / HRV...
+00:53:51  [DBG] BPM 0.0 -- | SpO2 -- (R 0.000) | HRV -- | SigQ 83% PI 1.26% | motion 597/1496 | RR clean/gap 0/0
+00:53:51  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+00:53:53 Waiting for valid BPM / SpO2 / HRV...
+00:53:53  [DBG] BPM 0.0 -- | SpO2 -- (R 0.000) | HRV -- | SigQ 82% PI 1.09% | motion 8/202 | RR clean/gap 0/2
+00:53:53  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 3502 1771  | stored (0=gap): 0 0
+00:53:55 Waiting for valid BPM / SpO2 / HRV...
+00:53:55  [DBG] BPM 0.0 -- | SpO2 -- (R 0.000) | HRV -- | SigQ 81% PI 0.82% | motion 0/202 | RR clean/gap 1/0
+00:53:55  [DBG] RR raw (ms): 0 0 0 0 0 0 0 3502 1771 1225  | stored (0=gap): 0 0 1225
+00:53:57 Waiting for valid BPM / SpO2 / HRV...
+00:53:57  [DBG] BPM 0.0 -- | SpO2 ok (R 0.444) | HRV -- | SigQ 81% PI 0.84% | motion 0/202 | RR clean/gap 2/0
+00:53:57  [DBG] RR raw (ms): 0 0 0 0 0 3502 1771 1225 1166 1187  | stored (0=gap): 0 0 1225 1166 1187
+00:53:59 Waiting for valid BPM / SpO2 / HRV...
+00:53:59  [DBG] BPM 0.0 -- | SpO2 ok (R 0.472) | HRV -- | SigQ 81% PI 0.79% | motion 3/202 | RR clean/gap 1/1
+00:53:59  [DBG] RR raw (ms): 0 0 0 3502 1771 1225 1166 1187 1259 1221  | stored (0=gap): 0 0 1225 1166 1187 1259 0
+00:54:01 Waiting for valid BPM / SpO2 / HRV...
+00:54:01  [DBG] BPM 0.0 -- | SpO2 ok (R 0.446) | HRV -- | SigQ 80% PI 0.71% | motion 0/202 | RR clean/gap 1/0
+00:54:01  [DBG] RR raw (ms): 0 0 3502 1771 1225 1166 1187 1259 1221 1263  | stored (0=gap): 0 0 1225 1166 1187 1259 0 1263
+00:54:03 Waiting for valid BPM / SpO2 / HRV...
+00:54:03  [DBG] BPM 0.0 -- | SpO2 ok (R 0.448) | HRV ok | SigQ 79% PI 0.69% | motion 3/202 | RR clean/gap 2/0
+00:54:03  [DBG] RR raw (ms): 3502 1771 1225 1166 1187 1259 1221 1263 1207 1201  | stored (0=gap): 0 0 1225 1166 1187 1259 0 1263 1207 1201
+00:54:05 Waiting for valid BPM / SpO2 / HRV...
+00:54:05  [DBG] BPM 0.0 -- | SpO2 ok (R 0.445) | HRV ok | SigQ 78% PI 0.68% | motion 6/201 | RR clean/gap 0/2
+00:54:05  [DBG] RR raw (ms): 1225 1166 1187 1259 1221 1263 1207 1201 1249 1192  | stored (0=gap): 1225 1166 1187 1259 0 1263 1207 1201 0 0
+00:54:07 Waiting for valid BPM / SpO2 / HRV...
+00:54:07  [DBG] BPM 0.0 -- | SpO2 ok (R 0.446) | HRV ok | SigQ 79% PI 0.69% | motion 12/202 | RR clean/gap 0/1
+00:54:07  [DBG] RR raw (ms): 1166 1187 1259 1221 1263 1207 1201 1249 1192 1149  | stored (0=gap): 1166 1187 1259 0 1263 1207 1201 0 0 0
+00:54:09 Waiting for valid BPM / SpO2 / HRV...
+00:54:09  [DBG] BPM 0.0 -- | SpO2 ok (R 0.469) | HRV ok | SigQ 75% PI 0.63% | motion 0/202 | RR clean/gap 2/0
+00:54:09  [DBG] RR raw (ms): 1259 1221 1263 1207 1201 1249 1192 1149 1189 1256  | stored (0=gap): 1259 0 1263 1207 1201 0 0 0 1189 1256
+00:54:11 Waiting for valid BPM / SpO2 / HRV...
+00:54:11  [DBG] BPM 0.0 -- | SpO2 ok (R 0.476) | HRV ok | SigQ 72% PI 0.59% | motion 0/202 | RR clean/gap 2/0
+00:54:11  [DBG] RR raw (ms): 1263 1207 1201 1249 1192 1149 1189 1256 1194 1219  | stored (0=gap): 1263 1207 1201 0 0 0 1189 1256 1194 1219
+00:54:13 Waiting for valid BPM / SpO2 / HRV...
+00:54:13  [DBG] BPM 0.0 -- | SpO2 ok (R 0.470) | HRV ok | SigQ 79% PI 0.68% | motion 0/202 | RR clean/gap 1/0
+00:54:13  [DBG] RR raw (ms): 1207 1201 1249 1192 1149 1189 1256 1194 1219 1297  | stored (0=gap): 1207 1201 0 0 0 1189 1256 1194 1219 1297
+00:54:15 Waiting for valid BPM / SpO2 / HRV...
+00:54:15  [DBG] BPM 0.0 -- | SpO2 ok (R 0.458) | HRV ok | SigQ 81% PI 0.89% | motion 19/202 | RR clean/gap 1/1
+00:54:15  [DBG] RR raw (ms): 1249 1192 1149 1189 1256 1194 1219 1297 1299 1227  | stored (0=gap): 0 0 0 1189 1256 1194 1219 1297 1299 0
+00:54:17 Waiting for valid BPM / SpO2 / HRV...
+00:54:17  [DBG] BPM 0.0 -- | SpO2 ok (R 0.458) | HRV ok | SigQ 83% PI 1.25% | motion 13/202 | RR clean/gap 0/1
+00:54:17  [DBG] RR raw (ms): 1192 1149 1189 1256 1194 1219 1297 1299 1227 1231  | stored (0=gap): 0 0 1189 1256 1194 1219 1297 1299 0 0
+00:54:19 Waiting for valid BPM / SpO2 / HRV...
+00:54:19  [DBG] BPM 0.0 -- | SpO2 ok (R 0.458) | HRV ok | SigQ 82% PI 0.96% | motion 0/202 | RR clean/gap 2/0
+00:54:19  [DBG] RR raw (ms): 1189 1256 1194 1219 1297 1299 1227 1231 1224 1209  | stored (0=gap): 1189 1256 1194 1219 1297 1299 0 0 1224 1209
+00:54:21 Waiting for valid BPM / SpO2 / HRV...
+00:54:21  [DBG] BPM 0.0 -- | SpO2 ok (R 0.488) | HRV ok | SigQ 81% PI 0.88% | motion 0/202 | RR clean/gap 2/0
+00:54:21  [DBG] RR raw (ms): 1194 1219 1297 1299 1227 1231 1224 1209 1279 1283  | stored (0=gap): 1194 1219 1297 1299 0 0 1224 1209 1279 1283
+00:54:23 Waiting for valid BPM / SpO2 / HRV...
+00:54:23  [DBG] BPM 0.0 -- | SpO2 ok (R 0.476) | HRV ok | SigQ 77% PI 0.66% | motion 0/202 | RR clean/gap 1/1
+00:54:23  [DBG] RR raw (ms): 1297 1299 1227 1231 1224 1209 1279 1283 858 960  | stored (0=gap): 1297 1299 0 0 1224 1209 1279 1283 0 960
+00:54:27 
+00:54:27 Running AI classifier...
+00:54:27 INFO: Impulse maintains state. Call run_classifier_init() to reset state (e.g. if data stream is interrupted.)
+00:54:27 Inference: 2476 us
+00:54:27 
+00:54:27 +===========================================+
+00:54:27  BPM:   74.8
+00:54:27  SpO2:  99.1%
+00:54:27         [reflective sensor + correction applied]
+00:54:27  Temp:  36.0 C  [not validated]
+00:54:27  HRV:   48.6 ms RMSSD  pNN50: 40.0%
+00:54:27  SigQ:  74%  [Good]
+00:54:27  [DBG] PI: 0.62%  motion: 10/319 samples  RR clean/gap: 3/3  SpO2 windows rejected: 0  R: 0.468  raw SpO2: 96.1%
+00:54:27  [DBG] RR raw (ms): 1279 1283 858 960 613 606 597 597 516 578  | stored (0=gap): 1279 1283 0 960 0 606 597 597 0 0
+00:54:27 
+00:54:27  DIAGNOSIS:  Relaxed
+00:54:27  Confidence: 98.4%
+00:54:27  > Resting state.
+00:54:27 +===========================================+
+00:54:27 
+00:54:28 
+00:54:28 Running AI classifier...
+00:54:28 Inference: 1462 us
+00:54:28 
+00:54:28 +===========================================+
+00:54:28  BPM:   78.0
+00:54:28  SpO2:  99.1%
+00:54:28         [reflective sensor + correction applied]
+00:54:28  Temp:  36.0 C  [not validated]
+00:54:28  HRV:   47.9 ms RMSSD  pNN50: 33.3%
+00:54:28  SigQ:  78%  [Good]
+00:54:28  [DBG] PI: 0.67%  motion: 1/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.468  raw SpO2: 96.1%
+00:54:28  [DBG] RR raw (ms): 1283 858 960 613 606 597 597 516 578 558  | stored (0=gap): 1283 0 960 0 606 597 597 0 0 0
+00:54:28 
+00:54:28  DIAGNOSIS:  Relaxed
+00:54:28  Confidence: 99.6%
+00:54:28  > Resting state.
+00:54:28 +===========================================+
+00:54:28 
+00:54:29 
+00:54:29 Running AI classifier...
+00:54:29 Inference: 1480 us
+00:54:29 
+00:54:29 +===========================================+
+00:54:29  BPM:   82.6
+00:54:29  SpO2:  99.0%
+00:54:29         [reflective sensor + correction applied]
+00:54:29  Temp:  36.1 C  [not validated]
+00:54:29  HRV:   46.1 ms RMSSD  pNN50: 25.0%
+00:54:29  SigQ:  80%  [Excellent]
+00:54:29  [DBG] PI: 0.70%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.486  raw SpO2: 96.0%
+00:54:29  [DBG] RR raw (ms): 960 613 606 597 597 516 578 558 624 636  | stored (0=gap): 960 0 606 597 597 0 0 0 624 636
+00:54:29 
+00:54:29  DIAGNOSIS:  Relaxed
+00:54:29  Confidence: 97.7%
+00:54:29  > Resting state.
+00:54:29 +===========================================+
+00:54:29 
+00:54:30 
+00:54:30 Running AI classifier...
+00:54:30 Inference: 1463 us
+00:54:30 
+00:54:30 +===========================================+
+00:54:30  BPM:   84.1
+00:54:30  SpO2:  99.0%
+00:54:30         [reflective sensor + correction applied]
+00:54:30  Temp:  36.2 C  [not validated]
+00:54:30  HRV:   44.3 ms RMSSD  pNN50: 12.5%
+00:54:30  SigQ:  80%  [Excellent]
+00:54:30  [DBG] PI: 0.78%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.486  raw SpO2: 96.0%
+00:54:30  [DBG] RR raw (ms): 613 606 597 597 516 578 558 624 636 608  | stored (0=gap): 0 606 597 597 0 0 0 624 636 608
+00:54:30 
+00:54:30  DIAGNOSIS:  Relaxed
+00:54:30  Confidence: 66.8%
+00:54:30  > Resting state.
+00:54:30 +===========================================+
+00:54:30 
+00:54:31 
+00:54:31 Running AI classifier...
+00:54:31 Inference: 1486 us
+00:54:31 
+00:54:31 +===========================================+
+00:54:31  BPM:   86.5
+00:54:31  SpO2:  98.9%
+00:54:31         [reflective sensor + correction applied]
+00:54:31  Temp:  36.1 C  [not validated]
+00:54:31  HRV:   41.2 ms RMSSD  pNN50: 12.5%
+00:54:31  SigQ:  81%  [Excellent]
+00:54:31  [DBG] PI: 0.79%  motion: 8/96 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.504  raw SpO2: 95.9%
+00:54:31  [DBG] RR raw (ms): 597 597 516 578 558 624 636 608 622 580  | stored (0=gap): 597 597 0 0 0 624 636 608 622 0
+00:54:31 
+00:54:31  DIAGNOSIS:  Relaxed
+00:54:31  Confidence: 94.5%
+00:54:31  > Resting state.
+00:54:31 +===========================================+
+00:54:31 
+00:54:32 
+00:54:32 Running AI classifier...
+00:54:32 Inference: 1464 us
+00:54:32 
+00:54:32 +===========================================+
+00:54:32  BPM:   88.9
+00:54:32  SpO2:  98.9%
+00:54:32         [reflective sensor + correction applied]
+00:54:32  Temp:  36.2 C  [not validated]
+00:54:32  HRV:   38.9 ms RMSSD  pNN50: 11.1%
+00:54:32  SigQ:  80%  [Excellent]
+00:54:32  [DBG] PI: 0.75%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.504  raw SpO2: 95.9%
+00:54:32  [DBG] RR raw (ms): 516 578 558 624 636 608 622 580 584 623  | stored (0=gap): 0 0 0 624 636 608 622 0 584 623
+00:54:32 
+00:54:32  DIAGNOSIS:  Relaxed
+00:54:32  Confidence: 97.3%
+00:54:32  > Resting state.
+00:54:32 +===========================================+
+00:54:32 
+00:54:33 
+00:54:33 Running AI classifier...
+00:54:33 Inference: 1481 us
+00:54:33 
+00:54:33 +===========================================+
+00:54:33  BPM:   90.0
+00:54:33  SpO2:  98.9%
+00:54:33         [reflective sensor + correction applied]
+00:54:33  Temp:  36.2 C  [not validated]
+00:54:33  HRV:   38.1 ms RMSSD  pNN50: 12.5%
+00:54:33  SigQ:  80%  [Excellent]
+00:54:33  [DBG] PI: 0.78%  motion: 1/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.504  raw SpO2: 95.9%
+00:54:33  [DBG] RR raw (ms): 578 558 624 636 608 622 580 584 623 596  | stored (0=gap): 0 0 624 636 608 622 0 584 623 0
+00:54:33 
+00:54:33  DIAGNOSIS:  Uncertain
+00:54:33  Confidence: 55.9%
+00:54:33  [Suppressed: low model confidence]
+00:54:33  > Improve signal quality / hold still.
+00:54:33 +===========================================+
+00:54:33 
+00:54:34 
+00:54:34 Running AI classifier...
+00:54:34 Inference: 1469 us
+00:54:34 
+00:54:34 +===========================================+
+00:54:34  BPM:   91.6
+00:54:34  SpO2:  98.9%
+00:54:34         [reflective sensor + correction applied]
+00:54:34  Temp:  36.2 C  [not validated]
+00:54:34  HRV:   34.6 ms RMSSD  pNN50: 0.0%
+00:54:34  SigQ:  80%  [Excellent]
+00:54:34  [DBG] PI: 0.70%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.504  raw SpO2: 95.9%
+00:54:34  [DBG] RR raw (ms): 624 636 608 622 580 584 623 596 602 609  | stored (0=gap): 624 636 608 622 0 584 623 0 602 609
+00:54:34 
+00:54:34  DIAGNOSIS:  Stressed
+00:54:34  Confidence: 96.5%
+00:54:34  > Elevated stress indicators.
+00:54:34 +===========================================+
+00:54:34 
+00:54:35 
+00:54:35 Running AI classifier...
+00:54:35 Inference: 1475 us
+00:54:35 
+00:54:35 +===========================================+
+00:54:35  BPM:   92.4
+00:54:35  SpO2:  98.8%
+00:54:35         [reflective sensor + correction applied]
+00:54:35  Temp:  36.0 C  [not validated]
+00:54:35  HRV:   33.6 ms RMSSD  pNN50: 0.0%
+00:54:35  SigQ:  74%  [Good]
+00:54:35  [DBG] PI: 0.63%  motion: 8/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.534  raw SpO2: 95.8%
+00:54:35  [DBG] RR raw (ms): 636 608 622 580 584 623 596 602 609 565  | stored (0=gap): 636 608 622 0 584 623 0 602 609 565
+00:54:35 
+00:54:35  DIAGNOSIS:  Stressed
+00:54:35  Confidence: 99.6%
+00:54:35  > Elevated stress indicators.
+00:54:35 +===========================================+
+00:54:35 
+00:54:36 
+00:54:36 Running AI classifier...
+00:54:36 Inference: 1464 us
+00:54:36 
+00:54:36 +===========================================+
+00:54:36  BPM:   94.1
+00:54:36  SpO2:  98.8%
+00:54:36         [reflective sensor + correction applied]
+00:54:36  Temp:  36.4 C  [not validated]
+00:54:36  HRV:   31.8 ms RMSSD  pNN50: 0.0%
+00:54:36  SigQ:  80%  [Excellent]
+00:54:36  [DBG] PI: 0.75%  motion: 9/95 samples  RR clean/gap: 0/2  SpO2 windows rejected: 0  R: 0.534  raw SpO2: 95.8%
+00:54:36  [DBG] RR raw (ms): 622 580 584 623 596 602 609 565 598 566  | stored (0=gap): 622 0 584 623 0 602 609 565 0 0
+00:54:36 
+00:54:36  DIAGNOSIS:  Stressed
+00:54:36  Confidence: 99.6%
+00:54:36  > Elevated stress indicators.
+00:54:36 +===========================================+
+00:54:36 
+00:54:37 
+00:54:37 Running AI classifier...
+00:54:37 Inference: 1481 us
+00:54:37 
+00:54:37 +===========================================+
+00:54:37  BPM:   95.4
+00:54:37  SpO2:  98.8%
+00:54:37         [reflective sensor + correction applied]
+00:54:37  Temp:  36.2 C  [not validated]
+00:54:37  HRV:   31.3 ms RMSSD  pNN50: 12.5%
+00:54:37  SigQ:  80%  [Good]
+00:54:37  [DBG] PI: 0.69%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 1  R: 0.534  raw SpO2: 95.8%
+00:54:37  [DBG] RR raw (ms): 584 623 596 602 609 565 598 566 586 654  | stored (0=gap): 584 623 0 602 609 565 0 0 586 654
+00:54:37 
+00:54:37  DIAGNOSIS:  Stressed
+00:54:37  Confidence: 99.6%
+00:54:37  > Elevated stress indicators.
+00:54:37 +===========================================+
+00:54:37 
+00:54:38 
+00:54:38 Running AI classifier...
+00:54:38 Inference: 1466 us
+00:54:38 
+00:54:38 +===========================================+
+00:54:38  BPM:   96.0
+00:54:38  SpO2:  98.8%
+00:54:38         [reflective sensor + correction applied]
+00:54:38  Temp:  36.1 C  [not validated]
+00:54:38  HRV:   31.8 ms RMSSD  pNN50: 14.3%
+00:54:38  SigQ:  81%  [Excellent]
+00:54:38  [DBG] PI: 0.87%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.534  raw SpO2: 95.8%
+00:54:38  [DBG] RR raw (ms): 623 596 602 609 565 598 566 586 654 531  | stored (0=gap): 623 0 602 609 565 0 0 586 654 0
+00:54:38 
+00:54:38  DIAGNOSIS:  Stressed
+00:54:38  Confidence: 99.6%
+00:54:38  > Elevated stress indicators.
+00:54:38 +===========================================+
+00:54:38 
+00:54:39 
+00:54:39 Running AI classifier...
+00:54:39 Inference: 1484 us
+00:54:39 
+00:54:39 +===========================================+
+00:54:39  BPM:   96.9
+00:54:39  SpO2:  98.8%
+00:54:39         [reflective sensor + correction applied]
+00:54:39  Temp:  36.3 C  [not validated]
+00:54:39  HRV:   32.8 ms RMSSD  pNN50: 12.5%
+00:54:39  SigQ:  80%  [Excellent]
+00:54:39  [DBG] PI: 0.77%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.534  raw SpO2: 95.8%
+00:54:39  [DBG] RR raw (ms): 602 609 565 598 566 586 654 531 610 566  | stored (0=gap): 602 609 565 0 0 586 654 0 610 566
+00:54:39 
+00:54:39  DIAGNOSIS:  Stressed
+00:54:39  Confidence: 99.6%
+00:54:39  > Elevated stress indicators.
+00:54:39 +===========================================+
+00:54:39 
+00:54:40 
+00:54:40 Running AI classifier...
+00:54:40 Inference: 1467 us
+00:54:40 
+00:54:40 +===========================================+
+00:54:40  BPM:   97.9
+00:54:40  SpO2:  98.8%
+00:54:40         [reflective sensor + correction applied]
+00:54:40  Temp:  36.3 C  [not validated]
+00:54:40  HRV:   33.6 ms RMSSD  pNN50: 20.0%
+00:54:40  SigQ:  81%  [Excellent]
+00:54:40  [DBG] PI: 0.81%  motion: 0/99 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.534  raw SpO2: 95.8%
+00:54:40  [DBG] RR raw (ms): 565 598 566 586 654 531 610 566 573 632  | stored (0=gap): 565 0 0 586 654 0 610 566 573 632
+00:54:40 
+00:54:40  DIAGNOSIS:  Stressed
+00:54:40  Confidence: 93.7%
+00:54:40  > Elevated stress indicators.
+00:54:40 +===========================================+
+00:54:40 
+00:54:41 
+00:54:41 Running AI classifier...
+00:54:41 Inference: 1485 us
+00:54:41 
+00:54:41 +===========================================+
+00:54:41  BPM:   98.2
+00:54:41  SpO2:  98.8%
+00:54:41         [reflective sensor + correction applied]
+00:54:41  Temp:  36.2 C  [not validated]
+00:54:41  HRV:   34.3 ms RMSSD  pNN50: 20.0%
+00:54:41  SigQ:  80%  [Excellent]
+00:54:41  [DBG] PI: 0.72%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.534  raw SpO2: 95.8%
+00:54:41  [DBG] RR raw (ms): 598 566 586 654 531 610 566 573 632 587  | stored (0=gap): 0 0 586 654 0 610 566 573 632 587
+00:54:41 
+00:54:41  DIAGNOSIS:  Uncertain
+00:54:41  Confidence: 52.0%
+00:54:41  [Suppressed: low model confidence]
+00:54:41  > Improve signal quality / hold still.
+00:54:41 +===========================================+
+00:54:41 
+00:54:42 
+00:54:42 Running AI classifier...
+00:54:42 Inference: 1468 us
+00:54:42 
+00:54:42 +===========================================+
+00:54:42  BPM:   98.8
+00:54:42  SpO2:  98.7%
+00:54:42         [reflective sensor + correction applied]
+00:54:42  Temp:  36.2 C  [not validated]
+00:54:42  HRV:   35.8 ms RMSSD  pNN50: 30.0%
+00:54:42  SigQ:  79%  [Good]
+00:54:42  [DBG] PI: 0.68%  motion: 0/94 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.496  raw SpO2: 95.7%
+00:54:42  [DBG] RR raw (ms): 586 654 531 610 566 573 632 587 590 526  | stored (0=gap): 586 654 0 610 566 573 632 587 590 526
+00:54:42 
+00:54:42  DIAGNOSIS:  Uncertain
+00:54:42  Confidence: 54.7%
+00:54:42  [Suppressed: temperature not validated]
+00:54:42  > Improve signal quality / hold still.
+00:54:42 +===========================================+
+00:54:42 
+00:54:43 
+00:54:43 Running AI classifier...
+00:54:43 Inference: 1481 us
+00:54:43 
+00:54:43 +===========================================+
+00:54:43  BPM:   100.4
+00:54:43  SpO2:  98.7%
+00:54:43         [reflective sensor + correction applied]
+00:54:43  Temp:  36.1 C  [not validated]
+00:54:43  HRV:   37.4 ms RMSSD  pNN50: 30.0%
+00:54:43  SigQ:  80%  [Excellent]
+00:54:43  [DBG] PI: 0.78%  motion: 10/95 samples  RR clean/gap: 0/2  SpO2 windows rejected: 0  R: 0.496  raw SpO2: 95.7%
+00:54:43  [DBG] RR raw (ms): 531 610 566 573 632 587 590 526 514 618  | stored (0=gap): 0 610 566 573 632 587 590 526 0 0
+00:54:43 
+00:54:43  DIAGNOSIS:  Hypoxia
+00:54:43  Confidence: 95.7%
+00:54:43  > Low SpO2 indicator.
+00:54:43 +===========================================+
+00:54:43 
+00:54:44 
+00:54:44 Running AI classifier...
+00:54:44 Inference: 1467 us
+00:54:44 
+00:54:44 +===========================================+
+00:54:44  BPM:   101.0
+00:54:44  SpO2:  98.7%
+00:54:44         [reflective sensor + correction applied]
+00:54:44  Temp:  36.4 C  [not validated]
+00:54:44  HRV:   38.2 ms RMSSD  pNN50: 33.3%
+00:54:44  SigQ:  78%  [Good]
+00:54:44  [DBG] PI: 0.67%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.496  raw SpO2: 95.7%
+00:54:44  [DBG] RR raw (ms): 610 566 573 632 587 590 526 514 618 596  | stored (0=gap): 610 566 573 632 587 590 526 0 0 596
+00:54:44 
+00:54:44  DIAGNOSIS:  Hypoxia
+00:54:44  Confidence: 93.0%
+00:54:44  > Low SpO2 indicator.
+00:54:44 +===========================================+
+00:54:44 
+00:54:45 
+00:54:45 Running AI classifier...
+00:54:45 Inference: 1481 us
+00:54:45 
+00:54:45 +===========================================+
+00:54:45  BPM:   100.8
+00:54:45  SpO2:  98.7%
+00:54:45         [reflective sensor + correction applied]
+00:54:45  Temp:  36.4 C  [not validated]
+00:54:45  HRV:   39.0 ms RMSSD  pNN50: 27.3%
+00:54:45  SigQ:  80%  [Excellent]
+00:54:45  [DBG] PI: 0.72%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.496  raw SpO2: 95.7%
+00:54:45  [DBG] RR raw (ms): 573 632 587 590 526 514 618 596 619 593  | stored (0=gap): 573 632 587 590 526 0 0 596 619 593
+00:54:45 
+00:54:45  DIAGNOSIS:  Hypoxia
+00:54:45  Confidence: 89.5%
+00:54:45  > Low SpO2 indicator.
+00:54:45 +===========================================+
+00:54:45 
+00:54:46 
+00:54:46 Running AI classifier...
+00:54:46 Inference: 1467 us
+00:54:46 
+00:54:46 +===========================================+
+00:54:46  BPM:   100.6
+00:54:46  SpO2:  98.7%
+00:54:46         [reflective sensor + correction applied]
+00:54:46  Temp:  36.4 C  [not validated]
+00:54:46  HRV:   39.3 ms RMSSD  pNN50: 27.3%
+00:54:46  SigQ:  81%  [Excellent]
+00:54:46  [DBG] PI: 0.80%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.496  raw SpO2: 95.7%
+00:54:46  [DBG] RR raw (ms): 632 587 590 526 514 618 596 619 593 592  | stored (0=gap): 632 587 590 526 0 0 596 619 593 592
+00:54:46 
+00:54:46  DIAGNOSIS:  Hypoxia
+00:54:46  Confidence: 95.3%
+00:54:46  > Low SpO2 indicator.
+00:54:46 +===========================================+
+00:54:46 
+00:54:47 
+00:54:47 Running AI classifier...
+00:54:47 Inference: 1481 us
+00:54:47 
+00:54:47 +===========================================+
+00:54:47  BPM:   100.4
+00:54:47  SpO2:  98.7%
+00:54:47         [reflective sensor + correction applied]
+00:54:47  Temp:  36.5 C  [not validated]
+00:54:47  HRV:   39.4 ms RMSSD  pNN50: 25.0%
+00:54:47  SigQ:  80%  [Excellent]
+00:54:47  [DBG] PI: 0.72%  motion: 0/99 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.496  raw SpO2: 95.7%
+00:54:47  [DBG] RR raw (ms): 590 526 514 618 596 619 593 592 607 582  | stored (0=gap): 590 526 0 0 596 619 593 592 607 582
+00:54:47 
+00:54:47  DIAGNOSIS:  Hypoxia
+00:54:47  Confidence: 96.5%
+00:54:47  > Low SpO2 indicator.
+00:54:47 +===========================================+
+00:54:47 
+00:54:48 
+00:54:48 Running AI classifier...
+00:54:48 Inference: 1467 us
+00:54:48 
+00:54:48 +===========================================+
+00:54:48  BPM:   100.3
+00:54:48  SpO2:  98.7%
+00:54:48         [reflective sensor + correction applied]
+00:54:48  Temp:  36.1 C  [not validated]
+00:54:48  HRV:   39.1 ms RMSSD  pNN50: 21.4%
+00:54:48  SigQ:  74%  [Good]
+00:54:48  [DBG] PI: 0.62%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.497  raw SpO2: 95.7%
+00:54:48  [DBG] RR raw (ms): 514 618 596 619 593 592 607 582 587 636  | stored (0=gap): 0 0 596 619 593 592 607 582 587 636
+00:54:48 
+00:54:48  DIAGNOSIS:  Hypoxia
+00:54:48  Confidence: 97.7%
+00:54:48  > Low SpO2 indicator.
+00:54:48 +===========================================+
+00:54:48 
+00:54:49 
+00:54:49 Running AI classifier...
+00:54:49 Inference: 1481 us
+00:54:49 
+00:54:49 +===========================================+
+00:54:49  BPM:   100.2
+00:54:49  SpO2:  98.7%
+00:54:49         [reflective sensor + correction applied]
+00:54:49  Temp:  36.4 C  [not validated]
+00:54:49  HRV:   38.7 ms RMSSD  pNN50: 14.3%
+00:54:49  SigQ:  74%  [Good]
+00:54:49  [DBG] PI: 0.62%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.497  raw SpO2: 95.7%
+00:54:49  [DBG] RR raw (ms): 618 596 619 593 592 607 582 587 636 602  | stored (0=gap): 0 596 619 593 592 607 582 587 636 602
+00:54:49 
+00:54:49  DIAGNOSIS:  Hypoxia
+00:54:49  Confidence: 99.2%
+00:54:49  > Low SpO2 indicator.
+00:54:49 +===========================================+
+00:54:49 
+00:54:50 
+00:54:50 Running AI classifier...
+00:54:50 Inference: 1463 us
+00:54:50 
+00:54:50 +===========================================+
+00:54:50  BPM:   99.9
+00:54:50  SpO2:  98.6%
+00:54:50         [reflective sensor + correction applied]
+00:54:50  Temp:  36.4 C  [not validated]
+00:54:50  HRV:   38.5 ms RMSSD  pNN50: 18.8%
+00:54:50  SigQ:  69%  [Good]
+00:54:50  [DBG] PI: 0.56%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:50  [DBG] RR raw (ms): 619 593 592 607 582 587 636 602 625 535  | stored (0=gap): 619 593 592 607 582 587 636 602 625 535
+00:54:50 
+00:54:50  DIAGNOSIS:  Hypoxia
+00:54:50  Confidence: 96.9%
+00:54:50  > Low SpO2 indicator.
+00:54:50 +===========================================+
+00:54:50 
+00:54:51 
+00:54:51 Running AI classifier...
+00:54:51 Inference: 1485 us
+00:54:51 
+00:54:51 +===========================================+
+00:54:51  BPM:   100.9
+00:54:51  SpO2:  98.6%
+00:54:51         [reflective sensor + correction applied]
+00:54:51  Temp:  36.4 C  [not validated]
+00:54:51  HRV:   38.6 ms RMSSD  pNN50: 20.0%
+00:54:51  SigQ:  76%  [Good]
+00:54:51  [DBG] PI: 0.65%  motion: 7/98 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:51  [DBG] RR raw (ms): 592 607 582 587 636 602 625 535 543 550  | stored (0=gap): 592 607 582 587 636 602 625 535 543 0
+00:54:51 
+00:54:51  DIAGNOSIS:  Hypoxia
+00:54:51  Confidence: 87.5%
+00:54:51  > Low SpO2 indicator.
+00:54:51 +===========================================+
+00:54:51 
+00:54:52 
+00:54:52 Running AI classifier...
+00:54:52 Inference: 1467 us
+00:54:52 
+00:54:52 +===========================================+
+00:54:52  BPM:   103.3
+00:54:52  SpO2:  98.6%
+00:54:52         [reflective sensor + correction applied]
+00:54:52  Temp:  36.6 C  [not validated]
+00:54:52  HRV:   38.5 ms RMSSD  pNN50: 15.4%
+00:54:52  SigQ:  80%  [Excellent]
+00:54:52  [DBG] PI: 0.73%  motion: 6/95 samples  RR clean/gap: 1/1  SpO2 windows rejected: 1  R: 0.515  raw SpO2: 95.6%
+00:54:52  [DBG] RR raw (ms): 582 587 636 602 625 535 543 550 480 550  | stored (0=gap): 582 587 636 602 625 535 543 0 0 550
+00:54:52 
+00:54:52  DIAGNOSIS:  Hypoxia
+00:54:52  Confidence: 85.5%
+00:54:52  > Low SpO2 indicator.
+00:54:52 +===========================================+
+00:54:52 
+00:54:53 
+00:54:53 Running AI classifier...
+00:54:53 Inference: 1485 us
+00:54:53 
+00:54:53 +===========================================+
+00:54:53  BPM:   103.9
+00:54:53  SpO2:  98.6%
+00:54:53         [reflective sensor + correction applied]
+00:54:53  Temp:  36.4 C  [not validated]
+00:54:53  HRV:   38.8 ms RMSSD  pNN50: 23.1%
+00:54:53  SigQ:  81%  [Excellent]
+00:54:53  [DBG] PI: 0.86%  motion: 7/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:53  [DBG] RR raw (ms): 587 636 602 625 535 543 550 480 550 609  | stored (0=gap): 587 636 602 625 535 543 0 0 550 609
+00:54:53 
+00:54:53  DIAGNOSIS:  Hypoxia
+00:54:53  Confidence: 97.7%
+00:54:53  > Low SpO2 indicator.
+00:54:53 +===========================================+
+00:54:53 
+00:54:54 
+00:54:54 Running AI classifier...
+00:54:54 Inference: 1467 us
+00:54:54 
+00:54:54 +===========================================+
+00:54:54  BPM:   103.0
+00:54:54  SpO2:  98.6%
+00:54:54         [reflective sensor + correction applied]
+00:54:54  Temp:  36.4 C  [not validated]
+00:54:54  HRV:   38.7 ms RMSSD  pNN50: 16.7%
+00:54:54  SigQ:  83%  [Excellent]
+00:54:54  [DBG] PI: 1.12%  motion: 11/99 samples  RR clean/gap: 0/2  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:54  [DBG] RR raw (ms): 602 625 535 543 550 480 550 609 677 732  | stored (0=gap): 602 625 535 543 0 0 550 609 0 0
+00:54:54 
+00:54:54  DIAGNOSIS:  Hypoxia
+00:54:54  Confidence: 99.2%
+00:54:54  > Low SpO2 indicator.
+00:54:54 +===========================================+
+00:54:54 
+00:54:55 
+00:54:55 Running AI classifier...
+00:54:55 Inference: 1485 us
+00:54:55 
+00:54:55 +===========================================+
+00:54:55  BPM:   101.4
+00:54:55  SpO2:  98.6%
+00:54:55         [reflective sensor + correction applied]
+00:54:55  Temp:  36.5 C  [not validated]
+00:54:55  HRV:   38.7 ms RMSSD  pNN50: 16.7%
+00:54:55  SigQ:  84%  [Excellent]
+00:54:55  [DBG] PI: 1.40%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:55  [DBG] RR raw (ms): 625 535 543 550 480 550 609 677 732 739  | stored (0=gap): 625 535 543 0 0 550 609 0 0 739
+00:54:55 
+00:54:55  DIAGNOSIS:  Hypoxia
+00:54:55  Confidence: 99.2%
+00:54:55  > Low SpO2 indicator.
+00:54:55 +===========================================+
+00:54:55 
+00:54:56 
+00:54:56 Running AI classifier...
+00:54:56 Inference: 1467 us
+00:54:56 
+00:54:56 +===========================================+
+00:54:56  BPM:   99.5
+00:54:56  SpO2:  98.6%
+00:54:56         [reflective sensor + correction applied]
+00:54:56  Temp:  36.4 C  [not validated]
+00:54:56  HRV:   38.6 ms RMSSD  pNN50: 15.4%
+00:54:56  SigQ:  85%  [Excellent]
+00:54:56  [DBG] PI: 1.60%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:56  [DBG] RR raw (ms): 535 543 550 480 550 609 677 732 739 762  | stored (0=gap): 535 543 0 0 550 609 0 0 739 762
+00:54:56 
+00:54:56  DIAGNOSIS:  Hypoxia
+00:54:56  Confidence: 92.6%
+00:54:56  > Low SpO2 indicator.
+00:54:56 +===========================================+
+00:54:56 
+00:54:57 
+00:54:57 Running AI classifier...
+00:54:57 Inference: 1467 us
+00:54:57 
+00:54:57 +===========================================+
+00:54:57  BPM:   99.5
+00:54:57  SpO2:  98.6%
+00:54:57         [reflective sensor + correction applied]
+00:54:57  Temp:  36.5 C  [not validated]
+00:54:57  HRV:   38.6 ms RMSSD  pNN50: 15.4%
+00:54:57  SigQ:  86%  [Excellent]
+00:54:57  [DBG] PI: 1.68%  motion: 0/95 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:57  [DBG] RR raw (ms): 535 543 550 480 550 609 677 732 739 762  | stored (0=gap): 535 543 0 0 550 609 0 0 739 762
+00:54:57 
+00:54:57  DIAGNOSIS:  Hypoxia
+00:54:57  Confidence: 81.2%
+00:54:57  > Low SpO2 indicator.
+00:54:57 +===========================================+
+00:54:57 
+00:54:58 
+00:54:58 Running AI classifier...
+00:54:58 Inference: 1463 us
+00:54:58 
+00:54:58 +===========================================+
+00:54:58  BPM:   99.5
+00:54:58  SpO2:  98.6%
+00:54:58         [reflective sensor + correction applied]
+00:54:58  Temp:  36.7 C  [not validated]
+00:54:58  HRV:   38.6 ms RMSSD  pNN50: 16.7%
+00:54:58  SigQ:  84%  [Excellent]
+00:54:58  [DBG] PI: 1.39%  motion: 0/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:58  [DBG] RR raw (ms): 543 550 480 550 609 677 732 739 762 1472  | stored (0=gap): 543 0 0 550 609 0 0 739 762 0
+00:54:58 
+00:54:58  DIAGNOSIS:  Uncertain
+00:54:58  Confidence: 39.8%
+00:54:58  [Suppressed: temperature not validated]
+00:54:58  > Improve signal quality / hold still.
+00:54:58 +===========================================+
+00:54:58 
+00:54:59 
+00:54:59 Running AI classifier...
+00:54:59 Inference: 1484 us
+00:54:59 
+00:54:59 +===========================================+
+00:54:59  BPM:   99.5
+00:54:59  SpO2:  98.6%
+00:54:59         [reflective sensor + correction applied]
+00:54:59  Temp:  36.5 C  [not validated]
+00:54:59  HRV:   38.7 ms RMSSD  pNN50: 18.2%
+00:54:59  SigQ:  82%  [Excellent]
+00:54:59  [DBG] PI: 1.02%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.515  raw SpO2: 95.6%
+00:54:59  [DBG] RR raw (ms): 550 480 550 609 677 732 739 762 1472 1172  | stored (0=gap): 0 0 550 609 0 0 739 762 0 0
+00:54:59 
+00:54:59  DIAGNOSIS:  Uncertain
+00:54:59  Confidence: 55.5%
+00:54:59  [Suppressed: low model confidence]
+00:54:59  > Improve signal quality / hold still.
+00:54:59 +===========================================+
+00:54:59 
+00:55:00 
+00:55:00 Running AI classifier...
+00:55:00 Inference: 1467 us
+00:55:00 
+00:55:00 +===========================================+
+00:55:00  BPM:   99.5
+00:55:00  SpO2:  98.1%
+00:55:00         [reflective sensor + correction applied]
+00:55:00  Temp:  36.3 C  [not validated]
+00:55:00  HRV:   38.9 ms RMSSD  pNN50: 20.0%
+00:55:00  SigQ:  81%  [Excellent]
+00:55:00  [DBG] PI: 0.82%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.714  raw SpO2: 95.1%
+00:55:00  [DBG] RR raw (ms): 480 550 609 677 732 739 762 1472 1172 1358  | stored (0=gap): 0 550 609 0 0 739 762 0 0 1358
+00:55:00 
+00:55:00  DIAGNOSIS:  Hypoxia
+00:55:00  Confidence: 82.0%
+00:55:00  > Low SpO2 indicator.
+00:55:00 +===========================================+
+00:55:00 
+00:55:01 
+00:55:01 Running AI classifier...
+00:55:01 Inference: 1485 us
+00:55:01 
+00:55:01 +===========================================+
+00:55:01  BPM:   99.5
+00:55:01  SpO2:  98.1%
+00:55:01         [reflective sensor + correction applied]
+00:55:01  Temp:  36.7 C  [not validated]
+00:55:01  HRV:   43.7 ms RMSSD  pNN50: 30.0%
+00:55:01  SigQ:  80%  [Excellent]
+00:55:01  [DBG] PI: 0.74%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.714  raw SpO2: 95.1%
+00:55:01  [DBG] RR raw (ms): 550 609 677 732 739 762 1472 1172 1358 1118  | stored (0=gap): 550 609 0 0 739 762 0 0 1358 1118
+00:55:01 
+00:55:01  DIAGNOSIS:  Hypoxia
+00:55:01  Confidence: 98.8%
+00:55:01  > Low SpO2 indicator.
+00:55:01 +===========================================+
+00:55:01 
+00:55:02 
+00:55:02 Running AI classifier...
+00:55:02 Inference: 1467 us
+00:55:02 
+00:55:02 +===========================================+
+00:55:02  BPM:   99.5
+00:55:02  SpO2:  98.1%
+00:55:02         [reflective sensor + correction applied]
+00:55:02  Temp:  36.5 C  [not validated]
+00:55:02  HRV:   47.9 ms RMSSD  pNN50: 30.0%
+00:55:02  SigQ:  80%  [Excellent]
+00:55:02  [DBG] PI: 0.77%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.714  raw SpO2: 95.1%
+00:55:02  [DBG] RR raw (ms): 609 677 732 739 762 1472 1172 1358 1118 1098  | stored (0=gap): 609 0 0 739 762 0 0 1358 1118 1098
+00:55:02 
+00:55:02  DIAGNOSIS:  Hypoxia
+00:55:02  Confidence: 98.8%
+00:55:02  > Low SpO2 indicator.
+00:55:02 +===========================================+
+00:55:02 
+00:55:03 
+00:55:03 Running AI classifier...
+00:55:03 Inference: 1478 us
+00:55:03 
+00:55:03 +===========================================+
+00:55:03  BPM:   99.5
+00:55:03  SpO2:  98.1%
+00:55:03         [reflective sensor + correction applied]
+00:55:03  Temp:  36.3 C  [not validated]
+00:55:03  HRV:   47.9 ms RMSSD  pNN50: 30.0%
+00:55:03  SigQ:  76%  [Good]
+00:55:03  [DBG] PI: 0.65%  motion: 0/98 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.714  raw SpO2: 95.1%
+00:55:03  [DBG] RR raw (ms): 609 677 732 739 762 1472 1172 1358 1118 1098  | stored (0=gap): 609 0 0 739 762 0 0 1358 1118 1098
+00:55:03 
+00:55:03  DIAGNOSIS:  Hypoxia
+00:55:03  Confidence: 97.7%
+00:55:03  > Low SpO2 indicator.
+00:55:03 +===========================================+
+00:55:03 
+00:55:04 
+00:55:04 Running AI classifier...
+00:55:04 Inference: 1467 us
+00:55:04 
+00:55:04 +===========================================+
+00:55:04  BPM:   99.5
+00:55:04  SpO2:  98.1%
+00:55:04         [reflective sensor + correction applied]
+00:55:04  Temp:  36.4 C  [not validated]
+00:55:04  HRV:   52.1 ms RMSSD  pNN50: 40.0%
+00:55:04  SigQ:  80%  [Excellent]
+00:55:04  [DBG] PI: 0.72%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.714  raw SpO2: 95.1%
+00:55:04  [DBG] RR raw (ms): 677 732 739 762 1472 1172 1358 1118 1098 1181  | stored (0=gap): 0 0 739 762 0 0 1358 1118 1098 1181
+00:55:04 
+00:55:04  DIAGNOSIS:  Hypoxia
+00:55:04  Confidence: 93.7%
+00:55:04  > Low SpO2 indicator.
+00:55:04 +===========================================+
+00:55:04 
+00:55:05 
+00:55:05 Running AI classifier...
+00:55:05 Inference: 1485 us
+00:55:05 
+00:55:05 +===========================================+
+00:55:05  BPM:   99.5
+00:55:05  SpO2:  98.1%
+00:55:05         [reflective sensor + correction applied]
+00:55:05  Temp:  36.5 C  [not validated]
+00:55:05  HRV:   56.3 ms RMSSD  pNN50: 44.4%
+00:55:05  SigQ:  81%  [Excellent]
+00:55:05  [DBG] PI: 0.89%  motion: 2/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.714  raw SpO2: 95.1%
+00:55:05  [DBG] RR raw (ms): 732 739 762 1472 1172 1358 1118 1098 1181 1092  | stored (0=gap): 0 739 762 0 0 1358 1118 1098 1181 0
+00:55:05 
+00:55:05  DIAGNOSIS:  Hypoxia
+00:55:05  Confidence: 66.4%
+00:55:05  > Low SpO2 indicator.
+00:55:05 +===========================================+
+00:55:05 
+00:55:06 
+00:55:06 Running AI classifier...
+00:55:06 Inference: 1467 us
+00:55:06 
+00:55:06 +===========================================+
+00:55:06  BPM:   99.5
+00:55:06  SpO2:  98.1%
+00:55:06         [reflective sensor + correction applied]
+00:55:06  Temp:  36.6 C  [not validated]
+00:55:06  HRV:   60.5 ms RMSSD  pNN50: 50.0%
+00:55:06  SigQ:  81%  [Excellent]
+00:55:06  [DBG] PI: 0.84%  motion: 0/99 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.714  raw SpO2: 95.1%
+00:55:06  [DBG] RR raw (ms): 739 762 1472 1172 1358 1118 1098 1181 1092 1258  | stored (0=gap): 739 762 0 0 1358 1118 1098 1181 0 0
+00:55:06 
+00:55:06  DIAGNOSIS:  Poor_signal
+00:55:06  Confidence: 66.4%
+00:55:06  > Poor signal - adjust finger.
+00:55:06 +===========================================+
+00:55:06 
+00:55:07 
+00:55:07 Running AI classifier...
+00:55:07 Inference: 1484 us
+00:55:07 
+00:55:07 +===========================================+
+00:55:07  BPM:   99.5
+00:55:07  SpO2:  98.1%
+00:55:07         [reflective sensor + correction applied]
+00:55:07  Temp:  36.5 C  [not validated]
+00:55:07  HRV:   64.9 ms RMSSD  pNN50: 57.1%
+00:55:07  SigQ:  81%  [Excellent]
+00:55:07  [DBG] PI: 0.86%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.714  raw SpO2: 95.1%
+00:55:07  [DBG] RR raw (ms): 762 1472 1172 1358 1118 1098 1181 1092 1258 1334  | stored (0=gap): 762 0 0 1358 1118 1098 1181 0 0 1334
+00:55:07 
+00:55:07  DIAGNOSIS:  Poor_signal
+00:55:07  Confidence: 96.1%
+00:55:07  > Poor signal - adjust finger.
+00:55:07 +===========================================+
+00:55:07 
+00:55:08 
+00:55:08 Running AI classifier...
+00:55:08 Inference: 1463 us
+00:55:08 
+00:55:08 +===========================================+
+00:55:08  BPM:   99.5
+00:55:08  SpO2:  98.2%
+00:55:08         [reflective sensor + correction applied]
+00:55:08  Temp:  36.4 C  [not validated]
+00:55:08  HRV:   64.9 ms RMSSD  pNN50: 57.1%
+00:55:08  SigQ:  81%  [Excellent]
+00:55:08  [DBG] PI: 0.92%  motion: 0/98 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 95.2%
+00:55:09  [DBG] RR raw (ms): 762 1472 1172 1358 1118 1098 1181 1092 1258 1334  | stored (0=gap): 762 0 0 1358 1118 1098 1181 0 0 1334
+00:55:09 
+00:55:09  DIAGNOSIS:  Poor_signal
+00:55:09  Confidence: 99.2%
+00:55:09  > Poor signal - adjust finger.
+00:55:09 +===========================================+
+00:55:09 
+00:55:09 
+00:55:09 Running AI classifier...
+00:55:09 Inference: 1485 us
+00:55:09 
+00:55:09 +===========================================+
+00:55:09  BPM:   99.5
+00:55:09  SpO2:  98.2%
+00:55:10         [reflective sensor + correction applied]
+00:55:10  Temp:  36.5 C  [not validated]
+00:55:10  HRV:   68.8 ms RMSSD  pNN50: 57.1%
+00:55:10  SigQ:  83%  [Excellent]
+00:55:10  [DBG] PI: 1.27%  motion: 1/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 95.2%
+00:55:10  [DBG] RR raw (ms): 1472 1172 1358 1118 1098 1181 1092 1258 1334 1252  | stored (0=gap): 0 0 1358 1118 1098 1181 0 0 1334 1252
+00:55:10 
+00:55:10  DIAGNOSIS:  Poor_signal
+00:55:10  Confidence: 99.6%
+00:55:10  > Poor signal - adjust finger.
+00:55:10 +===========================================+
+00:55:10 
+00:55:11 
+00:55:11 Running AI classifier...
+00:55:11 Inference: 1467 us
+00:55:11 
+00:55:11 +===========================================+
+00:55:11  BPM:   99.5
+00:55:11  SpO2:  98.2%
+00:55:11         [reflective sensor + correction applied]
+00:55:11  Temp:  36.5 C  [not validated]
+00:55:11  HRV:   73.2 ms RMSSD  pNN50: 66.7%
+00:55:11  SigQ:  83%  [Excellent]
+00:55:11  [DBG] PI: 1.26%  motion: 0/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 95.2%
+00:55:11  [DBG] RR raw (ms): 1172 1358 1118 1098 1181 1092 1258 1334 1252 1219  | stored (0=gap): 0 1358 1118 1098 1181 0 0 1334 1252 0
+00:55:11 
+00:55:11  DIAGNOSIS:  Poor_signal
+00:55:11  Confidence: 99.6%
+00:55:11  > Poor signal - adjust finger.
+00:55:11 +===========================================+
+00:55:11 
+00:55:12 
+00:55:12 Running AI classifier...
+00:55:12 Inference: 1485 us
+00:55:12 
+00:55:12 +===========================================+
+00:55:12  BPM:   99.5
+00:55:12  SpO2:  98.2%
+00:55:12         [reflective sensor + correction applied]
+00:55:12  Temp:  36.5 C  [not validated]
+00:55:12  HRV:   77.1 ms RMSSD  pNN50: 66.7%
+00:55:12  SigQ:  82%  [Excellent]
+00:55:12  [DBG] PI: 1.04%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 95.2%
+00:55:12  [DBG] RR raw (ms): 1358 1118 1098 1181 1092 1258 1334 1252 1219 1189  | stored (0=gap): 1358 1118 1098 1181 0 0 1334 1252 0 1189
+00:55:12 
+00:55:12  DIAGNOSIS:  Poor_signal
+00:55:12  Confidence: 99.2%
+00:55:12  > Poor signal - adjust finger.
+00:55:12 +===========================================+
+00:55:12 
+00:55:13 
+00:55:13 Running AI classifier...
+00:55:13 Inference: 1467 us
+00:55:13 
+00:55:13 +===========================================+
+00:55:13  BPM:   99.5
+00:55:13  SpO2:  98.2%
+00:55:13         [reflective sensor + correction applied]
+00:55:13  Temp:  36.3 C  [not validated]
+00:55:13  HRV:   79.9 ms RMSSD  pNN50: 57.1%
+00:55:13  SigQ:  81%  [Excellent]
+00:55:13  [DBG] PI: 0.92%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 95.2%
+00:55:13  [DBG] RR raw (ms): 1118 1098 1181 1092 1258 1334 1252 1219 1189 1156  | stored (0=gap): 1118 1098 1181 0 0 1334 1252 0 1189 1156
+00:55:13 
+00:55:13  DIAGNOSIS:  Poor_signal
+00:55:13  Confidence: 98.4%
+00:55:13  > Poor signal - adjust finger.
+00:55:13 +===========================================+
+00:55:13 
+00:55:14 
+00:55:14 Running AI classifier...
+00:55:14 Inference: 1479 us
+00:55:14 
+00:55:14 +===========================================+
+00:55:14  BPM:   99.5
+00:55:14  SpO2:  98.2%
+00:55:14         [reflective sensor + correction applied]
+00:55:14  Temp:  36.5 C  [not validated]
+00:55:14  HRV:   79.9 ms RMSSD  pNN50: 57.1%
+00:55:14  SigQ:  81%  [Excellent]
+00:55:14  [DBG] PI: 0.80%  motion: 0/99 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 95.2%
+00:55:14  [DBG] RR raw (ms): 1118 1098 1181 1092 1258 1334 1252 1219 1189 1156  | stored (0=gap): 1118 1098 1181 0 0 1334 1252 0 1189 1156
+00:55:14 
+00:55:14  DIAGNOSIS:  Poor_signal
+00:55:14  Confidence: 98.4%
+00:55:14  > Poor signal - adjust finger.
+00:55:14 +===========================================+
+00:55:14 
+00:55:15 
+00:55:15 Running AI classifier...
+00:55:15 Inference: 1467 us
+00:55:15 
+00:55:15 +===========================================+
+00:55:15  BPM:   99.5
+00:55:15  SpO2:  98.2%
+00:55:15         [reflective sensor + correction applied]
+00:55:15  Temp:  36.4 C  [not validated]
+00:55:15  HRV:   81.7 ms RMSSD  pNN50: 50.0%
+00:55:15  SigQ:  79%  [Good]
+00:55:15  [DBG] PI: 0.69%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 95.2%
+00:55:15  [DBG] RR raw (ms): 1098 1181 1092 1258 1334 1252 1219 1189 1156 1174  | stored (0=gap): 1098 1181 0 0 1334 1252 0 1189 1156 1174
+00:55:15 
+00:55:15  DIAGNOSIS:  Poor_signal
+00:55:15  Confidence: 99.6%
+00:55:15  > Poor signal - adjust finger.
+00:55:15 +===========================================+
+00:55:15 
+00:55:16 
+00:55:16 Running AI classifier...
+00:55:16 Inference: 1485 us
+00:55:16 
+00:55:16 +===========================================+
+00:55:16  BPM:   99.5
+00:55:16  SpO2:  98.1%
+00:55:16         [reflective sensor + correction applied]
+00:55:16  Temp:  36.5 C  [not validated]
+00:55:16  HRV:   83.3 ms RMSSD  pNN50: 37.5%
+00:55:16  SigQ:  76%  [Good]
+00:55:16  [DBG] PI: 0.64%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.540  raw SpO2: 95.1%
+00:55:16  [DBG] RR raw (ms): 1181 1092 1258 1334 1252 1219 1189 1156 1174 1125  | stored (0=gap): 1181 0 0 1334 1252 0 1189 1156 1174 1125
+00:55:16 
+00:55:16  DIAGNOSIS:  Poor_signal
+00:55:16  Confidence: 99.6%
+00:55:16  > Poor signal - adjust finger.
+00:55:16 +===========================================+
+00:55:16 
+00:55:17 
+00:55:17 Running AI classifier...
+00:55:17 Inference: 1464 us
+00:55:17 
+00:55:17 +===========================================+
+00:55:17  BPM:   99.5
+00:55:17  SpO2:  98.1%
+00:55:17         [reflective sensor + correction applied]
+00:55:17  Temp:  36.5 C  [not validated]
+00:55:17  HRV:   84.7 ms RMSSD  pNN50: 37.5%
+00:55:17  SigQ:  80%  [Excellent]
+00:55:17  [DBG] PI: 0.76%  motion: 3/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.540  raw SpO2: 95.1%
+00:55:17  [DBG] RR raw (ms): 1092 1258 1334 1252 1219 1189 1156 1174 1125 1093  | stored (0=gap): 0 0 1334 1252 0 1189 1156 1174 1125 0
+00:55:17 
+00:55:17  DIAGNOSIS:  Poor_signal
+00:55:17  Confidence: 99.6%
+00:55:17  > Poor signal - adjust finger.
+00:55:17 +===========================================+
+00:55:17 
+00:55:18 
+00:55:18 Running AI classifier...
+00:55:18 Inference: 1485 us
+00:55:18 
+00:55:18 +===========================================+
+00:55:18  BPM:   99.5
+00:55:18  SpO2:  98.1%
+00:55:18         [reflective sensor + correction applied]
+00:55:18  Temp:  36.3 C  [not validated]
+00:55:18  HRV:   86.0 ms RMSSD  pNN50: 37.5%
+00:55:18  SigQ:  82%  [Excellent]
+00:55:18  [DBG] PI: 0.98%  motion: 5/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.540  raw SpO2: 95.1%
+00:55:18  [DBG] RR raw (ms): 1258 1334 1252 1219 1189 1156 1174 1125 1093 1231  | stored (0=gap): 0 1334 1252 0 1189 1156 1174 1125 0 0
+00:55:18 
+00:55:18  DIAGNOSIS:  Poor_signal
+00:55:18  Confidence: 99.6%
+00:55:18  > Poor signal - adjust finger.
+00:55:18 +===========================================+
+00:55:18 
+00:55:19 
+00:55:19 Running AI classifier...
+00:55:19 Inference: 1467 us
+00:55:19 
+00:55:19 +===========================================+
+00:55:19  BPM:   99.5
+00:55:19  SpO2:  98.1%
+00:55:19         [reflective sensor + correction applied]
+00:55:19  Temp:  36.7 C  [not validated]
+00:55:19  HRV:   87.1 ms RMSSD  pNN50: 37.5%
+00:55:19  SigQ:  81%  [Excellent]
+00:55:19  [DBG] PI: 0.83%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.540  raw SpO2: 95.1%
+00:55:19  [DBG] RR raw (ms): 1334 1252 1219 1189 1156 1174 1125 1093 1231 1196  | stored (0=gap): 1334 1252 0 1189 1156 1174 1125 0 0 1196
+00:55:19 
+00:55:19  DIAGNOSIS:  Poor_signal
+00:55:19  Confidence: 99.6%
+00:55:19  > Poor signal - adjust finger.
+00:55:19 +===========================================+
+00:55:19 
+00:55:20 
+00:55:20 Running AI classifier...
+00:55:20 Inference: 1479 us
+00:55:20 
+00:55:20 +===========================================+
+00:55:20  BPM:   99.5
+00:55:20  SpO2:  98.1%
+00:55:20         [reflective sensor + correction applied]
+00:55:20  Temp:  36.4 C  [not validated]
+00:55:20  HRV:   87.1 ms RMSSD  pNN50: 37.5%
+00:55:20  SigQ:  80%  [Excellent]
+00:55:20  [DBG] PI: 0.76%  motion: 0/98 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.540  raw SpO2: 95.1%
+00:55:20  [DBG] RR raw (ms): 1334 1252 1219 1189 1156 1174 1125 1093 1231 1196  | stored (0=gap): 1334 1252 0 1189 1156 1174 1125 0 0 1196
+00:55:20 
+00:55:20  DIAGNOSIS:  Poor_signal
+00:55:20  Confidence: 99.6%
+00:55:20  > Poor signal - adjust finger.
+00:55:20 +===========================================+
+00:55:20 
+00:55:21 
+00:55:21 Running AI classifier...
+00:55:21 Inference: 1467 us
+00:55:21 
+00:55:21 +===========================================+
+00:55:21  BPM:   99.5
+00:55:21  SpO2:  98.1%
+00:55:21         [reflective sensor + correction applied]
+00:55:21  Temp:  36.3 C  [not validated]
+00:55:21  HRV:   88.1 ms RMSSD  pNN50: 37.5%
+00:55:21  SigQ:  77%  [Good]
+00:55:21  [DBG] PI: 0.66%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.540  raw SpO2: 95.1%
+00:55:21  [DBG] RR raw (ms): 1252 1219 1189 1156 1174 1125 1093 1231 1196 1193  | stored (0=gap): 1252 0 1189 1156 1174 1125 0 0 1196 1193
+00:55:21 
+00:55:21  DIAGNOSIS:  Poor_signal
+00:55:21  Confidence: 99.6%
+00:55:21  > Poor signal - adjust finger.
+00:55:21 +===========================================+
+00:55:21 
+00:55:22 
+00:55:22 Running AI classifier...
+00:55:22 Inference: 1485 us
+00:55:22 
+00:55:22 +===========================================+
+00:55:22  BPM:   99.5
+00:55:22  SpO2:  98.0%
+00:55:22         [reflective sensor + correction applied]
+00:55:22  Temp:  36.5 C  [not validated]
+00:55:22  HRV:   88.9 ms RMSSD  pNN50: 44.4%
+00:55:22  SigQ:  73%  [Good]
+00:55:22  [DBG] PI: 0.61%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.570  raw SpO2: 95.0%
+00:55:22  [DBG] RR raw (ms): 1219 1189 1156 1174 1125 1093 1231 1196 1193 1109  | stored (0=gap): 0 1189 1156 1174 1125 0 0 1196 1193 1109
+00:55:22 
+00:55:22  DIAGNOSIS:  Poor_signal
+00:55:22  Confidence: 99.6%
+00:55:22  > Poor signal - adjust finger.
+00:55:22 +===========================================+
+00:55:22 
+00:55:23 
+00:55:23 Running AI classifier...
+00:55:23 Inference: 1467 us
+00:55:23 
+00:55:23 +===========================================+
+00:55:23  BPM:   99.5
+00:55:23  SpO2:  98.0%
+00:55:23         [reflective sensor + correction applied]
+00:55:23  Temp:  36.3 C  [not validated]
+00:55:23  HRV:   89.1 ms RMSSD  pNN50: 40.0%
+00:55:23  SigQ:  74%  [Good]
+00:55:23  [DBG] PI: 0.62%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.570  raw SpO2: 95.0%
+00:55:23  [DBG] RR raw (ms): 1189 1156 1174 1125 1093 1231 1196 1193 1109 1103  | stored (0=gap): 1189 1156 1174 1125 0 0 1196 1193 1109 1103
+00:55:23 
+00:55:23  DIAGNOSIS:  Poor_signal
+00:55:23  Confidence: 99.6%
+00:55:23  > Poor signal - adjust finger.
+00:55:23 +===========================================+
+00:55:23 
+00:55:24 
+00:55:24 Running AI classifier...
+00:55:24 Inference: 1485 us
+00:55:24 
+00:55:24 +===========================================+
+00:55:24  BPM:   99.5
+00:55:24  SpO2:  98.0%
+00:55:24         [reflective sensor + correction applied]
+00:55:24  Temp:  36.4 C  [not validated]
+00:55:24  HRV:   88.8 ms RMSSD  pNN50: 36.4%
+00:55:24  SigQ:  78%  [Good]
+00:55:24  [DBG] PI: 0.67%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.570  raw SpO2: 95.0%
+00:55:24  [DBG] RR raw (ms): 1156 1174 1125 1093 1231 1196 1193 1109 1103 1094  | stored (0=gap): 1156 1174 1125 0 0 1196 1193 1109 1103 1094
+00:55:24 
+00:55:24  DIAGNOSIS:  Poor_signal
+00:55:24  Confidence: 99.6%
+00:55:24  > Poor signal - adjust finger.
+00:55:24 +===========================================+
+00:55:24 
+00:55:25 
+00:55:25 Running AI classifier...
+00:55:25 Inference: 1467 us
+00:55:25 
+00:55:25 +===========================================+
+00:55:25  BPM:   99.5
+00:55:25  SpO2:  98.0%
+00:55:25         [reflective sensor + correction applied]
+00:55:25  Temp:  36.4 C  [not validated]
+00:55:25  HRV:   85.8 ms RMSSD  pNN50: 36.4%
+00:55:25  SigQ:  75%  [Good]
+00:55:25  [DBG] PI: 0.63%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.570  raw SpO2: 95.0%
+00:55:25  [DBG] RR raw (ms): 1174 1125 1093 1231 1196 1193 1109 1103 1094 1208  | stored (0=gap): 1174 1125 0 0 1196 1193 1109 1103 1094 1208
+00:55:25 
+00:55:25  DIAGNOSIS:  Poor_signal
+00:55:25  Confidence: 99.6%
+00:55:25  > Poor signal - adjust finger.
+00:55:25 +===========================================+
+00:55:25 
+00:55:26 
+00:55:26 Running AI classifier...
+00:55:26 Inference: 1482 us
+00:55:26 
+00:55:26 +===========================================+
+00:55:26  BPM:   99.5
+00:55:26  SpO2:  97.8%
+00:55:26         [reflective sensor + correction applied]
+00:55:26  Temp:  36.4 C  [not validated]
+00:55:26  HRV:   83.1 ms RMSSD  pNN50: 36.4%
+00:55:26  SigQ:  71%  [Good]
+00:55:26  [DBG] PI: 0.58%  motion: 0/99 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.603  raw SpO2: 94.8%
+00:55:26  [DBG] RR raw (ms): 1125 1093 1231 1196 1193 1109 1103 1094 1208 1205  | stored (0=gap): 1125 0 0 1196 1193 1109 1103 1094 1208 1205
+00:55:26 
+00:55:26  DIAGNOSIS:  Poor_signal
+00:55:26  Confidence: 99.6%
+00:55:26  > Poor signal - adjust finger.
+00:55:26 +===========================================+
+00:55:26 
+00:55:27 
+00:55:27 Running AI classifier...
+00:55:27 Inference: 1461 us
+00:55:27 
+00:55:27 +===========================================+
+00:55:27  BPM:   99.5
+00:55:27  SpO2:  97.8%
+00:55:27         [reflective sensor + correction applied]
+00:55:27  Temp:  36.5 C  [not validated]
+00:55:27  HRV:   83.1 ms RMSSD  pNN50: 36.4%
+00:55:27  SigQ:  69%  [Good]
+00:55:27  [DBG] PI: 0.55%  motion: 0/98 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.603  raw SpO2: 94.8%
+00:55:27  [DBG] RR raw (ms): 1125 1093 1231 1196 1193 1109 1103 1094 1208 1205  | stored (0=gap): 1125 0 0 1196 1193 1109 1103 1094 1208 1205
+00:55:27 
+00:55:27  DIAGNOSIS:  Poor_signal
+00:55:27  Confidence: 99.6%
+00:55:27  > Poor signal - adjust finger.
+00:55:27 +===========================================+
+00:55:27 
+00:55:28 
+00:55:28 Running AI classifier...
+00:55:28 Inference: 1485 us
+00:55:28 
+00:55:28 +===========================================+
+00:55:28  BPM:   99.5
+00:55:28  SpO2:  97.8%
+00:55:28         [reflective sensor + correction applied]
+00:55:28  Temp:  36.5 C  [not validated]
+00:55:28  HRV:   80.4 ms RMSSD  pNN50: 36.4%
+00:55:28  SigQ:  66%  [Good]
+00:55:28  [DBG] PI: 0.51%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.526  raw SpO2: 94.8%
+00:55:28  [DBG] RR raw (ms): 1093 1231 1196 1193 1109 1103 1094 1208 1205 1145  | stored (0=gap): 0 0 1196 1193 1109 1103 1094 1208 1205 1145
+00:55:28 
+00:55:28  DIAGNOSIS:  Poor_signal
+00:55:28  Confidence: 99.6%
+00:55:28  > Poor signal - adjust finger.
+00:55:28 +===========================================+
+00:55:28 
+00:55:29 
+00:55:29 Running AI classifier...
+00:55:29 Inference: 1464 us
+00:55:29 
+00:55:29 +===========================================+
+00:55:29  BPM:   99.5
+00:55:29  SpO2:  97.8%
+00:55:29         [reflective sensor + correction applied]
+00:55:29  Temp:  36.6 C  [not validated]
+00:55:29  HRV:   78.7 ms RMSSD  pNN50: 41.7%
+00:55:29  SigQ:  67%  [Good]
+00:55:29  [DBG] PI: 0.53%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.526  raw SpO2: 94.8%
+00:55:29  [DBG] RR raw (ms): 1231 1196 1193 1109 1103 1094 1208 1205 1145 1023  | stored (0=gap): 0 1196 1193 1109 1103 1094 1208 1205 1145 1023
+00:55:29 
+00:55:29  DIAGNOSIS:  Poor_signal
+00:55:29  Confidence: 99.6%
+00:55:29  > Poor signal - adjust finger.
+00:55:29 +===========================================+
+00:55:29 
+00:55:30 
+00:55:30 Running AI classifier...
+00:55:30 Inference: 1481 us
+00:55:30 
+00:55:30 +===========================================+
+00:55:30  BPM:   99.5
+00:55:30  SpO2:  97.9%
+00:55:30         [reflective sensor + correction applied]
+00:55:30  Temp:  36.5 C  [not validated]
+00:55:30  HRV:   77.2 ms RMSSD  pNN50: 38.5%
+00:55:30  SigQ:  74%  [Good]
+00:55:30  [DBG] PI: 0.62%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.523  raw SpO2: 94.9%
+00:55:30  [DBG] RR raw (ms): 1196 1193 1109 1103 1094 1208 1205 1145 1023 1073  | stored (0=gap): 1196 1193 1109 1103 1094 1208 1205 1145 1023 1073
+00:55:30 
+00:55:30  DIAGNOSIS:  Poor_signal
+00:55:30  Confidence: 99.6%
+00:55:30  > Poor signal - adjust finger.
+00:55:30 +===========================================+
+00:55:30 
+00:55:31 
+00:55:31 Running AI classifier...
+00:55:31 Inference: 1467 us
+00:55:31 
+00:55:31 +===========================================+
+00:55:31  BPM:   96.4
+00:55:31  SpO2:  97.9%
+00:55:31         [reflective sensor + correction applied]
+00:55:31  Temp:  36.5 C  [not validated]
+00:55:31  HRV:   74.3 ms RMSSD  pNN50: 33.3%
+00:55:31  SigQ:  73%  [Good]
+00:55:31  [DBG] PI: 0.61%  motion: 0/95 samples  RR clean/gap: 0/2  SpO2 windows rejected: 0  R: 0.523  raw SpO2: 94.9%
+00:55:31  [DBG] RR raw (ms): 1109 1103 1094 1208 1205 1145 1023 1073 742 568  | stored (0=gap): 1109 1103 1094 1208 1205 1145 1023 1073 0 0
+00:55:31 
+00:55:31  DIAGNOSIS:  Poor_signal
+00:55:31  Confidence: 99.6%
+00:55:31  > Poor signal - adjust finger.
+00:55:31 +===========================================+
+00:55:31 
+00:55:32 
+00:55:32 Running AI classifier...
+00:55:32 Inference: 1485 us
+00:55:32 
+00:55:32 +===========================================+
+00:55:32  BPM:   95.8
+00:55:32  SpO2:  97.7%
+00:55:32         [reflective sensor + correction applied]
+00:55:32  Temp:  36.5 C  [not validated]
+00:55:32  HRV:   73.0 ms RMSSD  pNN50: 33.3%
+00:55:32  SigQ:  70%  [Good]
+00:55:32  [DBG] PI: 0.57%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.7%
+00:55:32  [DBG] RR raw (ms): 1103 1094 1208 1205 1145 1023 1073 742 568 592  | stored (0=gap): 1103 1094 1208 1205 1145 1023 1073 0 0 592
+00:55:32 
+00:55:32  DIAGNOSIS:  Poor_signal
+00:55:32  Confidence: 99.6%
+00:55:32  > Poor signal - adjust finger.
+00:55:32 +===========================================+
+00:55:32 
+00:55:33 
+00:55:33 Running AI classifier...
+00:55:33 Inference: 1468 us
+00:55:33 
+00:55:33 +===========================================+
+00:55:33  BPM:   95.8
+00:55:33  SpO2:  97.7%
+00:55:33         [reflective sensor + correction applied]
+00:55:33  Temp:  36.5 C  [not validated]
+00:55:33  HRV:   71.8 ms RMSSD  pNN50: 33.3%
+00:55:33  SigQ:  80%  [Excellent]
+00:55:33  [DBG] PI: 0.74%  motion: 20/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.7%
+00:55:33  [DBG] RR raw (ms): 1094 1208 1205 1145 1023 1073 742 568 592 627  | stored (0=gap): 1094 1208 1205 1145 1023 1073 0 0 592 0
+00:55:33 
+00:55:33  DIAGNOSIS:  Poor_signal
+00:55:33  Confidence: 99.6%
+00:55:33  > Poor signal - adjust finger.
+00:55:33 +===========================================+
+00:55:33 
+00:55:34 
+00:55:34 Running AI classifier...
+00:55:34 Inference: 1481 us
+00:55:34 
+00:55:34 +===========================================+
+00:55:34  BPM:   95.8
+00:55:34  SpO2:  97.7%
+00:55:34         [reflective sensor + correction applied]
+00:55:34  Temp:  36.5 C  [not validated]
+00:55:34  HRV:   71.0 ms RMSSD  pNN50: 36.4%
+00:55:34  SigQ:  80%  [Excellent]
+00:55:34  [DBG] PI: 0.71%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 1  R: 0.596  raw SpO2: 94.7%
+00:55:34  [DBG] RR raw (ms): 1208 1205 1145 1023 1073 742 568 592 627 1146  | stored (0=gap): 1208 1205 1145 1023 1073 0 0 592 0 0
+00:55:34 
+00:55:34  DIAGNOSIS:  Poor_signal
+00:55:34  Confidence: 99.6%
+00:55:34  > Poor signal - adjust finger.
+00:55:34 +===========================================+
+00:55:34 
+00:55:35 
+00:55:35 Running AI classifier...
+00:55:35 Inference: 1467 us
+00:55:35 
+00:55:35 +===========================================+
+00:55:35  BPM:   95.8
+00:55:35  SpO2:  97.7%
+00:55:35         [reflective sensor + correction applied]
+00:55:35  Temp:  36.5 C  [not validated]
+00:55:35  HRV:   70.5 ms RMSSD  pNN50: 40.0%
+00:55:35  SigQ:  75%  [Good]
+00:55:35  [DBG] PI: 0.64%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.7%
+00:55:35  [DBG] RR raw (ms): 1205 1145 1023 1073 742 568 592 627 1146 1100  | stored (0=gap): 1205 1145 1023 1073 0 0 592 0 0 1100
+00:55:35 
+00:55:35  DIAGNOSIS:  Poor_signal
+00:55:35  Confidence: 99.6%
+00:55:35  > Poor signal - adjust finger.
+00:55:35 +===========================================+
+00:55:35 
+00:55:36 
+00:55:36 Running AI classifier...
+00:55:36 Inference: 1485 us
+00:55:36 
+00:55:36 +===========================================+
+00:55:36  BPM:   95.8
+00:55:36  SpO2:  97.4%
+00:55:36         [reflective sensor + correction applied]
+00:55:36  Temp:  36.5 C  [not validated]
+00:55:36  HRV:   69.8 ms RMSSD  pNN50: 40.0%
+00:55:36  SigQ:  71%  [Good]
+00:55:36  [DBG] PI: 0.58%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.664  raw SpO2: 94.4%
+00:55:36  [DBG] RR raw (ms): 1145 1023 1073 742 568 592 627 1146 1100 1111  | stored (0=gap): 1145 1023 1073 0 0 592 0 0 1100 1111
+00:55:36 
+00:55:36  DIAGNOSIS:  Poor_signal
+00:55:36  Confidence: 99.6%
+00:55:36  > Poor signal - adjust finger.
+00:55:36 +===========================================+
+00:55:36 
+00:55:37 
+00:55:37 Running AI classifier...
+00:55:37 Inference: 1465 us
+00:55:37 
+00:55:37 +===========================================+
+00:55:37  BPM:   95.8
+00:55:37  SpO2:  97.4%
+00:55:37         [reflective sensor + correction applied]
+00:55:37  Temp:  36.5 C  [not validated]
+00:55:37  HRV:   69.0 ms RMSSD  pNN50: 36.4%
+00:55:37  SigQ:  69%  [Good]
+00:55:37  [DBG] PI: 0.55%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.664  raw SpO2: 94.4%
+00:55:37  [DBG] RR raw (ms): 1023 1073 742 568 592 627 1146 1100 1111 1107  | stored (0=gap): 1023 1073 0 0 592 0 0 1100 1111 1107
+00:55:37 
+00:55:37  DIAGNOSIS:  Poor_signal
+00:55:37  Confidence: 99.6%
+00:55:37  > Poor signal - adjust finger.
+00:55:37 +===========================================+
+00:55:37 
+00:55:38 
+00:55:38 Running AI classifier...
+00:55:38 Inference: 1478 us
+00:55:38 
+00:55:38 +===========================================+
+00:55:38  BPM:   95.8
+00:55:38  SpO2:  97.5%
+00:55:38         [reflective sensor + correction applied]
+00:55:38  Temp:  36.5 C  [not validated]
+00:55:38  HRV:   68.5 ms RMSSD  pNN50: 41.7%
+00:55:38  SigQ:  64%  [Good]
+00:55:38  [DBG] PI: 0.49%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.526  raw SpO2: 94.5%
+00:55:38  [DBG] RR raw (ms): 1073 742 568 592 627 1146 1100 1111 1107 1193  | stored (0=gap): 1073 0 0 592 0 0 1100 1111 1107 1193
+00:55:38 
+00:55:38  DIAGNOSIS:  Poor_signal
+00:55:38  Confidence: 99.2%
+00:55:38  > Poor signal - adjust finger.
+00:55:38 +===========================================+
+00:55:38 
+00:55:39 
+00:55:39 Running AI classifier...
+00:55:39 Inference: 1456 us
+00:55:39 
+00:55:39 +===========================================+
+00:55:39  BPM:   95.8
+00:55:39  SpO2:  97.5%
+00:55:39         [reflective sensor + correction applied]
+00:55:39  Temp:  36.4 C  [not validated]
+00:55:39  HRV:   68.5 ms RMSSD  pNN50: 41.7%
+00:55:39  SigQ:  63%  [Good]
+00:55:39  [DBG] PI: 0.47%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.526  raw SpO2: 94.5%
+00:55:39  [DBG] RR raw (ms): 1073 742 568 592 627 1146 1100 1111 1107 1193  | stored (0=gap): 1073 0 0 592 0 0 1100 1111 1107 1193
+00:55:39 
+00:55:39  DIAGNOSIS:  Poor_signal
+00:55:39  Confidence: 98.8%
+00:55:39  > Poor signal - adjust finger.
+00:55:39 +===========================================+
+00:55:39 
+00:55:40 
+00:55:40 Running AI classifier...
+00:55:40 Inference: 1481 us
+00:55:40 
+00:55:40 +===========================================+
+00:55:40  BPM:   95.8
+00:55:40  SpO2:  97.5%
+00:55:40         [reflective sensor + correction applied]
+00:55:40  Temp:  36.5 C  [not validated]
+00:55:40  HRV:   67.8 ms RMSSD  pNN50: 38.5%
+00:55:40  SigQ:  62%  [Good]
+00:55:40  [DBG] PI: 0.46%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.551  raw SpO2: 94.5%
+00:55:40  [DBG] RR raw (ms): 742 568 592 627 1146 1100 1111 1107 1193 1167  | stored (0=gap): 0 0 592 0 0 1100 1111 1107 1193 1167
+00:55:40 
+00:55:40  DIAGNOSIS:  Poor_signal
+00:55:40  Confidence: 98.8%
+00:55:40  > Poor signal - adjust finger.
+00:55:40 +===========================================+
+00:55:40 
+00:55:41 
+00:55:41 Running AI classifier...
+00:55:41 Inference: 1467 us
+00:55:41 
+00:55:41 +===========================================+
+00:55:41  BPM:   95.8
+00:55:41  SpO2:  97.5%
+00:55:41         [reflective sensor + correction applied]
+00:55:41  Temp:  36.6 C  [not validated]
+00:55:41  HRV:   67.4 ms RMSSD  pNN50: 46.2%
+00:55:41  SigQ:  63%  [Good]
+00:55:41  [DBG] PI: 0.47%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.551  raw SpO2: 94.5%
+00:55:41  [DBG] RR raw (ms): 568 592 627 1146 1100 1111 1107 1193 1167 1110  | stored (0=gap): 0 592 0 0 1100 1111 1107 1193 1167 1110
+00:55:41 
+00:55:41  DIAGNOSIS:  Poor_signal
+00:55:41  Confidence: 97.7%
+00:55:41  > Poor signal - adjust finger.
+00:55:41 +===========================================+
+00:55:41 
+00:55:42 
+00:55:42 Running AI classifier...
+00:55:42 Inference: 1482 us
+00:55:42 
+00:55:42 +===========================================+
+00:55:42  BPM:   95.8
+00:55:42  SpO2:  97.4%
+00:55:42         [reflective sensor + correction applied]
+00:55:42  Temp:  36.5 C  [not validated]
+00:55:42  HRV:   67.2 ms RMSSD  pNN50: 46.2%
+00:55:42  SigQ:  64%  [Good]
+00:55:42  [DBG] PI: 0.49%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.4%
+00:55:42  [DBG] RR raw (ms): 592 627 1146 1100 1111 1107 1193 1167 1110 1211  | stored (0=gap): 592 0 0 1100 1111 1107 1193 1167 1110 1211
+00:55:42 
+00:55:42  DIAGNOSIS:  Poor_signal
+00:55:42  Confidence: 97.7%
+00:55:42  > Poor signal - adjust finger.
+00:55:42 +===========================================+
+00:55:42 
+00:55:43 
+00:55:43 Running AI classifier...
+00:55:43 Inference: 1470 us
+00:55:43 
+00:55:43 +===========================================+
+00:55:43  BPM:   95.8
+00:55:43  SpO2:  97.4%
+00:55:43         [reflective sensor + correction applied]
+00:55:43  Temp:  36.5 C  [not validated]
+00:55:43  HRV:   67.2 ms RMSSD  pNN50: 53.8%
+00:55:43  SigQ:  61%  [Good]
+00:55:43  [DBG] PI: 0.44%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.4%
+00:55:43  [DBG] RR raw (ms): 627 1146 1100 1111 1107 1193 1167 1110 1211 1155  | stored (0=gap): 0 0 1100 1111 1107 1193 1167 1110 1211 1155
+00:55:43 
+00:55:43  DIAGNOSIS:  Poor_signal
+00:55:43  Confidence: 97.7%
+00:55:43  > Poor signal - adjust finger.
+00:55:43 +===========================================+
+00:55:43 
+00:55:44 
+00:55:44 Running AI classifier...
+00:55:44 Inference: 1482 us
+00:55:44 
+00:55:44 +===========================================+
+00:55:44  BPM:   95.8
+00:55:44  SpO2:  97.4%
+00:55:44         [reflective sensor + correction applied]
+00:55:44  Temp:  36.8 C  [not validated]
+00:55:44  HRV:   67.3 ms RMSSD  pNN50: 53.8%
+00:55:44  SigQ:  66%  [Good]
+00:55:44  [DBG] PI: 0.52%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.4%
+00:55:44  [DBG] RR raw (ms): 1146 1100 1111 1107 1193 1167 1110 1211 1155 1122  | stored (0=gap): 0 1100 1111 1107 1193 1167 1110 1211 1155 1122
+00:55:44 
+00:55:44  DIAGNOSIS:  Poor_signal
+00:55:44  Confidence: 97.3%
+00:55:44  > Poor signal - adjust finger.
+00:55:44 +===========================================+
+00:55:44 
+00:55:45 
+00:55:45 Running AI classifier...
+00:55:45 Inference: 1461 us
+00:55:45 
+00:55:45 +===========================================+
+00:55:45  BPM:   95.8
+00:55:45  SpO2:  97.4%
+00:55:45         [reflective sensor + correction applied]
+00:55:45  Temp:  36.5 C  [not validated]
+00:55:45  HRV:   67.3 ms RMSSD  pNN50: 53.8%
+00:55:45  SigQ:  70%  [Good]
+00:55:45  [DBG] PI: 0.56%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.4%
+00:55:45  [DBG] RR raw (ms): 1146 1100 1111 1107 1193 1167 1110 1211 1155 1122  | stored (0=gap): 0 1100 1111 1107 1193 1167 1110 1211 1155 1122
+00:55:45 
+00:55:45  DIAGNOSIS:  Poor_signal
+00:55:45  Confidence: 97.3%
+00:55:45  > Poor signal - adjust finger.
+00:55:45 +===========================================+
+00:55:45 
+00:55:46 
+00:55:46 Running AI classifier...
+00:55:46 Inference: 1481 us
+00:55:46 
+00:55:46 +===========================================+
+00:55:46  BPM:   95.8
+00:55:46  SpO2:  97.4%
+00:55:46         [reflective sensor + correction applied]
+00:55:46  Temp:  36.4 C  [not validated]
+00:55:46  HRV:   66.7 ms RMSSD  pNN50: 46.2%
+00:55:46  SigQ:  78%  [Good]
+00:55:46  [DBG] PI: 0.68%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.4%
+00:55:46  [DBG] RR raw (ms): 1100 1111 1107 1193 1167 1110 1211 1155 1122 1169  | stored (0=gap): 1100 1111 1107 1193 1167 1110 1211 1155 1122 1169
+00:55:46 
+00:55:46  DIAGNOSIS:  Poor_signal
+00:55:46  Confidence: 97.3%
+00:55:46  > Poor signal - adjust finger.
+00:55:46 +===========================================+
+00:55:46 
+00:55:47 
+00:55:47 Running AI classifier...
+00:55:47 Inference: 1465 us
+00:55:47 
+00:55:47 +===========================================+
+00:55:47  BPM:   95.8
+00:55:47  SpO2:  97.3%
+00:55:47         [reflective sensor + correction applied]
+00:55:47  Temp:  36.8 C  [not validated]
+00:55:47  HRV:   66.2 ms RMSSD  pNN50: 46.2%
+00:55:47  SigQ:  72%  [Good]
+00:55:47  [DBG] PI: 0.60%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.623  raw SpO2: 94.3%
+00:55:47  [DBG] RR raw (ms): 1111 1107 1193 1167 1110 1211 1155 1122 1169 1148  | stored (0=gap): 1111 1107 1193 1167 1110 1211 1155 1122 1169 1148
+00:55:47 
+00:55:47  DIAGNOSIS:  Poor_signal
+00:55:47  Confidence: 96.9%
+00:55:47  > Poor signal - adjust finger.
+00:55:47 +===========================================+
+00:55:47 
+00:55:48 
+00:55:48 Running AI classifier...
+00:55:48 Inference: 1482 us
+00:55:48 
+00:55:48 +===========================================+
+00:55:48  BPM:   95.8
+00:55:48  SpO2:  97.3%
+00:55:48         [reflective sensor + correction applied]
+00:55:48  Temp:  36.5 C  [not validated]
+00:55:48  HRV:   65.8 ms RMSSD  pNN50: 46.2%
+00:55:48  SigQ:  73%  [Good]
+00:55:48  [DBG] PI: 0.61%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.623  raw SpO2: 94.3%
+00:55:48  [DBG] RR raw (ms): 1107 1193 1167 1110 1211 1155 1122 1169 1148 1215  | stored (0=gap): 1107 1193 1167 1110 1211 1155 1122 1169 1148 1215
+00:55:48 
+00:55:48  DIAGNOSIS:  Poor_signal
+00:55:48  Confidence: 97.3%
+00:55:48  > Poor signal - adjust finger.
+00:55:48 +===========================================+
+00:55:48 
+00:55:49 
+00:55:49 Running AI classifier...
+00:55:49 Inference: 1468 us
+00:55:49 
+00:55:49 +===========================================+
+00:55:49  BPM:   95.8
+00:55:49  SpO2:  97.5%
+00:55:49         [reflective sensor + correction applied]
+00:55:49  Temp:  36.5 C  [not validated]
+00:55:49  HRV:   64.4 ms RMSSD  pNN50: 38.5%
+00:55:49  SigQ:  78%  [Good]
+00:55:49  [DBG] PI: 0.67%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 94.5%
+00:55:49  [DBG] RR raw (ms): 1193 1167 1110 1211 1155 1122 1169 1148 1215 1216  | stored (0=gap): 1193 1167 1110 1211 1155 1122 1169 1148 1215 1216
+00:55:49 
+00:55:49  DIAGNOSIS:  Poor_signal
+00:55:49  Confidence: 98.0%
+00:55:49  > Poor signal - adjust finger.
+00:55:49 +===========================================+
+00:55:49 
+00:55:50 
+00:55:50 Running AI classifier...
+00:55:50 Inference: 1480 us
+00:55:50 
+00:55:50 +===========================================+
+00:55:50  BPM:   95.8
+00:55:50  SpO2:  97.5%
+00:55:50         [reflective sensor + correction applied]
+00:55:50  Temp:  36.6 C  [not validated]
+00:55:50  HRV:   63.6 ms RMSSD  pNN50: 46.2%
+00:55:50  SigQ:  80%  [Good]
+00:55:50  [DBG] PI: 0.69%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.485  raw SpO2: 94.5%
+00:55:50  [DBG] RR raw (ms): 1167 1110 1211 1155 1122 1169 1148 1215 1216 1127  | stored (0=gap): 1167 1110 1211 1155 1122 1169 1148 1215 1216 1127
+00:55:50 
+00:55:50  DIAGNOSIS:  Poor_signal
+00:55:50  Confidence: 98.0%
+00:55:50  > Poor signal - adjust finger.
+00:55:50 +===========================================+
+00:55:50 
+00:55:51 
+00:55:51 Running AI classifier...
+00:55:51 Inference: 1466 us
+00:55:51 
+00:55:51 +===========================================+
+00:55:51  BPM:   95.8
+00:55:51  SpO2:  97.6%
+00:55:51         [reflective sensor + correction applied]
+00:55:51  Temp:  36.5 C  [not validated]
+00:55:51  HRV:   63.6 ms RMSSD  pNN50: 46.2%
+00:55:51  SigQ:  74%  [Good]
+00:55:51  [DBG] PI: 0.62%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.511  raw SpO2: 94.6%
+00:55:51  [DBG] RR raw (ms): 1167 1110 1211 1155 1122 1169 1148 1215 1216 1127  | stored (0=gap): 1167 1110 1211 1155 1122 1169 1148 1215 1216 1127
+00:55:51 
+00:55:51  DIAGNOSIS:  Poor_signal
+00:55:51  Confidence: 98.0%
+00:55:51  > Poor signal - adjust finger.
+00:55:51 +===========================================+
+00:55:51 
+00:55:52 
+00:55:52 Running AI classifier...
+00:55:52 Inference: 1478 us
+00:55:52 
+00:55:52 +===========================================+
+00:55:52  BPM:   95.8
+00:55:52  SpO2:  97.6%
+00:55:52         [reflective sensor + correction applied]
+00:55:52  Temp:  36.6 C  [not validated]
+00:55:52  HRV:   62.7 ms RMSSD  pNN50: 42.9%
+00:55:52  SigQ:  73%  [Good]
+00:55:52  [DBG] PI: 0.61%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.511  raw SpO2: 94.6%
+00:55:52  [DBG] RR raw (ms): 1110 1211 1155 1122 1169 1148 1215 1216 1127 1132  | stored (0=gap): 1110 1211 1155 1122 1169 1148 1215 1216 1127 1132
+00:55:52 
+00:55:52  DIAGNOSIS:  Poor_signal
+00:55:52  Confidence: 96.9%
+00:55:52  > Poor signal - adjust finger.
+00:55:52 +===========================================+
+00:55:52 
+00:55:53 
+00:55:53 Running AI classifier...
+00:55:53 Inference: 1461 us
+00:55:53 
+00:55:53 +===========================================+
+00:55:53  BPM:   95.8
+00:55:53  SpO2:  97.7%
+00:55:53         [reflective sensor + correction applied]
+00:55:53  Temp:  36.4 C  [not validated]
+00:55:53  HRV:   61.7 ms RMSSD  pNN50: 40.0%
+00:55:53  SigQ:  70%  [Good]
+00:55:53  [DBG] PI: 0.57%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.507  raw SpO2: 94.7%
+00:55:53  [DBG] RR raw (ms): 1211 1155 1122 1169 1148 1215 1216 1127 1132 1172  | stored (0=gap): 1211 1155 1122 1169 1148 1215 1216 1127 1132 1172
+00:55:53 
+00:55:53  DIAGNOSIS:  Poor_signal
+00:55:53  Confidence: 97.3%
+00:55:53  > Poor signal - adjust finger.
+00:55:53 +===========================================+
+00:55:53 
+00:55:54 
+00:55:54 Running AI classifier...
+00:55:54 Inference: 1485 us
+00:55:54 
+00:55:54 +===========================================+
+00:55:54  BPM:   95.8
+00:55:54  SpO2:  97.7%
+00:55:54         [reflective sensor + correction applied]
+00:55:54  Temp:  36.8 C  [not validated]
+00:55:54  HRV:   60.9 ms RMSSD  pNN50: 43.7%
+00:55:54  SigQ:  68%  [Good]
+00:55:54  [DBG] PI: 0.53%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.507  raw SpO2: 94.7%
+00:55:54  [DBG] RR raw (ms): 1155 1122 1169 1148 1215 1216 1127 1132 1172 1115  | stored (0=gap): 1155 1122 1169 1148 1215 1216 1127 1132 1172 1115
+00:55:54 
+00:55:54  DIAGNOSIS:  Poor_signal
+00:55:54  Confidence: 97.3%
+00:55:54  > Poor signal - adjust finger.
+00:55:54 +===========================================+
+00:55:54 
+00:55:55 
+00:55:55 Running AI classifier...
+00:55:55 Inference: 1461 us
+00:55:55 
+00:55:55 +===========================================+
+00:55:55  BPM:   95.8
+00:55:55  SpO2:  97.7%
+00:55:55         [reflective sensor + correction applied]
+00:55:55  Temp:  36.5 C  [not validated]
+00:55:55  HRV:   60.2 ms RMSSD  pNN50: 43.7%
+00:55:55  SigQ:  73%  [Good]
+00:55:55  [DBG] PI: 0.61%  motion: 9/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.541  raw SpO2: 94.7%
+00:55:55  [DBG] RR raw (ms): 1122 1169 1148 1215 1216 1127 1132 1172 1115 1174  | stored (0=gap): 1122 1169 1148 1215 1216 1127 1132 1172 1115 0
+00:55:55 
+00:55:55  DIAGNOSIS:  Poor_signal
+00:55:55  Confidence: 96.5%
+00:55:55  > Poor signal - adjust finger.
+00:55:55 +===========================================+
+00:55:55 
+00:55:56 
+00:55:56 Running AI classifier...
+00:55:56 Inference: 1477 us
+00:55:56 
+00:55:56 +===========================================+
+00:55:56  BPM:   95.8
+00:55:56  SpO2:  97.7%
+00:55:56         [reflective sensor + correction applied]
+00:55:56  Temp:  36.6 C  [not validated]
+00:55:56  HRV:   60.2 ms RMSSD  pNN50: 43.7%
+00:55:56  SigQ:  69%  [Good]
+00:55:56  [DBG] PI: 0.56%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.541  raw SpO2: 94.7%
+00:55:56  [DBG] RR raw (ms): 1122 1169 1148 1215 1216 1127 1132 1172 1115 1174  | stored (0=gap): 1122 1169 1148 1215 1216 1127 1132 1172 1115 0
+00:55:56 
+00:55:56  DIAGNOSIS:  Poor_signal
+00:55:56  Confidence: 96.1%
+00:55:56  > Poor signal - adjust finger.
+00:55:56 +===========================================+
+00:55:56 
+00:55:57 
+00:55:57 Running AI classifier...
+00:55:57 Inference: 1465 us
+00:55:57 
+00:55:57 +===========================================+
+00:55:57  BPM:   95.8
+00:55:57  SpO2:  97.7%
+00:55:57         [reflective sensor + correction applied]
+00:55:57  Temp:  36.7 C  [not validated]
+00:55:57  HRV:   59.5 ms RMSSD  pNN50: 43.7%
+00:55:57  SigQ:  77%  [Good]
+00:55:57  [DBG] PI: 0.66%  motion: 8/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 1  R: 0.541  raw SpO2: 94.7%
+00:55:57  [DBG] RR raw (ms): 1169 1148 1215 1216 1127 1132 1172 1115 1174 1234  | stored (0=gap): 1169 1148 1215 1216 1127 1132 1172 1115 0 1234
+00:55:57 
+00:55:57  DIAGNOSIS:  Poor_signal
+00:55:57  Confidence: 94.9%
+00:55:57  > Poor signal - adjust finger.
+00:55:57 +===========================================+
+00:55:57 
+00:55:58 
+00:55:58 Running AI classifier...
+00:55:58 Inference: 1481 us
+00:55:58 
+00:55:58 +===========================================+
+00:55:58  BPM:   95.8
+00:55:58  SpO2:  97.7%
+00:55:58         [reflective sensor + correction applied]
+00:55:58  Temp:  36.7 C  [not validated]
+00:55:58  HRV:   58.9 ms RMSSD  pNN50: 43.7%
+00:55:58  SigQ:  80%  [Excellent]
+00:55:58  [DBG] PI: 0.71%  motion: 0/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.541  raw SpO2: 94.7%
+00:55:58  [DBG] RR raw (ms): 1148 1215 1216 1127 1132 1172 1115 1174 1234 1088  | stored (0=gap): 1148 1215 1216 1127 1132 1172 1115 0 1234 0
+00:55:58 
+00:55:58  DIAGNOSIS:  Poor_signal
+00:55:58  Confidence: 94.5%
+00:55:58  > Poor signal - adjust finger.
+00:55:58 +===========================================+
+00:55:58 
+00:55:59 
+00:55:59 Running AI classifier...
+00:55:59 Inference: 1464 us
+00:55:59 
+00:55:59 +===========================================+
+00:55:59  BPM:   95.8
+00:55:59  SpO2:  97.4%
+00:55:59         [reflective sensor + correction applied]
+00:55:59  Temp:  36.8 C  [not validated]
+00:55:59  HRV:   58.5 ms RMSSD  pNN50: 46.7%
+00:55:59  SigQ:  80%  [Excellent]
+00:55:59  [DBG] PI: 0.71%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.681  raw SpO2: 94.4%
+00:55:59  [DBG] RR raw (ms): 1215 1216 1127 1132 1172 1115 1174 1234 1088 1181  | stored (0=gap): 1215 1216 1127 1132 1172 1115 0 1234 0 1181
+00:55:59 
+00:55:59  DIAGNOSIS:  Poor_signal
+00:55:59  Confidence: 95.7%
+00:55:59  > Poor signal - adjust finger.
+00:55:59 +===========================================+
+00:55:59 
+00:56:00 
+00:56:00 Running AI classifier...
+00:56:00 Inference: 1484 us
+00:56:00 
+00:56:00 +===========================================+
+00:56:00  BPM:   95.8
+00:56:00  SpO2:  97.4%
+00:56:00         [reflective sensor + correction applied]
+00:56:00  Temp:  36.5 C  [not validated]
+00:56:00  HRV:   58.2 ms RMSSD  pNN50: 46.7%
+00:56:00  SigQ:  79%  [Good]
+00:56:00  [DBG] PI: 0.69%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.681  raw SpO2: 94.4%
+00:56:00  [DBG] RR raw (ms): 1216 1127 1132 1172 1115 1174 1234 1088 1181 1152  | stored (0=gap): 1216 1127 1132 1172 1115 0 1234 0 1181 1152
+00:56:00 
+00:56:00  DIAGNOSIS:  Poor_signal
+00:56:00  Confidence: 95.7%
+00:56:00  > Poor signal - adjust finger.
+00:56:00 +===========================================+
+00:56:00 
+00:56:01 
+00:56:01 Running AI classifier...
+00:56:01 Inference: 1464 us
+00:56:01 
+00:56:01 +===========================================+
+00:56:01  BPM:   95.8
+00:56:01  SpO2:  97.3%
+00:56:01         [reflective sensor + correction applied]
+00:56:01  Temp:  36.7 C  [not validated]
+00:56:01  HRV:   57.5 ms RMSSD  pNN50: 40.0%
+00:56:01  SigQ:  75%  [Good]
+00:56:01  [DBG] PI: 0.63%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.604  raw SpO2: 94.3%
+00:56:01  [DBG] RR raw (ms): 1127 1132 1172 1115 1174 1234 1088 1181 1152 1161  | stored (0=gap): 1127 1132 1172 1115 0 1234 0 1181 1152 1161
+00:56:01 
+00:56:01  DIAGNOSIS:  Poor_signal
+00:56:01  Confidence: 96.1%
+00:56:01  > Poor signal - adjust finger.
+00:56:01 +===========================================+
+00:56:01 
+00:56:02 
+00:56:02 Running AI classifier...
+00:56:02 Inference: 1475 us
+00:56:02 
+00:56:02 +===========================================+
+00:56:02  BPM:   95.8
+00:56:02  SpO2:  97.3%
+00:56:02         [reflective sensor + correction applied]
+00:56:02  Temp:  36.8 C  [not validated]
+00:56:02  HRV:   57.5 ms RMSSD  pNN50: 40.0%
+00:56:02  SigQ:  74%  [Good]
+00:56:02  [DBG] PI: 0.62%  motion: 0/95 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.604  raw SpO2: 94.3%
+00:56:02  [DBG] RR raw (ms): 1127 1132 1172 1115 1174 1234 1088 1181 1152 1161  | stored (0=gap): 1127 1132 1172 1115 0 1234 0 1181 1152 1161
+00:56:02 
+00:56:02  DIAGNOSIS:  Poor_signal
+00:56:02  Confidence: 94.1%
+00:56:02  > Poor signal - adjust finger.
+00:56:02 +===========================================+
+00:56:02 
+00:56:03 
+00:56:03 Running AI classifier...
+00:56:03 Inference: 1464 us
+00:56:03 
+00:56:03 +===========================================+
+00:56:03  BPM:   95.8
+00:56:03  SpO2:  97.3%
+00:56:03         [reflective sensor + correction applied]
+00:56:03  Temp:  36.7 C  [not validated]
+00:56:03  HRV:   56.9 ms RMSSD  pNN50: 40.0%
+00:56:03  SigQ:  75%  [Good]
+00:56:03  [DBG] PI: 0.63%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.604  raw SpO2: 94.3%
+00:56:03  [DBG] RR raw (ms): 1132 1172 1115 1174 1234 1088 1181 1152 1161 1147  | stored (0=gap): 1132 1172 1115 0 1234 0 1181 1152 1161 1147
+00:56:03 
+00:56:03  DIAGNOSIS:  Poor_signal
+00:56:03  Confidence: 93.7%
+00:56:03  > Poor signal - adjust finger.
+00:56:03 +===========================================+
+00:56:03 
+00:56:04 
+00:56:04 Running AI classifier...
+00:56:04 Inference: 1487 us
+00:56:04 
+00:56:04 +===========================================+
+00:56:04  BPM:   95.8
+00:56:04  SpO2:  97.3%
+00:56:04         [reflective sensor + correction applied]
+00:56:04  Temp:  36.6 C  [not validated]
+00:56:04  HRV:   56.2 ms RMSSD  pNN50: 33.3%
+00:56:04  SigQ:  74%  [Good]
+00:56:04  [DBG] PI: 0.62%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.604  raw SpO2: 94.3%
+00:56:04  [DBG] RR raw (ms): 1172 1115 1174 1234 1088 1181 1152 1161 1147 1103  | stored (0=gap): 1172 1115 0 1234 0 1181 1152 1161 1147 1103
+00:56:04 
+00:56:04  DIAGNOSIS:  Poor_signal
+00:56:04  Confidence: 87.5%
+00:56:04  > Poor signal - adjust finger.
+00:56:04 +===========================================+
+00:56:04 
+00:56:05 
+00:56:05 Running AI classifier...
+00:56:05 Inference: 1468 us
+00:56:05 
+00:56:05 +===========================================+
+00:56:05  BPM:   95.8
+00:56:05  SpO2:  97.3%
+00:56:05         [reflective sensor + correction applied]
+00:56:05  Temp:  36.5 C  [not validated]
+00:56:05  HRV:   55.0 ms RMSSD  pNN50: 28.6%
+00:56:05  SigQ:  75%  [Good]
+00:56:05  [DBG] PI: 0.64%  motion: 14/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.604  raw SpO2: 94.3%
+00:56:05  [DBG] RR raw (ms): 1115 1174 1234 1088 1181 1152 1161 1147 1103 1166  | stored (0=gap): 1115 0 1234 0 1181 1152 1161 1147 1103 0
+00:56:05 
+00:56:05  DIAGNOSIS:  Poor_signal
+00:56:05  Confidence: 90.6%
+00:56:05  > Poor signal - adjust finger.
+00:56:05 +===========================================+
+00:56:05 
+00:56:06 
+00:56:06 Running AI classifier...
+00:56:06 Inference: 1476 us
+00:56:06 
+00:56:06 +===========================================+
+00:56:06  BPM:   95.8
+00:56:06  SpO2:  97.3%
+00:56:06         [reflective sensor + correction applied]
+00:56:06  Temp:  36.9 C  [not validated]
+00:56:06  HRV:   55.0 ms RMSSD  pNN50: 28.6%
+00:56:06  SigQ:  76%  [Good]
+00:56:06  [DBG] PI: 0.65%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.604  raw SpO2: 94.3%
+00:56:06  [DBG] RR raw (ms): 1115 1174 1234 1088 1181 1152 1161 1147 1103 1166  | stored (0=gap): 1115 0 1234 0 1181 1152 1161 1147 1103 0
+00:56:06 
+00:56:06  DIAGNOSIS:  Poor_signal
+00:56:06  Confidence: 91.0%
+00:56:06  > Poor signal - adjust finger.
+00:56:06 +===========================================+
+00:56:06 
+00:56:07 
+00:56:07 Running AI classifier...
+00:56:07 Inference: 1473 us
+00:56:07 
+00:56:07 +===========================================+
+00:56:07  BPM:   95.8
+00:56:07  SpO2:  97.3%
+00:56:07         [reflective sensor + correction applied]
+00:56:07  Temp:  36.6 C  [not validated]
+00:56:07  HRV:   53.8 ms RMSSD  pNN50: 23.1%
+00:56:07  SigQ:  80%  [Excellent]
+00:56:07  [DBG] PI: 0.71%  motion: 7/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.604  raw SpO2: 94.3%
+00:56:07  [DBG] RR raw (ms): 1174 1234 1088 1181 1152 1161 1147 1103 1166 1683  | stored (0=gap): 0 1234 0 1181 1152 1161 1147 1103 0 0
+00:56:07 
+00:56:07  DIAGNOSIS:  Poor_signal
+00:56:07  Confidence: 91.4%
+00:56:07  > Poor signal - adjust finger.
+00:56:07 +===========================================+
+00:56:07 
+00:56:08 
+00:56:08 Running AI classifier...
+00:56:08 Inference: 1484 us
+00:56:08 
+00:56:08 +===========================================+
+00:56:08  BPM:   95.8
+00:56:08  SpO2:  97.2%
+00:56:08         [reflective sensor + correction applied]
+00:56:08  Temp:  36.7 C  [not validated]
+00:56:08  HRV:   52.8 ms RMSSD  pNN50: 25.0%
+00:56:08  SigQ:  80%  [Excellent]
+00:56:08  [DBG] PI: 0.71%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.605  raw SpO2: 94.2%
+00:56:08  [DBG] RR raw (ms): 1234 1088 1181 1152 1161 1147 1103 1166 1683 1160  | stored (0=gap): 1234 0 1181 1152 1161 1147 1103 0 0 1160
+00:56:08 
+00:56:08  DIAGNOSIS:  Poor_signal
+00:56:08  Confidence: 84.0%
+00:56:08  > Poor signal - adjust finger.
+00:56:08 +===========================================+
+00:56:08 
+00:56:09 
+00:56:09 Running AI classifier...
+00:56:09 Inference: 1467 us
+00:56:09 
+00:56:09 +===========================================+
+00:56:09  BPM:   95.8
+00:56:09  SpO2:  97.2%
+00:56:09         [reflective sensor + correction applied]
+00:56:09  Temp:  36.7 C  [not validated]
+00:56:09  HRV:   51.8 ms RMSSD  pNN50: 25.0%
+00:56:09  SigQ:  77%  [Good]
+00:56:09  [DBG] PI: 0.65%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.605  raw SpO2: 94.2%
+00:56:09  [DBG] RR raw (ms): 1088 1181 1152 1161 1147 1103 1166 1683 1160 1115  | stored (0=gap): 0 1181 1152 1161 1147 1103 0 0 1160 1115
+00:56:09 
+00:56:09  DIAGNOSIS:  Poor_signal
+00:56:09  Confidence: 80.5%
+00:56:09  > Poor signal - adjust finger.
+00:56:09 +===========================================+
+00:56:09 
+00:56:10 
+00:56:10 Running AI classifier...
+00:56:10 Inference: 1475 us
+00:56:10 
+00:56:10 +===========================================+
+00:56:10  BPM:   95.8
+00:56:10  SpO2:  97.2%
+00:56:10         [reflective sensor + correction applied]
+00:56:10  Temp:  36.7 C  [not validated]
+00:56:10  HRV:   51.8 ms RMSSD  pNN50: 25.0%
+00:56:10  SigQ:  80%  [Excellent]
+00:56:10  [DBG] PI: 0.72%  motion: 5/98 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.584  raw SpO2: 94.2%
+00:56:10  [DBG] RR raw (ms): 1088 1181 1152 1161 1147 1103 1166 1683 1160 1115  | stored (0=gap): 0 1181 1152 1161 1147 1103 0 0 1160 1115
+00:56:10 
+00:56:10  DIAGNOSIS:  Poor_signal
+00:56:10  Confidence: 76.6%
+00:56:10  > Poor signal - adjust finger.
+00:56:10 +===========================================+
+00:56:10 
+00:56:11 
+00:56:11 Running AI classifier...
+00:56:11 Inference: 1467 us
+00:56:11 
+00:56:11 +===========================================+
+00:56:11  BPM:   95.8
+00:56:11  SpO2:  97.2%
+00:56:11         [reflective sensor + correction applied]
+00:56:11  Temp:  36.7 C  [not validated]
+00:56:11  HRV:   51.2 ms RMSSD  pNN50: 27.3%
+00:56:11  SigQ:  81%  [Excellent]
+00:56:11  [DBG] PI: 0.78%  motion: 0/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.584  raw SpO2: 94.2%
+00:56:11  [DBG] RR raw (ms): 1181 1152 1161 1147 1103 1166 1683 1160 1115 1719  | stored (0=gap): 1181 1152 1161 1147 1103 0 0 1160 1115 0
+00:56:11 
+00:56:11  DIAGNOSIS:  Poor_signal
+00:56:11  Confidence: 61.7%
+00:56:11  > Poor signal - adjust finger.
+00:56:11 +===========================================+
+00:56:11 
+00:56:12 
+00:56:12 Running AI classifier...
+00:56:12 Inference: 1485 us
+00:56:12 
+00:56:12 +===========================================+
+00:56:12  BPM:   95.8
+00:56:12  SpO2:  97.1%
+00:56:12         [reflective sensor + correction applied]
+00:56:12  Temp:  36.6 C  [not validated]
+00:56:12  HRV:   50.3 ms RMSSD  pNN50: 20.0%
+00:56:12  SigQ:  80%  [Excellent]
+00:56:12  [DBG] PI: 0.73%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.613  raw SpO2: 94.1%
+00:56:12  [DBG] RR raw (ms): 1152 1161 1147 1103 1166 1683 1160 1115 1719 1103  | stored (0=gap): 1152 1161 1147 1103 0 0 1160 1115 0 1103
+00:56:12 
+00:56:12  DIAGNOSIS:  Poor_signal
+00:56:12  Confidence: 61.7%
+00:56:12  > Poor signal - adjust finger.
+00:56:12 +===========================================+
+00:56:12 
+00:56:13 
+00:56:13 Running AI classifier...
+00:56:13 Inference: 1467 us
+00:56:13 
+00:56:13 +===========================================+
+00:56:13  BPM:   95.8
+00:56:13  SpO2:  97.1%
+00:56:13         [reflective sensor + correction applied]
+00:56:13  Temp:  36.6 C  [not validated]
+00:56:13  HRV:   49.5 ms RMSSD  pNN50: 20.0%
+00:56:13  SigQ:  80%  [Excellent]
+00:56:13  [DBG] PI: 0.70%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.613  raw SpO2: 94.1%
+00:56:13  [DBG] RR raw (ms): 1161 1147 1103 1166 1683 1160 1115 1719 1103 1120  | stored (0=gap): 1161 1147 1103 0 0 1160 1115 0 1103 1120
+00:56:13 
+00:56:13  DIAGNOSIS:  Poor_signal
+00:56:13  Confidence: 61.7%
+00:56:13  > Poor signal - adjust finger.
+00:56:13 +===========================================+
+00:56:13 
+00:56:14 
+00:56:14 Running AI classifier...
+00:56:14 Inference: 1483 us
+00:56:14 
+00:56:14 +===========================================+
+00:56:14  BPM:   95.8
+00:56:14  SpO2:  97.1%
+00:56:14         [reflective sensor + correction applied]
+00:56:14  Temp:  36.5 C  [not validated]
+00:56:14  HRV:   47.9 ms RMSSD  pNN50: 10.0%
+00:56:14  SigQ:  75%  [Good]
+00:56:14  [DBG] PI: 0.64%  motion: 0/99 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.574  raw SpO2: 94.1%
+00:56:14  [DBG] RR raw (ms): 1147 1103 1166 1683 1160 1115 1719 1103 1120 1090  | stored (0=gap): 1147 1103 0 0 1160 1115 0 1103 1120 1090
+00:56:14 
+00:56:14  DIAGNOSIS:  Hypoxia
+00:56:14  Confidence: 61.7%
+00:56:14  > Low SpO2 indicator.
+00:56:14 +===========================================+
+00:56:14 
+00:56:15 
+00:56:15 Running AI classifier...
+00:56:15 Inference: 1468 us
+00:56:15 
+00:56:15 +===========================================+
+00:56:15  BPM:   95.8
+00:56:15  SpO2:  97.1%
+00:56:15         [reflective sensor + correction applied]
+00:56:15  Temp:  36.6 C  [not validated]
+00:56:15  HRV:   47.0 ms RMSSD  pNN50: 20.0%
+00:56:15  SigQ:  75%  [Good]
+00:56:15  [DBG] PI: 0.63%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.574  raw SpO2: 94.1%
+00:56:15  [DBG] RR raw (ms): 1103 1166 1683 1160 1115 1719 1103 1120 1090 1029  | stored (0=gap): 1103 0 0 1160 1115 0 1103 1120 1090 1029
+00:56:15 
+00:56:15  DIAGNOSIS:  Poor_signal
+00:56:15  Confidence: 86.7%
+00:56:15  > Poor signal - adjust finger.
+00:56:15 +===========================================+
+00:56:15 
+00:56:16 
+00:56:16 Running AI classifier...
+00:56:16 Inference: 1485 us
+00:56:16 
+00:56:16 +===========================================+
+00:56:16  BPM:   95.8
+00:56:16  SpO2:  97.0%
+00:56:16         [reflective sensor + correction applied]
+00:56:16  Temp:  36.5 C  [not validated]
+00:56:16  HRV:   46.0 ms RMSSD  pNN50: 20.0%
+00:56:16  SigQ:  71%  [Good]
+00:56:16  [DBG] PI: 0.58%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.622  raw SpO2: 94.0%
+00:56:16  [DBG] RR raw (ms): 1166 1683 1160 1115 1719 1103 1120 1090 1029 1006  | stored (0=gap): 0 0 1160 1115 0 1103 1120 1090 1029 1006
+00:56:16 
+00:56:16  DIAGNOSIS:  Poor_signal
+00:56:16  Confidence: 69.5%
+00:56:16  > Poor signal - adjust finger.
+00:56:16 +===========================================+
+00:56:16 
+00:56:17 
+00:56:17 Running AI classifier...
+00:56:17 Inference: 1468 us
+00:56:17 
+00:56:17 +===========================================+
+00:56:17  BPM:   95.8
+00:56:17  SpO2:  97.0%
+00:56:17         [reflective sensor + correction applied]
+00:56:17  Temp:  36.7 C  [not validated]
+00:56:17  HRV:   44.8 ms RMSSD  pNN50: 10.0%
+00:56:17  SigQ:  68%  [Good]
+00:56:17  [DBG] PI: 0.53%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.622  raw SpO2: 94.0%
+00:56:17  [DBG] RR raw (ms): 1683 1160 1115 1719 1103 1120 1090 1029 1006 1036  | stored (0=gap): 0 1160 1115 0 1103 1120 1090 1029 1006 1036
+00:56:17 
+00:56:17  DIAGNOSIS:  Poor_signal
+00:56:17  Confidence: 60.5%
+00:56:17  > Poor signal - adjust finger.
+00:56:17 +===========================================+
+00:56:17 
+00:56:18 
+00:56:18 Running AI classifier...
+00:56:18 Inference: 1482 us
+00:56:18 
+00:56:18 +===========================================+
+00:56:18  BPM:   95.8
+00:56:18  SpO2:  97.1%
+00:56:18         [reflective sensor + correction applied]
+00:56:18  Temp:  36.6 C  [not validated]
+00:56:18  HRV:   44.8 ms RMSSD  pNN50: 10.0%
+00:56:18  SigQ:  67%  [Good]
+00:56:18  [DBG] PI: 0.53%  motion: 0/98 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.551  raw SpO2: 94.1%
+00:56:18  [DBG] RR raw (ms): 1683 1160 1115 1719 1103 1120 1090 1029 1006 1036  | stored (0=gap): 0 1160 1115 0 1103 1120 1090 1029 1006 1036
+00:56:18 
+00:56:18  DIAGNOSIS:  Uncertain
+00:56:18  Confidence: 51.6%
+00:56:18  [Suppressed: low model confidence]
+00:56:18  > Improve signal quality / hold still.
+00:56:18 +===========================================+
+00:56:18 
+00:56:19 
+00:56:19 Running AI classifier...
+00:56:19 Inference: 1469 us
+00:56:19 
+00:56:19 +===========================================+
+00:56:19  BPM:   95.8
+00:56:19  SpO2:  97.1%
+00:56:19         [reflective sensor + correction applied]
+00:56:19  Temp:  36.9 C  [not validated]
+00:56:19  HRV:   43.7 ms RMSSD  pNN50: 10.0%
+00:56:19  SigQ:  68%  [Good]
+00:56:19  [DBG] PI: 0.54%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.551  raw SpO2: 94.1%
+00:56:19  [DBG] RR raw (ms): 1160 1115 1719 1103 1120 1090 1029 1006 1036 1233  | stored (0=gap): 1160 1115 0 1103 1120 1090 1029 1006 1036 0
+00:56:19 
+00:56:19  DIAGNOSIS:  Stressed
+00:56:19  Confidence: 79.3%
+00:56:19  > Elevated stress indicators.
+00:56:19 +===========================================+
+00:56:19 
+00:56:20 
+00:56:20 Running AI classifier...
+00:56:20 Inference: 1486 us
+00:56:20 
+00:56:20 +===========================================+
+00:56:20  BPM:   95.8
+00:56:20  SpO2:  97.2%
+00:56:20         [reflective sensor + correction applied]
+00:56:20  Temp:  36.7 C  [not validated]
+00:56:20  HRV:   42.7 ms RMSSD  pNN50: 10.0%
+00:56:20  SigQ:  73%  [Good]
+00:56:20  [DBG] PI: 0.60%  motion: 1/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.538  raw SpO2: 94.2%
+00:56:21  [DBG] RR raw (ms): 1115 1719 1103 1120 1090 1029 1006 1036 1233 1328  | stored (0=gap): 1115 0 1103 1120 1090 1029 1006 1036 0 0
+00:56:21 
+00:56:21  DIAGNOSIS:  Stressed
+00:56:21  Confidence: 99.2%
+00:56:21  > Elevated stress indicators.
+00:56:21 +===========================================+
+00:56:21 
+00:56:21 
+00:56:21 Running AI classifier...
+00:56:21 Inference: 1468 us
+00:56:21 
+00:56:22 +===========================================+
+00:56:22  BPM:   95.8
+00:56:22  SpO2:  97.2%
+00:56:22         [reflective sensor + correction applied]
+00:56:22  Temp:  36.9 C  [not validated]
+00:56:22  HRV:   41.8 ms RMSSD  pNN50: 10.0%
+00:56:22  SigQ:  76%  [Good]
+00:56:22  [DBG] PI: 0.64%  motion: 39/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.538  raw SpO2: 94.2%
+00:56:22  [DBG] RR raw (ms): 1719 1103 1120 1090 1029 1006 1036 1233 1328 1249  | stored (0=gap): 0 1103 1120 1090 1029 1006 1036 0 0 0
+00:56:22 
+00:56:22  DIAGNOSIS:  Stressed
+00:56:22  Confidence: 99.2%
+00:56:22  > Elevated stress indicators.
+00:56:22 +===========================================+
+00:56:22 
+00:56:23 
+00:56:23 Running AI classifier...
+00:56:23 Inference: 1480 us
+00:56:23 
+00:56:23 +===========================================+
+00:56:23  BPM:   95.8
+00:56:23  SpO2:  97.2%
+00:56:23         [reflective sensor + correction applied]
+00:56:23  Temp:  36.9 C  [not validated]
+00:56:23  HRV:   41.8 ms RMSSD  pNN50: 10.0%
+00:56:23  SigQ:  80%  [Excellent]
+00:56:23  [DBG] PI: 0.70%  motion: 6/95 samples  RR clean/gap: 0/0  SpO2 windows rejected: 1  R: 0.538  raw SpO2: 94.2%
+00:56:23  [DBG] RR raw (ms): 1719 1103 1120 1090 1029 1006 1036 1233 1328 1249  | stored (0=gap): 0 1103 1120 1090 1029 1006 1036 0 0 0
+00:56:23 
+00:56:23  DIAGNOSIS:  Stressed
+00:56:23  Confidence: 99.2%
+00:56:23  > Elevated stress indicators.
+00:56:23 +===========================================+
+00:56:23 
+00:56:24 
+00:56:24 Running AI classifier...
+00:56:24 Inference: 1468 us
+00:56:24 
+00:56:24 +===========================================+
+00:56:24  BPM:   95.8
+00:56:24  SpO2:  97.2%
+00:56:24         [reflective sensor + correction applied]
+00:56:24  Temp:  36.8 C  [not validated]
+00:56:24  HRV:   41.0 ms RMSSD  pNN50: 10.0%
+00:56:24  SigQ:  78%  [Good]
+00:56:24  [DBG] PI: 0.67%  motion: 0/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.538  raw SpO2: 94.2%
+00:56:24  [DBG] RR raw (ms): 1103 1120 1090 1029 1006 1036 1233 1328 1249 1152  | stored (0=gap): 1103 1120 1090 1029 1006 1036 0 0 0 0
+00:56:24 
+00:56:24  DIAGNOSIS:  Stressed
+00:56:24  Confidence: 99.2%
+00:56:24  > Elevated stress indicators.
+00:56:24 +===========================================+
+00:56:24 
+00:56:25 
+00:56:25 Running AI classifier...
+00:56:25 Inference: 1486 us
+00:56:25 
+00:56:25 +===========================================+
+00:56:25  BPM:   95.8
+00:56:25  SpO2:  97.1%
+00:56:25         [reflective sensor + correction applied]
+00:56:25  Temp:  36.8 C  [not validated]
+00:56:25  HRV:   40.3 ms RMSSD  pNN50: 11.1%
+00:56:25  SigQ:  80%  [Excellent]
+00:56:25  [DBG] PI: 0.73%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.636  raw SpO2: 94.1%
+00:56:25  [DBG] RR raw (ms): 1120 1090 1029 1006 1036 1233 1328 1249 1152 1099  | stored (0=gap): 1120 1090 1029 1006 1036 0 0 0 0 1099
+00:56:25 
+00:56:25  DIAGNOSIS:  Stressed
+00:56:25  Confidence: 99.2%
+00:56:25  > Elevated stress indicators.
+00:56:25 +===========================================+
+00:56:25 
+00:56:26 
+00:56:26 Running AI classifier...
+00:56:26 Inference: 1467 us
+00:56:26 
+00:56:26 +===========================================+
+00:56:26  BPM:   95.8
+00:56:26  SpO2:  97.1%
+00:56:26         [reflective sensor + correction applied]
+00:56:26  Temp:  36.8 C  [not validated]
+00:56:26  HRV:   40.7 ms RMSSD  pNN50: 22.2%
+00:56:26  SigQ:  80%  [Good]
+00:56:26  [DBG] PI: 0.70%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.636  raw SpO2: 94.1%
+00:56:26  [DBG] RR raw (ms): 1090 1029 1006 1036 1233 1328 1249 1152 1099 1181  | stored (0=gap): 1090 1029 1006 1036 0 0 0 0 1099 1181
+00:56:26 
+00:56:26  DIAGNOSIS:  Stressed
+00:56:26  Confidence: 91.8%
+00:56:26  > Elevated stress indicators.
+00:56:26 +===========================================+
+00:56:26 
+00:56:27 
+00:56:27 Running AI classifier...
+00:56:27 Inference: 1486 us
+00:56:27 
+00:56:27 +===========================================+
+00:56:27  BPM:   95.8
+00:56:27  SpO2:  97.1%
+00:56:27         [reflective sensor + correction applied]
+00:56:27  Temp:  36.7 C  [not validated]
+00:56:27  HRV:   40.9 ms RMSSD  pNN50: 22.2%
+00:56:27  SigQ:  80%  [Excellent]
+00:56:27  [DBG] PI: 0.71%  motion: 0/99 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.566  raw SpO2: 94.1%
+00:56:27  [DBG] RR raw (ms): 1029 1006 1036 1233 1328 1249 1152 1099 1181 1186  | stored (0=gap): 1029 1006 1036 0 0 0 0 1099 1181 1186
+00:56:27 
+00:56:27  DIAGNOSIS:  Uncertain
+00:56:27  Confidence: 40.2%
+00:56:27  [Suppressed: low model confidence]
+00:56:27  > Improve signal quality / hold still.
+00:56:27 +===========================================+
+00:56:27 
+00:56:28 
+00:56:28 Running AI classifier...
+00:56:28 Inference: 1462 us
+00:56:28 
+00:56:28 +===========================================+
+00:56:28  BPM:   95.8
+00:56:28  SpO2:  97.1%
+00:56:28         [reflective sensor + correction applied]
+00:56:28  Temp:  36.8 C  [not validated]
+00:56:28  HRV:   40.9 ms RMSSD  pNN50: 22.2%
+00:56:28  SigQ:  82%  [Excellent]
+00:56:28  [DBG] PI: 0.97%  motion: 0/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.566  raw SpO2: 94.1%
+00:56:28  [DBG] RR raw (ms): 1029 1006 1036 1233 1328 1249 1152 1099 1181 1186  | stored (0=gap): 1029 1006 1036 0 0 0 0 1099 1181 1186
+00:56:28 
+00:56:28  DIAGNOSIS:  Hypoxia
+00:56:28  Confidence: 98.0%
+00:56:28  > Low SpO2 indicator.
+00:56:28 +===========================================+
+00:56:28 
+00:56:29 
+00:56:29 Running AI classifier...
+00:56:29 Inference: 1483 us
+00:56:29 
+00:56:29 +===========================================+
+00:56:29  BPM:   95.8
+00:56:29  SpO2:  97.1%
+00:56:29         [reflective sensor + correction applied]
+00:56:29  Temp:  36.8 C  [not validated]
+00:56:29  HRV:   41.2 ms RMSSD  pNN50: 25.0%
+00:56:29  SigQ:  83%  [Excellent]
+00:56:29  [DBG] PI: 1.14%  motion: 0/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.566  raw SpO2: 94.1%
+00:56:29  [DBG] RR raw (ms): 1006 1036 1233 1328 1249 1152 1099 1181 1186 1676  | stored (0=gap): 1006 1036 0 0 0 0 1099 1181 1186 0
+00:56:29 
+00:56:29  DIAGNOSIS:  Hypoxia
+00:56:29  Confidence: 98.0%
+00:56:29  > Low SpO2 indicator.
+00:56:29 +===========================================+
+00:56:29 
+00:56:30 
+00:56:30 Running AI classifier...
+00:56:30 Inference: 1465 us
+00:56:30 
+00:56:30 +===========================================+
+00:56:30  BPM:   95.8
+00:56:30  SpO2:  97.1%
+00:56:30         [reflective sensor + correction applied]
+00:56:30  Temp:  36.5 C  [not validated]
+00:56:30  HRV:   41.4 ms RMSSD  pNN50: 25.0%
+00:56:30  SigQ:  83%  [Excellent]
+00:56:30  [DBG] PI: 1.16%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.566  raw SpO2: 94.1%
+00:56:30  [DBG] RR raw (ms): 1036 1233 1328 1249 1152 1099 1181 1186 1676 1410  | stored (0=gap): 1036 0 0 0 0 1099 1181 1186 0 0
+00:56:30 
+00:56:30  DIAGNOSIS:  Hypoxia
+00:56:30  Confidence: 97.7%
+00:56:30  > Low SpO2 indicator.
+00:56:30 +===========================================+
+00:56:30 
+00:56:31 
+00:56:31 Running AI classifier...
+00:56:31 Inference: 1485 us
+00:56:31 
+00:56:31 +===========================================+
+00:56:31  BPM:   95.8
+00:56:31  SpO2:  97.1%
+00:56:31         [reflective sensor + correction applied]
+00:56:31  Temp:  36.9 C  [not validated]
+00:56:31  HRV:   41.6 ms RMSSD  pNN50: 25.0%
+00:56:31  SigQ:  82%  [Excellent]
+00:56:31  [DBG] PI: 0.95%  motion: 0/98 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.566  raw SpO2: 94.1%
+00:56:31  [DBG] RR raw (ms): 1233 1328 1249 1152 1099 1181 1186 1676 1410 942  | stored (0=gap): 0 0 0 0 1099 1181 1186 0 0 0
+00:56:31 
+00:56:31  DIAGNOSIS:  Hypoxia
+00:56:31  Confidence: 95.7%
+00:56:31  > Low SpO2 indicator.
+00:56:31 +===========================================+
+00:56:31 
+00:56:32 
+00:56:32 Running AI classifier...
+00:56:32 Inference: 1467 us
+00:56:32 
+00:56:32 +===========================================+
+00:56:32  BPM:   96.3
+00:56:32  SpO2:  97.1%
+00:56:32         [reflective sensor + correction applied]
+00:56:32  Temp:  36.9 C  [not validated]
+00:56:32  HRV:   41.8 ms RMSSD  pNN50: 25.0%
+00:56:32  SigQ:  81%  [Excellent]
+00:56:32  [DBG] PI: 0.91%  motion: 0/99 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.566  raw SpO2: 94.1%
+00:56:32  [DBG] RR raw (ms): 1328 1249 1152 1099 1181 1186 1676 1410 942 575  | stored (0=gap): 0 0 0 1099 1181 1186 0 0 0 0
+00:56:32 
+00:56:32  DIAGNOSIS:  Hypoxia
+00:56:32  Confidence: 95.7%
+00:56:32  > Low SpO2 indicator.
+00:56:32 +===========================================+
+00:56:32 
+00:56:33 
+00:56:33 Running AI classifier...
+00:56:33 Inference: 1485 us
+00:56:33 
+00:56:33 +===========================================+
+00:56:33  BPM:   96.4
+00:56:33  SpO2:  97.1%
+00:56:33         [reflective sensor + correction applied]
+00:56:33  Temp:  36.8 C  [not validated]
+00:56:33  HRV:   42.8 ms RMSSD  pNN50: 37.5%
+00:56:33  SigQ:  81%  [Excellent]
+00:56:33  [DBG] PI: 0.93%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.566  raw SpO2: 94.1%
+00:56:33  [DBG] RR raw (ms): 1152 1099 1181 1186 1676 1410 942 575 675 590  | stored (0=gap): 0 1099 1181 1186 0 0 0 0 675 590
+00:56:33 
+00:56:33  DIAGNOSIS:  Hypoxia
+00:56:33  Confidence: 94.9%
+00:56:33  > Low SpO2 indicator.
+00:56:33 +===========================================+
+00:56:33 
+00:56:34 
+00:56:34 Running AI classifier...
+00:56:34 Inference: 1467 us
+00:56:34 
+00:56:34 +===========================================+
+00:56:34  BPM:   96.7
+00:56:34  SpO2:  97.1%
+00:56:34         [reflective sensor + correction applied]
+00:56:34  Temp:  36.7 C  [not validated]
+00:56:34  HRV:   43.9 ms RMSSD  pNN50: 33.3%
+00:56:34  SigQ:  81%  [Excellent]
+00:56:34  [DBG] PI: 0.79%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.566  raw SpO2: 94.1%
+00:56:34  [DBG] RR raw (ms): 1181 1186 1676 1410 942 575 675 590 577 614  | stored (0=gap): 1181 1186 0 0 0 0 675 590 577 614
+00:56:34 
+00:56:34  DIAGNOSIS:  Hypoxia
+00:56:34  Confidence: 94.5%
+00:56:34  > Low SpO2 indicator.
+00:56:34 +===========================================+
+00:56:34 
+00:56:35 
+00:56:35 Running AI classifier...
+00:56:35 Inference: 1485 us
+00:56:35 
+00:56:35 +===========================================+
+00:56:35  BPM:   97.3
+00:56:35  SpO2:  97.2%
+00:56:35         [reflective sensor + correction applied]
+00:56:35  Temp:  36.8 C  [not validated]
+00:56:35  HRV:   45.0 ms RMSSD  pNN50: 44.4%
+00:56:35  SigQ:  80%  [Excellent]
+00:56:35  [DBG] PI: 0.72%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.529  raw SpO2: 94.2%
+00:56:35  [DBG] RR raw (ms): 1186 1676 1410 942 575 675 590 577 614 532  | stored (0=gap): 1186 0 0 0 0 675 590 577 614 532
+00:56:35 
+00:56:35  DIAGNOSIS:  Hypoxia
+00:56:35  Confidence: 86.3%
+00:56:35  > Low SpO2 indicator.
+00:56:35 +===========================================+
+00:56:35 
+00:56:36 
+00:56:36 Running AI classifier...
+00:56:36 Inference: 1467 us
+00:56:36 
+00:56:36 +===========================================+
+00:56:36  BPM:   98.1
+00:56:36  SpO2:  97.2%
+00:56:36         [reflective sensor + correction applied]
+00:56:36  Temp:  36.8 C  [not validated]
+00:56:36  HRV:   47.7 ms RMSSD  pNN50: 44.4%
+00:56:36  SigQ:  77%  [Good]
+00:56:36  [DBG] PI: 0.66%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.529  raw SpO2: 94.2%
+00:56:36  [DBG] RR raw (ms): 1410 942 575 675 590 577 614 532 619 587  | stored (0=gap): 0 0 0 675 590 577 614 532 619 587
+00:56:36 
+00:56:36  DIAGNOSIS:  Hypoxia
+00:56:36  Confidence: 81.6%
+00:56:36  > Low SpO2 indicator.
+00:56:36 +===========================================+
+00:56:36 
+00:56:37 
+00:56:37 Running AI classifier...
+00:56:37 Inference: 1485 us
+00:56:37 
+00:56:37 +===========================================+
+00:56:37  BPM:   98.9
+00:56:37  SpO2:  97.3%
+00:56:37         [reflective sensor + correction applied]
+00:56:37  Temp:  36.7 C  [not validated]
+00:56:37  HRV:   49.8 ms RMSSD  pNN50: 40.0%
+00:56:37  SigQ:  71%  [Good]
+00:56:37  [DBG] PI: 0.59%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.559  raw SpO2: 94.3%
+00:56:37  [DBG] RR raw (ms): 575 675 590 577 614 532 619 587 558 604  | stored (0=gap): 0 675 590 577 614 532 619 587 558 604
+00:56:37 
+00:56:37  DIAGNOSIS:  Hypoxia
+00:56:37  Confidence: 69.9%
+00:56:37  > Low SpO2 indicator.
+00:56:37 +===========================================+
+00:56:37 
+00:56:38 
+00:56:38 Running AI classifier...
+00:56:38 Inference: 1467 us
+00:56:38 
+00:56:38 +===========================================+
+00:56:38  BPM:   99.3
+00:56:38  SpO2:  97.3%
+00:56:38         [reflective sensor + correction applied]
+00:56:38  Temp:  36.7 C  [not validated]
+00:56:38  HRV:   50.5 ms RMSSD  pNN50: 36.4%
+00:56:38  SigQ:  70%  [Good]
+00:56:38  [DBG] PI: 0.57%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.559  raw SpO2: 94.3%
+00:56:38  [DBG] RR raw (ms): 675 590 577 614 532 619 587 558 604 566  | stored (0=gap): 675 590 577 614 532 619 587 558 604 566
+00:56:38 
+00:56:38  DIAGNOSIS:  Hypoxia
+00:56:38  Confidence: 64.1%
+00:56:38  > Low SpO2 indicator.
+00:56:38 +===========================================+
+00:56:38 
+00:56:39 
+00:56:39 Running AI classifier...
+00:56:39 Inference: 1485 us
+00:56:39 
+00:56:39 +===========================================+
+00:56:39  BPM:   99.8
+00:56:39  SpO2:  97.3%
+00:56:39         [reflective sensor + correction applied]
+00:56:39  Temp:  37.0 C  [not validated]
+00:56:39  HRV:   51.3 ms RMSSD  pNN50: 33.3%
+00:56:39  SigQ:  81%  [Excellent]
+00:56:39  [DBG] PI: 0.89%  motion: 9/98 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.559  raw SpO2: 94.3%
+00:56:39  [DBG] RR raw (ms): 577 614 532 619 587 558 604 566 602 590  | stored (0=gap): 577 614 532 619 587 558 604 566 602 0
+00:56:39 
+00:56:39  DIAGNOSIS:  Hypoxia
+00:56:39  Confidence: 70.7%
+00:56:39  > Low SpO2 indicator.
+00:56:39 +===========================================+
+00:56:39 
+00:56:40 
+00:56:40 Running AI classifier...
+00:56:40 Inference: 1468 us
+00:56:40 
+00:56:40 +===========================================+
+00:56:40  BPM:   100.0
+00:56:40  SpO2:  97.3%
+00:56:40         [reflective sensor + correction applied]
+00:56:40  Temp:  36.7 C  [not validated]
+00:56:40  HRV:   51.8 ms RMSSD  pNN50: 27.3%
+00:56:40  SigQ:  81%  [Excellent]
+00:56:40  [DBG] PI: 0.87%  motion: 0/95 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.559  raw SpO2: 94.3%
+00:56:40  [DBG] RR raw (ms): 532 619 587 558 604 566 602 590 547 668  | stored (0=gap): 532 619 587 558 604 566 602 0 547 0
+00:56:40 
+00:56:40  DIAGNOSIS:  Hypoxia
+00:56:40  Confidence: 80.1%
+00:56:40  > Low SpO2 indicator.
+00:56:40 +===========================================+
+00:56:40 
+00:56:41 
+00:56:41 Running AI classifier...
+00:56:41 Inference: 1485 us
+00:56:41 
+00:56:41 +===========================================+
+00:56:41  BPM:   100.1
+00:56:41  SpO2:  97.3%
+00:56:41         [reflective sensor + correction applied]
+00:56:41  Temp:  36.8 C  [not validated]
+00:56:41  HRV:   52.0 ms RMSSD  pNN50: 30.0%
+00:56:41  SigQ:  81%  [Excellent]
+00:56:41  [DBG] PI: 0.84%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.559  raw SpO2: 94.3%
+00:56:41  [DBG] RR raw (ms): 619 587 558 604 566 602 590 547 668 565  | stored (0=gap): 619 587 558 604 566 602 0 547 0 565
+00:56:41 
+00:56:41  DIAGNOSIS:  Hypoxia
+00:56:41  Confidence: 80.5%
+00:56:41  > Low SpO2 indicator.
+00:56:41 +===========================================+
+00:56:41 
+00:56:42 
+00:56:42 Running AI classifier...
+00:56:42 Inference: 1467 us
+00:56:42 
+00:56:42 +===========================================+
+00:56:42  BPM:   100.1
+00:56:42  SpO2:  97.0%
+00:56:42         [reflective sensor + correction applied]
+00:56:42  Temp:  36.9 C  [not validated]
+00:56:42  HRV:   52.3 ms RMSSD  pNN50: 33.3%
+00:56:42  SigQ:  79%  [Good]
+00:56:42  [DBG] PI: 0.69%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.685  raw SpO2: 94.0%
+00:56:42  [DBG] RR raw (ms): 558 604 566 602 590 547 668 565 609 558  | stored (0=gap): 558 604 566 602 0 547 0 565 609 558
+00:56:42 
+00:56:42  DIAGNOSIS:  Hypoxia
+00:56:42  Confidence: 76.6%
+00:56:42  > Low SpO2 indicator.
+00:56:42 +===========================================+
+00:56:42 
+00:56:43 
+00:56:43 Running AI classifier...
+00:56:43 Inference: 1485 us
+00:56:43 
+00:56:43 +===========================================+
+00:56:43  BPM:   100.3
+00:56:43  SpO2:  97.0%
+00:56:43         [reflective sensor + correction applied]
+00:56:43  Temp:  36.8 C  [not validated]
+00:56:43  HRV:   52.2 ms RMSSD  pNN50: 28.6%
+00:56:43  SigQ:  78%  [Good]
+00:56:43  [DBG] PI: 0.68%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.685  raw SpO2: 94.0%
+00:56:43  [DBG] RR raw (ms): 566 602 590 547 668 565 609 558 582 628  | stored (0=gap): 566 602 0 547 0 565 609 558 582 628
+00:56:43 
+00:56:43  DIAGNOSIS:  Hypoxia
+00:56:43  Confidence: 84.0%
+00:56:43  > Low SpO2 indicator.
+00:56:43 +===========================================+
+00:56:43 
+00:56:44 
+00:56:44 Running AI classifier...
+00:56:44 Inference: 1467 us
+00:56:44 
+00:56:44 +===========================================+
+00:56:44  BPM:   100.6
+00:56:44  SpO2:  97.1%
+00:56:44         [reflective sensor + correction applied]
+00:56:44  Temp:  36.9 C  [not validated]
+00:56:44  HRV:   52.3 ms RMSSD  pNN50: 33.3%
+00:56:44  SigQ:  78%  [Good]
+00:56:44  [DBG] PI: 0.67%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.538  raw SpO2: 94.1%
+00:56:44  [DBG] RR raw (ms): 602 590 547 668 565 609 558 582 628 556  | stored (0=gap): 602 0 547 0 565 609 558 582 628 556
+00:56:44 
+00:56:44  DIAGNOSIS:  Hypoxia
+00:56:44  Confidence: 86.7%
+00:56:44  > Low SpO2 indicator.
+00:56:44 +===========================================+
+00:56:44 
+00:56:45 
+00:56:45 Running AI classifier...
+00:56:45 Inference: 1485 us
+00:56:45 
+00:56:45 +===========================================+
+00:56:45  BPM:   101.2
+00:56:45  SpO2:  97.1%
+00:56:45         [reflective sensor + correction applied]
+00:56:45  Temp:  36.8 C  [not validated]
+00:56:45  HRV:   51.6 ms RMSSD  pNN50: 26.7%
+00:56:45  SigQ:  72%  [Good]
+00:56:45  [DBG] PI: 0.59%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.538  raw SpO2: 94.1%
+00:56:45  [DBG] RR raw (ms): 547 668 565 609 558 582 628 556 570 530  | stored (0=gap): 547 0 565 609 558 582 628 556 570 530
+00:56:45 
+00:56:45  DIAGNOSIS:  Hypoxia
+00:56:45  Confidence: 84.0%
+00:56:45  > Low SpO2 indicator.
+00:56:45 +===========================================+
+00:56:45 
+00:56:46 
+00:56:46 Running AI classifier...
+00:56:46 Inference: 1464 us
+00:56:46 
+00:56:46 +===========================================+
+00:56:46  BPM:   101.9
+00:56:46  SpO2:  97.2%
+00:56:46         [reflective sensor + correction applied]
+00:56:46  Temp:  36.8 C  [not validated]
+00:56:46  HRV:   51.2 ms RMSSD  pNN50: 26.7%
+00:56:46  SigQ:  68%  [Good]
+00:56:46  [DBG] PI: 0.54%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.560  raw SpO2: 94.2%
+00:56:46  [DBG] RR raw (ms): 565 609 558 582 628 556 570 530 574 644  | stored (0=gap): 565 609 558 582 628 556 570 530 574 644
+00:56:46 
+00:56:46  DIAGNOSIS:  Hypoxia
+00:56:46  Confidence: 84.0%
+00:56:46  > Low SpO2 indicator.
+00:56:46 +===========================================+
+00:56:46 
+00:56:47 
+00:56:47 Running AI classifier...
+00:56:47 Inference: 1485 us
+00:56:47 
+00:56:47 +===========================================+
+00:56:47  BPM:   102.0
+00:56:47  SpO2:  97.2%
+00:56:47         [reflective sensor + correction applied]
+00:56:47  Temp:  36.7 C  [not validated]
+00:56:47  HRV:   50.7 ms RMSSD  pNN50: 26.7%
+00:56:47  SigQ:  65%  [Good]
+00:56:47  [DBG] PI: 0.50%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.560  raw SpO2: 94.2%
+00:56:47  [DBG] RR raw (ms): 609 558 582 628 556 570 530 574 644 580  | stored (0=gap): 609 558 582 628 556 570 530 574 644 580
+00:56:47 
+00:56:47  DIAGNOSIS:  Hypoxia
+00:56:47  Confidence: 84.0%
+00:56:47  > Low SpO2 indicator.
+00:56:47 +===========================================+
+00:56:47 
+00:56:48 
+00:56:48 Running AI classifier...
+00:56:48 Inference: 1467 us
+00:56:48 
+00:56:48 +===========================================+
+00:56:48  BPM:   101.2
+00:56:48  SpO2:  97.4%
+00:56:48         [reflective sensor + correction applied]
+00:56:48  Temp:  36.9 C  [not validated]
+00:56:48  HRV:   49.7 ms RMSSD  pNN50: 26.7%
+00:56:48  SigQ:  63%  [Good]
+00:56:48  [DBG] PI: 0.47%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.500  raw SpO2: 94.4%
+00:56:48  [DBG] RR raw (ms): 582 628 556 570 530 574 644 580 614 615  | stored (0=gap): 582 628 556 570 530 574 644 580 614 615
+00:56:48 
+00:56:48  DIAGNOSIS:  Hypoxia
+00:56:48  Confidence: 86.7%
+00:56:48  > Low SpO2 indicator.
+00:56:48 +===========================================+
+00:56:48 
+00:56:49 
+00:56:49 Running AI classifier...
+00:56:49 Inference: 1485 us
+00:56:49 
+00:56:49 +===========================================+
+00:56:49  BPM:   101.0
+00:56:49  SpO2:  97.4%
+00:56:49         [reflective sensor + correction applied]
+00:56:49  Temp:  36.9 C  [not validated]
+00:56:49  HRV:   49.2 ms RMSSD  pNN50: 26.7%
+00:56:49  SigQ:  62%  [Good]
+00:56:49  [DBG] PI: 0.46%  motion: 8/99 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.500  raw SpO2: 94.4%
+00:56:49  [DBG] RR raw (ms): 628 556 570 530 574 644 580 614 615 605  | stored (0=gap): 628 556 570 530 574 644 580 614 615 605
+00:56:49 
+00:56:49  DIAGNOSIS:  Hypoxia
+00:56:49  Confidence: 91.4%
+00:56:49  > Low SpO2 indicator.
+00:56:49 +===========================================+
+00:56:49 
+00:56:50 
+00:56:50 Running AI classifier...
+00:56:50 Inference: 1467 us
+00:56:50 
+00:56:50 +===========================================+
+00:56:50  BPM:   100.1
+00:56:50  SpO2:  97.3%
+00:56:50         [reflective sensor + correction applied]
+00:56:50  Temp:  36.8 C  [not validated]
+00:56:50  HRV:   48.3 ms RMSSD  pNN50: 30.8%
+00:56:50  SigQ:  77%  [Good]
+00:56:50  [DBG] PI: 0.66%  motion: 2/98 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.3%
+00:56:50  [DBG] RR raw (ms): 570 530 574 644 580 614 615 605 633 596  | stored (0=gap): 570 530 574 644 580 614 615 605 0 596
+00:56:50 
+00:56:50  DIAGNOSIS:  Hypoxia
+00:56:50  Confidence: 93.0%
+00:56:50  > Low SpO2 indicator.
+00:56:50 +===========================================+
+00:56:50 
+00:56:51 
+00:56:51 Running AI classifier...
+00:56:51 Inference: 1485 us
+00:56:51 
+00:56:51 +===========================================+
+00:56:51  BPM:   99.7
+00:56:51  SpO2:  97.3%
+00:56:51         [reflective sensor + correction applied]
+00:56:51  Temp:  37.0 C  [not validated]
+00:56:51  HRV:   47.3 ms RMSSD  pNN50: 26.7%
+00:56:51  SigQ:  77%  [Good]
+00:56:51  [DBG] PI: 0.66%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.596  raw SpO2: 94.3%
+00:56:51  [DBG] RR raw (ms): 574 644 580 614 615 605 633 596 590 601  | stored (0=gap): 574 644 580 614 615 605 0 596 590 601
+00:56:51 
+00:56:51  DIAGNOSIS:  Hypoxia
+00:56:51  Confidence: 93.0%
+00:56:51  > Low SpO2 indicator.
+00:56:51 +===========================================+
+00:56:51 
+00:56:52 
+00:56:52 Running AI classifier...
+00:56:52 Inference: 1467 us
+00:56:52 
+00:56:52 +===========================================+
+00:56:52  BPM:   100.1
+00:56:52  SpO2:  97.2%
+00:56:52         [reflective sensor + correction applied]
+00:56:52  Temp:  36.9 C  [not validated]
+00:56:52  HRV:   47.1 ms RMSSD  pNN50: 31.3%
+00:56:52  SigQ:  71%  [Good]
+00:56:52  [DBG] PI: 0.58%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.620  raw SpO2: 94.2%
+00:56:52  [DBG] RR raw (ms): 644 580 614 615 605 633 596 590 601 519  | stored (0=gap): 644 580 614 615 605 0 596 590 601 519
+00:56:52 
+00:56:52  DIAGNOSIS:  Hypoxia
+00:56:52  Confidence: 93.0%
+00:56:52  > Low SpO2 indicator.
+00:56:52 +===========================================+
+00:56:52 
+00:56:53 
+00:56:53 Running AI classifier...
+00:56:53 Inference: 1485 us
+00:56:53 
+00:56:53 +===========================================+
+00:56:53  BPM:   100.4
+00:56:53  SpO2:  97.2%
+00:56:53         [reflective sensor + correction applied]
+00:56:53  Temp:  36.7 C  [not validated]
+00:56:53  HRV:   46.8 ms RMSSD  pNN50: 33.3%
+00:56:53  SigQ:  70%  [Good]
+00:56:53  [DBG] PI: 0.57%  motion: 0/98 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.620  raw SpO2: 94.2%
+00:56:53  [DBG] RR raw (ms): 614 615 605 633 596 590 601 519 630 593  | stored (0=gap): 614 615 605 0 596 590 601 519 0 593
+00:56:53 
+00:56:53  DIAGNOSIS:  Hypoxia
+00:56:53  Confidence: 96.1%
+00:56:53  > Low SpO2 indicator.
+00:56:53 +===========================================+
+00:56:53 
+00:56:54 
+00:56:54 Running AI classifier...
+00:56:54 Inference: 1467 us
+00:56:54 
+00:56:54 +===========================================+
+00:56:54  BPM:   101.2
+00:56:54  SpO2:  97.2%
+00:56:54         [reflective sensor + correction applied]
+00:56:54  Temp:  37.0 C  [not validated]
+00:56:54  HRV:   47.2 ms RMSSD  pNN50: 40.0%
+00:56:54  SigQ:  68%  [Good]
+00:56:54  [DBG] PI: 0.53%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.565  raw SpO2: 94.2%
+00:56:54  [DBG] RR raw (ms): 605 633 596 590 601 519 630 593 518 578  | stored (0=gap): 605 0 596 590 601 519 0 593 518 578
+00:56:54 
+00:56:54  DIAGNOSIS:  Hypoxia
+00:56:54  Confidence: 94.9%
+00:56:54  > Low SpO2 indicator.
+00:56:54 +===========================================+
+00:56:54 
+00:56:55 
+00:56:55 Running AI classifier...
+00:56:55 Inference: 1485 us
+00:56:55 
+00:56:55 +===========================================+
+00:56:55  BPM:   101.7
+00:56:55  SpO2:  97.2%
+00:56:55         [reflective sensor + correction applied]
+00:56:55  Temp:  36.9 C  [not validated]
+00:56:55  HRV:   47.4 ms RMSSD  pNN50: 40.0%
+00:56:55  SigQ:  73%  [Good]
+00:56:55  [DBG] PI: 0.60%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.565  raw SpO2: 94.2%
+00:56:55  [DBG] RR raw (ms): 633 596 590 601 519 630 593 518 578 553  | stored (0=gap): 0 596 590 601 519 0 593 518 578 553
+00:56:55 
+00:56:55  DIAGNOSIS:  Hypoxia
+00:56:55  Confidence: 95.3%
+00:56:55  > Low SpO2 indicator.
+00:56:55 +===========================================+
+00:56:55 
+00:56:56 
+00:56:56 Running AI classifier...
+00:56:56 Inference: 1467 us
+00:56:56 
+00:56:56 +===========================================+
+00:56:56  BPM:   102.2
+00:56:56  SpO2:  97.4%
+00:56:56         [reflective sensor + correction applied]
+00:56:56  Temp:  36.8 C  [not validated]
+00:56:56  HRV:   47.3 ms RMSSD  pNN50: 33.3%
+00:56:56  SigQ:  73%  [Good]
+00:56:56  [DBG] PI: 0.61%  motion: 0/99 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.521  raw SpO2: 94.4%
+00:56:56  [DBG] RR raw (ms): 590 601 519 630 593 518 578 553 599 591  | stored (0=gap): 590 601 519 0 593 518 578 553 599 591
+00:56:56 
+00:56:56  DIAGNOSIS:  Hypoxia
+00:56:56  Confidence: 94.9%
+00:56:56  > Low SpO2 indicator.
+00:56:56 +===========================================+
+00:56:57 
+00:56:57 
+00:56:57 Running AI classifier...
+00:56:57 Inference: 1485 us
+00:56:57 
+00:56:57 +===========================================+
+00:56:57  BPM:   101.8
+00:56:57  SpO2:  97.4%
+00:56:57         [reflective sensor + correction applied]
+00:56:57  Temp:  36.7 C  [not validated]
+00:56:57  HRV:   46.9 ms RMSSD  pNN50: 33.3%
+00:56:57  SigQ:  72%  [Good]
+00:56:58  [DBG] PI: 0.59%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.521  raw SpO2: 94.4%
+00:56:58  [DBG] RR raw (ms): 519 630 593 518 578 553 599 591 610 612  | stored (0=gap): 519 0 593 518 578 553 599 591 610 612
+00:56:58 
+00:56:58  DIAGNOSIS:  Hypoxia
+00:56:58  Confidence: 96.5%
+00:56:58  > Low SpO2 indicator.
+00:56:58 +===========================================+
+00:56:58 
+00:56:59 
+00:56:59 Running AI classifier...
+00:56:59 Inference: 1467 us
+00:56:59 
+00:56:59 +===========================================+
+00:56:59  BPM:   101.5
+00:56:59  SpO2:  97.2%
+00:56:59         [reflective sensor + correction applied]
+00:56:59  Temp:  37.0 C  [not validated]
+00:56:59  HRV:   46.3 ms RMSSD  pNN50: 26.7%
+00:56:59  SigQ:  67%  [Good]
+00:56:59  [DBG] PI: 0.53%  motion: 0/98 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.625  raw SpO2: 94.2%
+00:56:59  [DBG] RR raw (ms): 630 593 518 578 553 599 591 610 612 591  | stored (0=gap): 0 593 518 578 553 599 591 610 612 591
+00:56:59 
+00:56:59  DIAGNOSIS:  Hypoxia
+00:56:59  Confidence: 97.7%
+00:56:59  > Low SpO2 indicator.
+00:56:59 +===========================================+
+00:56:59 
+00:57:00 
+00:57:00 Running AI classifier...
+00:57:00 Inference: 1481 us
+00:57:00 
+00:57:00 +===========================================+
+00:57:00  BPM:   101.3
+00:57:00  SpO2:  97.2%
+00:57:00         [reflective sensor + correction applied]
+00:57:00  Temp:  36.8 C  [not validated]
+00:57:00  HRV:   44.8 ms RMSSD  pNN50: 26.7%
+00:57:00  SigQ:  69%  [Good]
+00:57:00  [DBG] PI: 0.55%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.625  raw SpO2: 94.2%
+00:57:00  [DBG] RR raw (ms): 518 578 553 599 591 610 612 591 606 545  | stored (0=gap): 518 578 553 599 591 610 612 591 606 545
+00:57:00 
+00:57:00  DIAGNOSIS:  Hypoxia
+00:57:00  Confidence: 98.4%
+00:57:00  > Low SpO2 indicator.
+00:57:00 +===========================================+
+00:57:00 
+00:57:01 
+00:57:01 Running AI classifier...
+00:57:01 Inference: 1467 us
+00:57:01 
+00:57:01 +===========================================+
+00:57:01  BPM:   101.6
+00:57:01  SpO2:  97.2%
+00:57:01         [reflective sensor + correction applied]
+00:57:01  Temp:  36.8 C  [not validated]
+00:57:01  HRV:   44.1 ms RMSSD  pNN50: 26.7%
+00:57:01  SigQ:  66%  [Good]
+00:57:01  [DBG] PI: 0.51%  motion: 0/98 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.583  raw SpO2: 94.2%
+00:57:01  [DBG] RR raw (ms): 553 599 591 610 612 591 606 545 583 583  | stored (0=gap): 553 599 591 610 612 591 606 545 583 583
+00:57:01 
+00:57:01  DIAGNOSIS:  Hypoxia
+00:57:01  Confidence: 98.8%
+00:57:01  > Low SpO2 indicator.
+00:57:01 +===========================================+
+00:57:01 
+00:57:02 
+00:57:02 Running AI classifier...
+00:57:02 Inference: 1485 us
+00:57:02 
+00:57:02 +===========================================+
+00:57:02  BPM:   102.3
+00:57:02  SpO2:  97.2%
+00:57:02         [reflective sensor + correction applied]
+00:57:02  Temp:  36.9 C  [not validated]
+00:57:02  HRV:   44.1 ms RMSSD  pNN50: 31.3%
+00:57:02  SigQ:  68%  [Good]
+00:57:02  [DBG] PI: 0.54%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.583  raw SpO2: 94.2%
+00:57:02  [DBG] RR raw (ms): 599 591 610 612 591 606 545 583 583 505  | stored (0=gap): 599 591 610 612 591 606 545 583 583 505
+00:57:02 
+00:57:02  DIAGNOSIS:  Hypoxia
+00:57:02  Confidence: 99.2%
+00:57:02  > Low SpO2 indicator.
+00:57:02 +===========================================+
+00:57:02 
+00:57:03 
+00:57:03 Running AI classifier...
+00:57:03 Inference: 1467 us
+00:57:03 
+00:57:03 +===========================================+
+00:57:03  BPM:   103.1
+00:57:03  SpO2:  97.4%
+00:57:03         [reflective sensor + correction applied]
+00:57:03  Temp:  36.8 C  [not validated]
+00:57:03  HRV:   44.5 ms RMSSD  pNN50: 35.3%
+00:57:03  SigQ:  63%  [Good]
+00:57:03  [DBG] RR raw (ms): 610 612 591 606 545 583 583 505 576 557  | stored (0=gap): 610 612 591 606 545 583 583 505 576 557
+00:57:03 
+00:57:03  DIAGNOSIS:  Hypoxia
+00:57:03  Confidence: 98.8%
+00:57:03  > Low SpO2 indicator.
+00:57:03 +===========================================+
+00:57:03 
+00:57:04 
+00:57:04 Running AI classifier...
+00:57:04 Inference: 1485 us
+00:57:04 
+00:57:04 +===========================================+
+00:57:04  BPM:   103.1
+00:57:04  SpO2:  97.4%
+00:57:04         [reflective sensor + correction applied]
+00:57:04  Temp:  37.0 C  [not validated]
+00:57:04  HRV:   44.8 ms RMSSD  pNN50: 35.3%
+00:57:04  SigQ:  68%  [Good]
+00:57:04  [DBG] PI: 0.55%  motion: 0/99 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.490  raw SpO2: 94.4%
+00:57:04  [DBG] RR raw (ms): 591 606 545 583 583 505 576 557 596 650  | stored (0=gap): 591 606 545 583 583 505 576 557 596 650
+00:57:04 
+00:57:04  DIAGNOSIS:  Hypoxia
+00:57:04  Confidence: 98.0%
+00:57:04  > Low SpO2 indicator.
+00:57:04 +===========================================+
+00:57:04 
+00:57:05 

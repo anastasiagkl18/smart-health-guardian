@@ -1,0 +1,2645 @@
+﻿01:14:45 ets Jul 29 2019 12:21:46
+01:14:45 
+01:14:45 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+01:14:45 configsip: 0, SPIWP:0xee
+01:14:45 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+01:14:45 mode:DIO, clock div:1
+01:14:45 load:0x3fff0030,len:4980
+01:14:45 load:0x40078000,len:16612
+01:14:45 load:0x40080400,len:3500
+01:14:45 entry 0x400805b4
+01:14:46 
+01:14:46 -------------------------------------------
+01:14:46  SMART HEALTH GUARDIAN - V29.0
+01:14:46 -------------------------------------------
+01:14:46  Research prototype - not a medical device.
+01:14:46  DEBUG MODE: ON
+01:14:46  Warmup: 15s after finger detected.
+01:14:46 
+01:14:46 NO FINGER DETECTED
+01:14:48 NO FINGER DETECTED
+01:14:49 NO FINGER DETECTED
+01:14:50 NO FINGER DETECTED
+01:14:50 Warming up... 15s remaining. Hold still.
+01:14:51 Warming up... 14s remaining. Hold still.
+01:14:52 Warming up... 13s remaining. Hold still.
+01:14:53 Warming up... 12s remaining. Hold still.
+01:14:54 Warming up... 11s remaining. Hold still.
+01:14:55 Warming up... 10s remaining. Hold still.
+01:14:56 Warming up... 9s remaining. Hold still.
+01:14:57 Warming up... 8s remaining. Hold still.
+01:14:58 Warming up... 7s remaining. Hold still.
+01:14:59 Warming up... 6s remaining. Hold still.
+01:15:00 Warming up... 5s remaining. Hold still.
+01:15:01 Warming up... 4s remaining. Hold still.
+01:15:02 Warming up... 3s remaining. Hold still.
+01:15:03 Warming up... 2s remaining. Hold still.
+01:15:04 Warming up... 1s remaining. Hold still.
+01:15:05 Waiting for valid BPM / SpO2 / HRV...
+01:15:05  [DBG] BPM 0.0 -- | SpO2 ok (R 0.475) | HRV -- | SigQ 75% PI 0.64% | motion 372/1498 | RR clean/gap 0/0
+01:15:05  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+01:15:07 Waiting for valid BPM / SpO2 / HRV...
+01:15:07  [DBG] BPM 0.0 -- | SpO2 ok (R 0.491) | HRV -- | SigQ 72% PI 0.60% | motion 0/202 | RR clean/gap 0/0
+01:15:07  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+01:15:09 Waiting for valid BPM / SpO2 / HRV...
+01:15:09  [DBG] BPM 0.0 -- | SpO2 ok (R 0.467) | HRV -- | SigQ 80% PI 0.77% | motion 0/202 | RR clean/gap 0/0
+01:15:09  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+01:15:11 Waiting for valid BPM / SpO2 / HRV...
+01:15:11  [DBG] BPM 0.0 -- | SpO2 ok (R 0.467) | HRV -- | SigQ 70% PI 0.56% | motion 0/202 | RR clean/gap 0/0
+01:15:11  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+01:15:13 Waiting for valid BPM / SpO2 / HRV...
+01:15:13  [DBG] BPM 0.0 -- | SpO2 ok (R 0.604) | HRV -- | SigQ 55% PI 0.37% | motion 0/202 | RR clean/gap 0/0
+01:15:13  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+01:15:15 Waiting for valid BPM / SpO2 / HRV...
+01:15:15  [DBG] BPM 0.0 -- | SpO2 ok (R 0.496) | HRV -- | SigQ 59% PI 0.42% | motion 0/202 | RR clean/gap 0/0
+01:15:15  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+01:15:17 Waiting for valid BPM / SpO2 / HRV...
+01:15:17  [DBG] BPM 0.0 -- | SpO2 ok (R 0.496) | HRV -- | SigQ 64% PI 0.48% | motion 0/202 | RR clean/gap 0/0
+01:15:17  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+01:15:19 Waiting for valid BPM / SpO2 / HRV...
+01:15:19  [DBG] BPM 0.0 -- | SpO2 ok (R 0.439) | HRV -- | SigQ 55% PI 0.37% | motion 0/202 | RR clean/gap 0/0
+01:15:19  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 0  | stored (0=gap):
+01:15:21 Waiting for valid BPM / SpO2 / HRV...
+01:15:21  [DBG] BPM 0.0 -- | SpO2 ok (R 0.475) | HRV -- | SigQ 52% PI 0.32% | motion 0/202 | RR clean/gap 0/1
+01:15:21  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 0 5251  | stored (0=gap): 0
+01:15:23 Waiting for valid BPM / SpO2 / HRV...
+01:15:23  [DBG] BPM 0.0 -- | SpO2 ok (R 0.465) | HRV -- | SigQ 63% PI 0.48% | motion 0/202 | RR clean/gap 0/1
+01:15:23  [DBG] RR raw (ms): 0 0 0 0 0 0 0 0 5251 1303  | stored (0=gap): 0 0
+01:15:25 Waiting for valid BPM / SpO2 / HRV...
+01:15:25  [DBG] BPM 0.0 -- | SpO2 ok (R 0.465) | HRV -- | SigQ 65% PI 0.50% | motion 3/202 | RR clean/gap 0/3
+01:15:25  [DBG] RR raw (ms): 0 0 0 0 0 5251 1303 1666 878 641  | stored (0=gap): 0 0 0 0 0
+01:15:27 Waiting for valid BPM / SpO2 / HRV...
+01:15:27  [DBG] BPM 0.0 -- | SpO2 ok (R 0.448) | HRV -- | SigQ 58% PI 0.41% | motion 0/202 | RR clean/gap 3/0
+01:15:27  [DBG] RR raw (ms): 0 0 5251 1303 1666 878 641 649 687 688  | stored (0=gap): 0 0 0 0 0 649 687 688
+01:15:29 Waiting for valid BPM / SpO2 / HRV...
+01:15:29  [DBG] BPM 0.0 -- | SpO2 ok (R 0.474) | HRV -- | SigQ 62% PI 0.45% | motion 0/202 | RR clean/gap 0/1
+01:15:29  [DBG] RR raw (ms): 0 5251 1303 1666 878 641 649 687 688 1990  | stored (0=gap): 0 0 0 0 0 649 687 688 0
+01:15:31 Waiting for valid BPM / SpO2 / HRV...
+01:15:31  [DBG] BPM 56.0 ok | SpO2 ok (R 0.474) | HRV -- | SigQ 80% PI 0.72% | motion 5/202 | RR clean/gap 0/2
+01:15:31  [DBG] RR raw (ms): 1303 1666 878 641 649 687 688 1990 1272 903  | stored (0=gap): 0 0 0 0 649 687 688 0 0 0
+01:15:33 Waiting for valid BPM / SpO2 / HRV...
+01:15:33  [DBG] BPM 56.4 ok | SpO2 ok (R 0.474) | HRV -- | SigQ 68% PI 0.53% | motion 0/202 | RR clean/gap 1/0
+01:15:33  [DBG] RR raw (ms): 1666 878 641 649 687 688 1990 1272 903 971  | stored (0=gap): 0 0 0 649 687 688 0 0 0 971
+01:15:35 Waiting for valid BPM / SpO2 / HRV...
+01:15:35  [DBG] BPM 56.4 ok | SpO2 ok (R 0.479) | HRV -- | SigQ 80% PI 0.71% | motion 2/202 | RR clean/gap 0/2
+01:15:35  [DBG] RR raw (ms): 641 649 687 688 1990 1272 903 971 1188 1157  | stored (0=gap): 0 649 687 688 0 0 0 971 0 0
+01:15:37 Waiting for valid BPM / SpO2 / HRV...
+01:15:37  [DBG] BPM 55.8 ok | SpO2 ok (R 0.449) | HRV -- | SigQ 81% PI 0.84% | motion 0/202 | RR clean/gap 2/0
+01:15:38  [DBG] RR raw (ms): 687 688 1990 1272 903 971 1188 1157 1069 1092  | stored (0=gap): 687 688 0 0 0 971 0 0 1069 1092
+01:15:42 
+01:15:42 Running AI classifier...
+01:15:42 INFO: Impulse maintains state. Call run_classifier_init() to reset state (e.g. if data stream is interrupted.)
+01:15:42 Inference: 2241 us
+01:15:42 
+01:15:42 +===========================================+
+01:15:42  BPM:   56.1
+01:15:42  SpO2:  98.8%
+01:15:42         [reflective sensor + correction applied]
+01:15:42  Temp:  30.0 C (skin only - TEMP_OFFSET needs adjustment)
+01:15:42  HRV:   58.4 ms RMSSD  pNN50: 20.0%
+01:15:42  SigQ:  73%  [Good]
+01:15:42  [DBG] PI: 0.60%  motion: 2/482 samples  RR clean/gap: 2/2  SpO2 windows rejected: 0  R: 0.539  raw SpO2: 95.8%
+01:15:42  [DBG] RR raw (ms): 903 971 1188 1157 1069 1092 1106 1228 1920 763  | stored (0=gap): 0 971 0 0 1069 1092 1106 1228 0 0
+01:15:42 
+01:15:42  DIAGNOSIS:  Uncertain
+01:15:42  Confidence: 100.0%
+01:15:42  Anomaly:    0.63  [outside training data]
+01:15:42  [Suppressed: outside the training data (anomaly score)]
+01:15:42  > Improve signal quality / hold still.
+01:15:42 +===========================================+
+01:15:42 
+01:15:43 
+01:15:43 Running AI classifier...
+01:15:43 Inference: 1234 us
+01:15:43 
+01:15:43 +===========================================+
+01:15:43  BPM:   56.9
+01:15:43  SpO2:  98.8%
+01:15:43         [reflective sensor + correction applied]
+01:15:43  Temp:  30.2 C (skin only - TEMP_OFFSET needs adjustment)
+01:15:43  HRV:   58.4 ms RMSSD  pNN50: 20.0%
+01:15:43  SigQ:  70%  [Good]
+01:15:43  [DBG] PI: 0.57%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.539  raw SpO2: 95.8%
+01:15:43  [DBG] RR raw (ms): 971 1188 1157 1069 1092 1106 1228 1920 763 856  | stored (0=gap): 971 0 0 1069 1092 1106 1228 0 0 856
+01:15:43 
+01:15:43  DIAGNOSIS:  Uncertain
+01:15:43  Confidence: 100.0%
+01:15:43  Anomaly:    0.62  [outside training data]
+01:15:43  [Suppressed: outside the training data (anomaly score)]
+01:15:43  > Improve signal quality / hold still.
+01:15:43 +===========================================+
+01:15:43 
+01:15:44 
+01:15:44 Running AI classifier...
+01:15:44 Inference: 1252 us
+01:15:44 
+01:15:44 +===========================================+
+01:15:44  BPM:   56.9
+01:15:44  SpO2:  99.0%
+01:15:44         [reflective sensor + correction applied]
+01:15:44  Temp:  30.2 C (skin only - TEMP_OFFSET needs adjustment)
+01:15:44  HRV:   58.4 ms RMSSD  pNN50: 20.0%
+01:15:44  SigQ:  68%  [Good]
+01:15:44  [DBG] PI: 0.54%  motion: 0/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.393  raw SpO2: 96.0%
+01:15:44  [DBG] RR raw (ms): 1188 1157 1069 1092 1106 1228 1920 763 856 1013  | stored (0=gap): 0 0 1069 1092 1106 1228 0 0 856 0
+01:15:44 
+01:15:44  DIAGNOSIS:  Uncertain
+01:15:44  Confidence: 100.0%
+01:15:44  Anomaly:    0.61  [outside training data]
+01:15:44  [Suppressed: outside the training data (anomaly score)]
+01:15:44  > Improve signal quality / hold still.
+01:15:44 +===========================================+
+01:15:44 
+01:15:45 
+01:15:45 Running AI classifier...
+01:15:45 Inference: 1235 us
+01:15:45 
+01:15:45 +===========================================+
+01:15:45  BPM:   56.9
+01:15:45  SpO2:  99.0%
+01:15:45         [reflective sensor + correction applied]
+01:15:45  Temp:  30.0 C (skin only - TEMP_OFFSET needs adjustment)
+01:15:45  HRV:   58.4 ms RMSSD  pNN50: 20.0%
+01:15:45  SigQ:  63%  [Good]
+01:15:45  [DBG] PI: 0.48%  motion: 0/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.393  raw SpO2: 96.0%
+01:15:45  [DBG] RR raw (ms): 1157 1069 1092 1106 1228 1920 763 856 1013 1267  | stored (0=gap): 0 1069 1092 1106 1228 0 0 856 0 0
+01:15:45 
+01:15:45  DIAGNOSIS:  Uncertain
+01:15:45  Confidence: 100.0%
+01:15:45  Anomaly:    0.60  [outside training data]
+01:15:45  [Suppressed: outside the training data (anomaly score)]
+01:15:45  > Improve signal quality / hold still.
+01:15:45 +===========================================+
+01:15:45 
+01:15:46 
+01:15:46 Running AI classifier...
+01:15:46 Inference: 1212 us
+01:15:46 
+01:15:46 +===========================================+
+01:15:46  BPM:   56.9
+01:15:46  SpO2:  99.0%
+01:15:46         [reflective sensor + correction applied]
+01:15:46  Temp:  30.1 C (skin only - TEMP_OFFSET needs adjustment)
+01:15:46  HRV:   58.4 ms RMSSD  pNN50: 20.0%
+01:15:46  SigQ:  56%  [Good]
+01:15:46  [DBG] PI: 0.38%  motion: 0/95 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.393  raw SpO2: 96.0%
+01:15:46  [DBG] RR raw (ms): 1157 1069 1092 1106 1228 1920 763 856 1013 1267  | stored (0=gap): 0 1069 1092 1106 1228 0 0 856 0 0
+01:15:46 
+01:15:46  DIAGNOSIS:  Uncertain
+01:15:46  Confidence: 100.0%
+01:15:46  Anomaly:    0.60  [outside training data]
+01:15:46  [Suppressed: outside the training data (anomaly score)]
+01:15:46  > Improve signal quality / hold still.
+01:15:46 +===========================================+
+01:15:46 
+01:15:47 
+01:15:47 Running AI classifier...
+01:15:47 Inference: 1245 us
+01:15:47 
+01:15:47 +===========================================+
+01:15:47  BPM:   56.9
+01:15:47  SpO2:  98.6%
+01:15:47         [reflective sensor + correction applied]
+01:15:47  Temp:  30.3 C (skin only - TEMP_OFFSET needs adjustment)
+01:15:47  HRV:   58.4 ms RMSSD  pNN50: 20.0%
+01:15:47  SigQ:  59%  [Good]
+01:15:47  [DBG] PI: 0.42%  motion: 0/96 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.610  raw SpO2: 95.6%
+01:15:47  [DBG] RR raw (ms): 1092 1106 1228 1920 763 856 1013 1267 1032 1044  | stored (0=gap): 1092 1106 1228 0 0 856 0 0 0 1044
+01:15:47 
+01:15:47  DIAGNOSIS:  Uncertain
+01:15:47  Confidence: 100.0%
+01:15:47  Anomaly:    0.60  [outside training data]
+01:15:47  [Suppressed: outside the training data (anomaly score)]
+01:15:47  > Improve signal quality / hold still.
+01:15:47 +===========================================+
+01:15:47 
+01:15:48 
+01:15:48 Running AI classifier...
+01:15:48 Inference: 1218 us
+01:15:48 
+01:15:48 +===========================================+
+01:15:48  BPM:   56.9
+01:15:48  SpO2:  98.6%
+01:15:48         [reflective sensor + correction applied]
+01:15:48  Temp:  30.1 C (skin only - TEMP_OFFSET needs adjustment)
+01:15:48  HRV:   58.4 ms RMSSD  pNN50: 20.0%
+01:15:48  SigQ:  58%  [Good]
+01:15:48  [DBG] PI: 0.40%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.610  raw SpO2: 95.6%
+01:15:48  [DBG] RR raw (ms): 1092 1106 1228 1920 763 856 1013 1267 1032 1044  | stored (0=gap): 1092 1106 1228 0 0 856 0 0 0 1044
+01:15:48 
+01:15:48  DIAGNOSIS:  Uncertain
+01:15:48  Confidence: 100.0%
+01:15:48  Anomaly:    0.59  [outside training data]
+01:15:48  [Suppressed: outside the training data (anomaly score)]
+01:15:48  > Improve signal quality / hold still.
+01:15:48 +===========================================+
+01:15:48 
+01:15:49 Waiting for valid BPM / SpO2 / HRV...
+01:15:49  [DBG] BPM 58.3 ok | SpO2 ok (R 0.504) | HRV -- | SigQ 54% PI 0.35% | motion 0/89 | RR clean/gap 1/1
+01:15:49  [DBG] RR raw (ms): 1228 1920 763 856 1013 1267 1032 1044 1152 698  | stored (0=gap): 1228 0 0 856 0 0 0 1044 1152 0
+01:15:51 Waiting for valid BPM / SpO2 / HRV...
+01:15:51  [DBG] BPM 62.7 ok | SpO2 ok (R 0.539) | HRV -- | SigQ 65% PI 0.50% | motion 0/202 | RR clean/gap 0/2
+01:15:51  [DBG] RR raw (ms): 763 856 1013 1267 1032 1044 1152 698 756 552  | stored (0=gap): 0 856 0 0 0 1044 1152 0 0 0
+01:15:53 Waiting for valid BPM / SpO2 / HRV...
+01:15:53  [DBG] BPM 62.7 ok | SpO2 ok (R 0.455) | HRV -- | SigQ 71% PI 0.58% | motion 38/202 | RR clean/gap 0/0
+01:15:53  [DBG] RR raw (ms): 763 856 1013 1267 1032 1044 1152 698 756 552  | stored (0=gap): 0 856 0 0 0 1044 1152 0 0 0
+01:15:55 Waiting for valid BPM / SpO2 / HRV...
+01:15:55  [DBG] BPM 65.3 ok | SpO2 ok (R 0.455) | HRV -- | SigQ 63% PI 0.48% | motion 0/202 | RR clean/gap 0/3
+01:15:55  [DBG] RR raw (ms): 1267 1032 1044 1152 698 756 552 2451 720 1117  | stored (0=gap): 0 0 1044 1152 0 0 0 0 0 0
+01:15:57 Waiting for valid BPM / SpO2 / HRV...
+01:15:57  [DBG] BPM 70.1 ok | SpO2 ok (R 0.464) | HRV -- | SigQ 80% PI 0.77% | motion 0/202 | RR clean/gap 2/1
+01:15:57  [DBG] RR raw (ms): 1152 698 756 552 2451 720 1117 920 676 654  | stored (0=gap): 1152 0 0 0 0 0 0 920 0 654
+01:15:59 Waiting for valid BPM / SpO2 / HRV...
+01:15:59  [DBG] BPM 73.6 ok | SpO2 ok (R 0.472) | HRV -- | SigQ 81% PI 0.83% | motion 0/202 | RR clean/gap 2/1
+01:15:59  [DBG] RR raw (ms): 552 2451 720 1117 920 676 654 641 691 415  | stored (0=gap): 0 0 0 0 920 0 654 641 691 0
+01:16:01 Waiting for valid BPM / SpO2 / HRV...
+01:16:01  [DBG] BPM 77.4 ok | SpO2 ok (R 0.472) | HRV -- | SigQ 80% PI 0.73% | motion 0/202 | RR clean/gap 2/1
+01:16:01  [DBG] RR raw (ms): 1117 920 676 654 641 691 415 769 635 606  | stored (0=gap): 0 920 0 654 641 691 0 0 635 606
+01:16:05 
+01:16:05 Running AI classifier...
+01:16:05 Inference: 1262 us
+01:16:05 
+01:16:05 +===========================================+
+01:16:05  BPM:   85.4
+01:16:05  SpO2:  98.7%
+01:16:05         [reflective sensor + correction applied]
+01:16:05  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:05  HRV:   53.9 ms RMSSD  pNN50: 12.5%
+01:16:05  SigQ:  70%  [Good]
+01:16:05  [DBG] PI: 0.57%  motion: 0/333 samples  RR clean/gap: 5/1  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:05  [DBG] RR raw (ms): 415 769 635 606 626 649 675 580 560 709  | stored (0=gap): 0 0 635 606 626 649 675 580 560 0
+01:16:05 
+01:16:05  DIAGNOSIS:  Relaxed
+01:16:05  Confidence: 93.5%
+01:16:05  Anomaly:    0.27
+01:16:05  > Resting state.
+01:16:05 +===========================================+
+01:16:05 
+01:16:06 
+01:16:06 Running AI classifier...
+01:16:06 Inference: 1233 us
+01:16:06 
+01:16:06 +===========================================+
+01:16:06  BPM:   86.7
+01:16:06  SpO2:  98.7%
+01:16:06         [reflective sensor + correction applied]
+01:16:06  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:06  HRV:   52.7 ms RMSSD  pNN50: 12.5%
+01:16:06  SigQ:  80%  [Excellent]
+01:16:06  [DBG] PI: 0.72%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:06  [DBG] RR raw (ms): 769 635 606 626 649 675 580 560 709 573  | stored (0=gap): 0 635 606 626 649 675 580 560 0 0
+01:16:06 
+01:16:06  DIAGNOSIS:  Uncertain
+01:16:06  Confidence: 94.5%
+01:16:06  Anomaly:    0.33  [outside training data]
+01:16:06  [Suppressed: outside the training data (anomaly score)]
+01:16:06  > Improve signal quality / hold still.
+01:16:06 +===========================================+
+01:16:06 
+01:16:07 
+01:16:07 Running AI classifier...
+01:16:07 Inference: 1244 us
+01:16:07 
+01:16:07 +===========================================+
+01:16:07  BPM:   88.0
+01:16:07  SpO2:  98.7%
+01:16:07         [reflective sensor + correction applied]
+01:16:07  Temp:  30.3 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:07  HRV:   51.7 ms RMSSD  pNN50: 12.5%
+01:16:07  SigQ:  80%  [Excellent]
+01:16:07  [DBG] PI: 0.72%  motion: 12/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:07  [DBG] RR raw (ms): 635 606 626 649 675 580 560 709 573 575  | stored (0=gap): 635 606 626 649 675 580 560 0 0 575
+01:16:07 
+01:16:07  DIAGNOSIS:  Uncertain
+01:16:07  Confidence: 92.3%
+01:16:07  Anomaly:    0.36  [outside training data]
+01:16:07  [Suppressed: outside the training data (anomaly score)]
+01:16:07  > Improve signal quality / hold still.
+01:16:07 +===========================================+
+01:16:07 
+01:16:08 
+01:16:08 Running AI classifier...
+01:16:08 Inference: 1234 us
+01:16:08 
+01:16:08 +===========================================+
+01:16:08  BPM:   88.0
+01:16:08  SpO2:  98.7%
+01:16:08         [reflective sensor + correction applied]
+01:16:08  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:08  HRV:   50.8 ms RMSSD  pNN50: 12.5%
+01:16:08  SigQ:  81%  [Excellent]
+01:16:08  [DBG] PI: 0.79%  motion: 9/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:08  [DBG] RR raw (ms): 606 626 649 675 580 560 709 573 575 1121  | stored (0=gap): 606 626 649 675 580 560 0 0 575 0
+01:16:08 
+01:16:08  DIAGNOSIS:  Uncertain
+01:16:08  Confidence: 90.3%
+01:16:08  Anomaly:    0.38  [outside training data]
+01:16:08  [Suppressed: outside the training data (anomaly score)]
+01:16:08  > Improve signal quality / hold still.
+01:16:08 +===========================================+
+01:16:08 
+01:16:09 
+01:16:09 Running AI classifier...
+01:16:09 Inference: 1247 us
+01:16:09 
+01:16:09 +===========================================+
+01:16:09  BPM:   88.0
+01:16:09  SpO2:  98.7%
+01:16:09         [reflective sensor + correction applied]
+01:16:09  Temp:  30.3 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:09  HRV:   50.0 ms RMSSD  pNN50: 12.5%
+01:16:09  SigQ:  80%  [Excellent]
+01:16:09  [DBG] PI: 0.71%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:09  [DBG] RR raw (ms): 626 649 675 580 560 709 573 575 1121 1004  | stored (0=gap): 626 649 675 580 560 0 0 575 0 1004
+01:16:09 
+01:16:09  DIAGNOSIS:  Uncertain
+01:16:09  Confidence: 88.7%
+01:16:09  Anomaly:    0.38  [outside training data]
+01:16:09  [Suppressed: outside the training data (anomaly score)]
+01:16:09  > Improve signal quality / hold still.
+01:16:09 +===========================================+
+01:16:09 
+01:16:10 
+01:16:10 Running AI classifier...
+01:16:10 Inference: 1235 us
+01:16:10 
+01:16:10 +===========================================+
+01:16:10  BPM:   88.0
+01:16:10  SpO2:  98.7%
+01:16:10         [reflective sensor + correction applied]
+01:16:10  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:10  HRV:   49.3 ms RMSSD  pNN50: 12.5%
+01:16:10  SigQ:  80%  [Excellent]
+01:16:10  [DBG] PI: 0.78%  motion: 18/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:10  [DBG] RR raw (ms): 649 675 580 560 709 573 575 1121 1004 820  | stored (0=gap): 649 675 580 560 0 0 575 0 1004 0
+01:16:10 
+01:16:10  DIAGNOSIS:  Uncertain
+01:16:10  Confidence: 89.5%
+01:16:10  Anomaly:    0.38  [outside training data]
+01:16:10  [Suppressed: outside the training data (anomaly score)]
+01:16:10  > Improve signal quality / hold still.
+01:16:10 +===========================================+
+01:16:10 
+01:16:11 
+01:16:11 Running AI classifier...
+01:16:11 Inference: 1216 us
+01:16:11 
+01:16:11 +===========================================+
+01:16:11  BPM:   88.0
+01:16:11  SpO2:  98.7%
+01:16:11         [reflective sensor + correction applied]
+01:16:11  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:11  HRV:   49.3 ms RMSSD  pNN50: 12.5%
+01:16:11  SigQ:  81%  [Excellent]
+01:16:11  [DBG] PI: 0.90%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:11  [DBG] RR raw (ms): 649 675 580 560 709 573 575 1121 1004 820  | stored (0=gap): 649 675 580 560 0 0 575 0 1004 0
+01:16:11 
+01:16:11  DIAGNOSIS:  Uncertain
+01:16:11  Confidence: 90.0%
+01:16:11  Anomaly:    0.37  [outside training data]
+01:16:11  [Suppressed: outside the training data (anomaly score)]
+01:16:11  > Improve signal quality / hold still.
+01:16:11 +===========================================+
+01:16:11 
+01:16:12 
+01:16:12 Running AI classifier...
+01:16:12 Inference: 1210 us
+01:16:12 
+01:16:12 +===========================================+
+01:16:12  BPM:   88.0
+01:16:12  SpO2:  98.7%
+01:16:12         [reflective sensor + correction applied]
+01:16:12  Temp:  30.5 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:12  HRV:   49.3 ms RMSSD  pNN50: 12.5%
+01:16:12  SigQ:  81%  [Excellent]
+01:16:12  [DBG] PI: 0.84%  motion: 0/95 samples  RR clean/gap: 0/0  SpO2 windows rejected: 1  R: 0.482  raw SpO2: 95.7%
+01:16:12  [DBG] RR raw (ms): 649 675 580 560 709 573 575 1121 1004 820  | stored (0=gap): 649 675 580 560 0 0 575 0 1004 0
+01:16:12 
+01:16:12  DIAGNOSIS:  Uncertain
+01:16:12  Confidence: 90.1%
+01:16:12  Anomaly:    0.37  [outside training data]
+01:16:12  [Suppressed: outside the training data (anomaly score)]
+01:16:12  > Improve signal quality / hold still.
+01:16:12 +===========================================+
+01:16:12 
+01:16:13 
+01:16:13 Running AI classifier...
+01:16:13 Inference: 1244 us
+01:16:13 
+01:16:13 +===========================================+
+01:16:13  BPM:   89.0
+01:16:13  SpO2:  98.7%
+01:16:13         [reflective sensor + correction applied]
+01:16:13  Temp:  30.2 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:13  HRV:   48.0 ms RMSSD  pNN50: 12.5%
+01:16:13  SigQ:  78%  [Good]
+01:16:13  [DBG] PI: 0.67%  motion: 0/96 samples  RR clean/gap: 0/2  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:13  [DBG] RR raw (ms): 580 560 709 573 575 1121 1004 820 2453 579  | stored (0=gap): 580 560 0 0 575 0 1004 0 0 0
+01:16:13 
+01:16:13  DIAGNOSIS:  Uncertain
+01:16:13  Confidence: 89.0%
+01:16:13  Anomaly:    0.37  [outside training data]
+01:16:13  [Suppressed: outside the training data (anomaly score)]
+01:16:13  > Improve signal quality / hold still.
+01:16:13 +===========================================+
+01:16:13 
+01:16:14 
+01:16:14 Running AI classifier...
+01:16:14 Inference: 1235 us
+01:16:14 
+01:16:14 +===========================================+
+01:16:14  BPM:   91.1
+01:16:14  SpO2:  98.7%
+01:16:14         [reflective sensor + correction applied]
+01:16:14  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:14  HRV:   47.1 ms RMSSD  pNN50: 14.3%
+01:16:14  SigQ:  75%  [Good]
+01:16:14  [DBG] PI: 0.63%  motion: 0/96 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:14  [DBG] RR raw (ms): 709 573 575 1121 1004 820 2453 579 632 620  | stored (0=gap): 0 0 575 0 1004 0 0 0 632 620
+01:16:14 
+01:16:14  DIAGNOSIS:  Uncertain
+01:16:14  Confidence: 85.6%
+01:16:14  Anomaly:    0.36  [outside training data]
+01:16:14  [Suppressed: outside the training data (anomaly score)]
+01:16:14  > Improve signal quality / hold still.
+01:16:14 +===========================================+
+01:16:14 
+01:16:15 
+01:16:15 Running AI classifier...
+01:16:15 Inference: 1241 us
+01:16:15 
+01:16:15 +===========================================+
+01:16:15  BPM:   91.5
+01:16:15  SpO2:  98.7%
+01:16:15         [reflective sensor + correction applied]
+01:16:15  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:15  HRV:   46.3 ms RMSSD  pNN50: 12.5%
+01:16:15  SigQ:  68%  [Good]
+01:16:15  [DBG] PI: 0.55%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.482  raw SpO2: 95.7%
+01:16:15  [DBG] RR raw (ms): 573 575 1121 1004 820 2453 579 632 620 641  | stored (0=gap): 0 575 0 1004 0 0 0 632 620 641
+01:16:15 
+01:16:15  DIAGNOSIS:  Uncertain
+01:16:15  Confidence: 77.5%
+01:16:15  Anomaly:    0.36  [outside training data]
+01:16:15  [Suppressed: outside the training data (anomaly score)]
+01:16:15  > Improve signal quality / hold still.
+01:16:15 +===========================================+
+01:16:15 
+01:16:16 
+01:16:16 Running AI classifier...
+01:16:16 Inference: 1244 us
+01:16:16 
+01:16:16 +===========================================+
+01:16:16  BPM:   92.4
+01:16:16  SpO2:  98.9%
+01:16:16         [reflective sensor + correction applied]
+01:16:16  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:16  HRV:   45.3 ms RMSSD  pNN50: 11.1%
+01:16:16  SigQ:  68%  [Good]
+01:16:16  [DBG] PI: 0.54%  motion: 15/96 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.424  raw SpO2: 95.9%
+01:16:16  [DBG] RR raw (ms): 1121 1004 820 2453 579 632 620 641 691 474  | stored (0=gap): 0 1004 0 0 0 632 620 641 691 0
+01:16:16 
+01:16:16  DIAGNOSIS:  Uncertain
+01:16:16  Confidence: 62.5%
+01:16:16  Anomaly:    0.41  [outside training data]
+01:16:16  [Suppressed: outside the training data (anomaly score)]
+01:16:16  > Improve signal quality / hold still.
+01:16:16 +===========================================+
+01:16:16 
+01:16:17 
+01:16:17 Running AI classifier...
+01:16:17 Inference: 1242 us
+01:16:17 
+01:16:17 +===========================================+
+01:16:17  BPM:   92.4
+01:16:17  SpO2:  98.9%
+01:16:17         [reflective sensor + correction applied]
+01:16:17  Temp:  30.5 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:17  HRV:   45.0 ms RMSSD  pNN50: 12.5%
+01:16:17  SigQ:  69%  [Good]
+01:16:17  [DBG] PI: 0.55%  motion: 24/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.424  raw SpO2: 95.9%
+01:16:17  [DBG] RR raw (ms): 1004 820 2453 579 632 620 641 691 474 1003  | stored (0=gap): 1004 0 0 0 632 620 641 691 0 0
+01:16:17 
+01:16:17  DIAGNOSIS:  Uncertain
+01:16:17  Confidence: 54.1%
+01:16:17  Anomaly:    0.46  [outside training data]
+01:16:17  [Suppressed: outside the training data (anomaly score)]
+01:16:17  > Improve signal quality / hold still.
+01:16:17 +===========================================+
+01:16:17 
+01:16:18 
+01:16:18 Running AI classifier...
+01:16:18 Inference: 1236 us
+01:16:18 
+01:16:18 +===========================================+
+01:16:18  BPM:   92.4
+01:16:18  SpO2:  98.9%
+01:16:18         [reflective sensor + correction applied]
+01:16:18  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:18  HRV:   44.9 ms RMSSD  pNN50: 14.3%
+01:16:18  SigQ:  67%  [Good]
+01:16:18  [DBG] PI: 0.53%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 1  R: 0.424  raw SpO2: 95.9%
+01:16:18  [DBG] RR raw (ms): 820 2453 579 632 620 641 691 474 1003 893  | stored (0=gap): 0 0 0 632 620 641 691 0 0 893
+01:16:18 
+01:16:18  DIAGNOSIS:  Uncertain
+01:16:18  Confidence: 64.6%
+01:16:18  Anomaly:    0.49  [outside training data]
+01:16:18  [Suppressed: outside the training data (anomaly score)]
+01:16:18  > Improve signal quality / hold still.
+01:16:18 +===========================================+
+01:16:18 
+01:16:19 
+01:16:19 Running AI classifier...
+01:16:19 Inference: 1240 us
+01:16:19 
+01:16:19 +===========================================+
+01:16:19  BPM:   92.4
+01:16:19  SpO2:  98.9%
+01:16:19         [reflective sensor + correction applied]
+01:16:19  Temp:  30.5 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:19  HRV:   45.3 ms RMSSD  pNN50: 28.6%
+01:16:19  SigQ:  79%  [Good]
+01:16:19  [DBG] PI: 0.68%  motion: 46/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.424  raw SpO2: 95.9%
+01:16:19  [DBG] RR raw (ms): 2453 579 632 620 641 691 474 1003 893 830  | stored (0=gap): 0 0 632 620 641 691 0 0 893 830
+01:16:19 
+01:16:19  DIAGNOSIS:  Uncertain
+01:16:19  Confidence: 44.6%
+01:16:19  Anomaly:    0.34  [outside training data]
+01:16:19  [Suppressed: outside the training data (anomaly score)]
+01:16:19  > Improve signal quality / hold still.
+01:16:19 +===========================================+
+01:16:19 
+01:16:20 
+01:16:20 Running AI classifier...
+01:16:20 Inference: 1236 us
+01:16:20 
+01:16:20 +===========================================+
+01:16:20  BPM:   93.1
+01:16:20  SpO2:  98.9%
+01:16:20         [reflective sensor + correction applied]
+01:16:20  Temp:  30.3 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:20  HRV:   46.1 ms RMSSD  pNN50: 33.3%
+01:16:20  SigQ:  80%  [Excellent]
+01:16:20  [DBG] PI: 0.71%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 1  R: 0.424  raw SpO2: 95.9%
+01:16:20  [DBG] RR raw (ms): 579 632 620 641 691 474 1003 893 830 655  | stored (0=gap): 0 632 620 641 691 0 0 893 830 0
+01:16:20 
+01:16:20  DIAGNOSIS:  Poor_signal
+01:16:20  Confidence: 62.6%
+01:16:20  Anomaly:    0.29
+01:16:20  > Poor signal - adjust finger.
+01:16:20 +===========================================+
+01:16:20 
+01:16:21 
+01:16:21 Running AI classifier...
+01:16:21 Inference: 1244 us
+01:16:21 
+01:16:21 +===========================================+
+01:16:21  BPM:   93.1
+01:16:21  SpO2:  98.9%
+01:16:21         [reflective sensor + correction applied]
+01:16:21  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:21  HRV:   45.3 ms RMSSD  pNN50: 20.0%
+01:16:21  SigQ:  77%  [Good]
+01:16:21  [DBG] PI: 0.66%  motion: 0/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.424  raw SpO2: 95.9%
+01:16:21  [DBG] RR raw (ms): 632 620 641 691 474 1003 893 830 655 1084  | stored (0=gap): 632 620 641 691 0 0 893 830 0 0
+01:16:21 
+01:16:21  DIAGNOSIS:  Uncertain
+01:16:21  Confidence: 62.0%
+01:16:21  Anomaly:    0.39  [outside training data]
+01:16:21  [Suppressed: outside the training data (anomaly score)]
+01:16:21  > Improve signal quality / hold still.
+01:16:21 +===========================================+
+01:16:21 
+01:16:21 Waiting for valid BPM / SpO2 / HRV...
+01:16:21  [DBG] BPM 93.1 ok | SpO2 ok (R 0.424) | HRV -- | SigQ 80% PI 0.76% | motion 15/33 | RR clean/gap 0/1
+01:16:21  [DBG] RR raw (ms): 620 641 691 474 1003 893 830 655 1084 837  | stored (0=gap): 620 641 691 0 0 893 830 0 0 0
+01:16:26 
+01:16:26 Running AI classifier...
+01:16:26 Inference: 1261 us
+01:16:26 
+01:16:26 +===========================================+
+01:16:26  BPM:   93.6
+01:16:26  SpO2:  99.0%
+01:16:26         [reflective sensor + correction applied]
+01:16:26  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:26  HRV:   54.5 ms RMSSD  pNN50: 50.0%
+01:16:26  SigQ:  73%  [Good]
+01:16:26  [DBG] PI: 0.61%  motion: 0/448 samples  RR clean/gap: 4/1  SpO2 windows rejected: 0  R: 0.436  raw SpO2: 96.0%
+01:16:26  [DBG] RR raw (ms): 893 830 655 1084 837 779 665 920 1014 1193  | stored (0=gap): 893 830 0 0 0 779 665 0 1014 1193
+01:16:26 
+01:16:26  DIAGNOSIS:  Uncertain
+01:16:26  Confidence: 65.1%
+01:16:26  Anomaly:    0.88  [outside training data]
+01:16:26  [Suppressed: outside the training data (anomaly score)]
+01:16:26  > Improve signal quality / hold still.
+01:16:26 +===========================================+
+01:16:26 
+01:16:27 
+01:16:27 Running AI classifier...
+01:16:27 Inference: 1214 us
+01:16:27 
+01:16:27 +===========================================+
+01:16:27  BPM:   93.6
+01:16:27  SpO2:  99.0%
+01:16:27         [reflective sensor + correction applied]
+01:16:27  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:27  HRV:   54.5 ms RMSSD  pNN50: 50.0%
+01:16:27  SigQ:  68%  [Good]
+01:16:27  [DBG] PI: 0.54%  motion: 0/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.436  raw SpO2: 96.0%
+01:16:27  [DBG] RR raw (ms): 893 830 655 1084 837 779 665 920 1014 1193  | stored (0=gap): 893 830 0 0 0 779 665 0 1014 1193
+01:16:27 
+01:16:27  DIAGNOSIS:  Uncertain
+01:16:27  Confidence: 67.9%
+01:16:27  Anomaly:    1.01  [outside training data]
+01:16:27  [Suppressed: outside the training data (anomaly score)]
+01:16:27  > Improve signal quality / hold still.
+01:16:27 +===========================================+
+01:16:27 
+01:16:28 
+01:16:28 Running AI classifier...
+01:16:28 Inference: 1259 us
+01:16:28 
+01:16:28 +===========================================+
+01:16:28  BPM:   93.6
+01:16:28  SpO2:  98.7%
+01:16:28         [reflective sensor + correction applied]
+01:16:28  Temp:  30.4 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:28  HRV:   58.3 ms RMSSD  pNN50: 57.1%
+01:16:28  SigQ:  60%  [Good]
+01:16:28  [DBG] PI: 0.43%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.612  raw SpO2: 95.7%
+01:16:28  [DBG] RR raw (ms): 830 655 1084 837 779 665 920 1014 1193 1283  | stored (0=gap): 830 0 0 0 779 665 0 1014 1193 1283
+01:16:28 
+01:16:28  DIAGNOSIS:  Uncertain
+01:16:28  Confidence: 72.7%
+01:16:28  Anomaly:    1.25  [outside training data]
+01:16:28  [Suppressed: outside the training data (anomaly score)]
+01:16:28  > Improve signal quality / hold still.
+01:16:28 +===========================================+
+01:16:28 
+01:16:29 
+01:16:29 Running AI classifier...
+01:16:29 Inference: 1242 us
+01:16:29 
+01:16:29 +===========================================+
+01:16:29  BPM:   93.6
+01:16:29  SpO2:  98.7%
+01:16:29         [reflective sensor + correction applied]
+01:16:29  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:29  HRV:   62.2 ms RMSSD  pNN50: 62.5%
+01:16:29  SigQ:  55%  [Good]
+01:16:29  [DBG] PI: 0.37%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.612  raw SpO2: 95.7%
+01:16:29  [DBG] RR raw (ms): 655 1084 837 779 665 920 1014 1193 1283 1409  | stored (0=gap): 0 0 0 779 665 0 1014 1193 1283 1409
+01:16:29 
+01:16:29  DIAGNOSIS:  Uncertain
+01:16:29  Confidence: 67.3%
+01:16:29  Anomaly:    1.41  [outside training data]
+01:16:29  [Suppressed: outside the training data (anomaly score)]
+01:16:29  > Improve signal quality / hold still.
+01:16:29 +===========================================+
+01:16:29 
+01:16:30 
+01:16:30 Running AI classifier...
+01:16:30 Inference: 1253 us
+01:16:30 
+01:16:30 +===========================================+
+01:16:30  BPM:   93.6
+01:16:30  SpO2:  98.7%
+01:16:30         [reflective sensor + correction applied]
+01:16:30  Temp:  35.0 C  [not validated]
+01:16:30  HRV:   62.2 ms RMSSD  pNN50: 62.5%
+01:16:30  SigQ:  58%  [Good]
+01:16:30  [DBG] PI: 0.41%  motion: 0/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.479  raw SpO2: 95.7%
+01:16:30  [DBG] RR raw (ms): 655 1084 837 779 665 920 1014 1193 1283 1409  | stored (0=gap): 0 0 0 779 665 0 1014 1193 1283 1409
+01:16:30 
+01:16:30  DIAGNOSIS:  Uncertain
+01:16:30  Confidence: 57.0%
+01:16:30  Anomaly:    1.41  [outside training data]
+01:16:30  [Suppressed: outside the training data (anomaly score)]
+01:16:30  > Improve signal quality / hold still.
+01:16:30 +===========================================+
+01:16:30 
+01:16:31 
+01:16:31 Running AI classifier...
+01:16:31 Inference: 1242 us
+01:16:31 
+01:16:31 +===========================================+
+01:16:31  BPM:   93.6
+01:16:31  SpO2:  98.7%
+01:16:31         [reflective sensor + correction applied]
+01:16:31  Temp:  35.0 C  [not validated]
+01:16:31  HRV:   65.8 ms RMSSD  pNN50: 66.7%
+01:16:31  SigQ:  58%  [Good]
+01:16:31  [DBG] PI: 0.41%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.479  raw SpO2: 95.7%
+01:16:31  [DBG] RR raw (ms): 1084 837 779 665 920 1014 1193 1283 1409 1304  | stored (0=gap): 0 0 779 665 0 1014 1193 1283 1409 1304
+01:16:31 
+01:16:31  DIAGNOSIS:  Uncertain
+01:16:31  Confidence: 42.2%
+01:16:31  Anomaly:    1.43  [outside training data]
+01:16:31  [Suppressed: outside the training data (anomaly score)]
+01:16:31  > Improve signal quality / hold still.
+01:16:31 +===========================================+
+01:16:31 
+01:16:32 
+01:16:32 Running AI classifier...
+01:16:32 Inference: 1245 us
+01:16:32 
+01:16:32 +===========================================+
+01:16:32  BPM:   93.6
+01:16:32  SpO2:  98.7%
+01:16:32         [reflective sensor + correction applied]
+01:16:32  Temp:  30.7 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:32  HRV:   69.3 ms RMSSD  pNN50: 70.0%
+01:16:32  SigQ:  60%  [Good]
+01:16:32  [DBG] PI: 0.43%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.479  raw SpO2: 95.7%
+01:16:32  [DBG] RR raw (ms): 837 779 665 920 1014 1193 1283 1409 1304 1191  | stored (0=gap): 0 779 665 0 1014 1193 1283 1409 1304 1191
+01:16:32 
+01:16:32  DIAGNOSIS:  Uncertain
+01:16:32  Confidence: 71.0%
+01:16:32  Anomaly:    1.49  [outside training data]
+01:16:32  [Suppressed: outside the training data (anomaly score)]
+01:16:32  > Improve signal quality / hold still.
+01:16:32 +===========================================+
+01:16:32 
+01:16:33 
+01:16:33 Running AI classifier...
+01:16:33 Inference: 1253 us
+01:16:33 
+01:16:33 +===========================================+
+01:16:33  BPM:   93.6
+01:16:33  SpO2:  98.8%
+01:16:33         [reflective sensor + correction applied]
+01:16:33  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:33  HRV:   73.7 ms RMSSD  pNN50: 80.0%
+01:16:33  SigQ:  59%  [Good]
+01:16:33  [DBG] PI: 0.42%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.442  raw SpO2: 95.8%
+01:16:33  [DBG] RR raw (ms): 779 665 920 1014 1193 1283 1409 1304 1191 1363  | stored (0=gap): 779 665 0 1014 1193 1283 1409 1304 1191 1363
+01:16:33 
+01:16:33  DIAGNOSIS:  Uncertain
+01:16:33  Confidence: 89.0%
+01:16:33  Anomaly:    1.58  [outside training data]
+01:16:33  [Suppressed: outside the training data (anomaly score)]
+01:16:33  > Improve signal quality / hold still.
+01:16:33 +===========================================+
+01:16:33 
+01:16:34 
+01:16:34 Running AI classifier...
+01:16:34 Inference: 1223 us
+01:16:34 
+01:16:34 +===========================================+
+01:16:34  BPM:   93.6
+01:16:34  SpO2:  98.8%
+01:16:34         [reflective sensor + correction applied]
+01:16:34  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:34  HRV:   73.7 ms RMSSD  pNN50: 80.0%
+01:16:34  SigQ:  64%  [Good]
+01:16:34  [DBG] PI: 0.49%  motion: 0/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.442  raw SpO2: 95.8%
+01:16:34  [DBG] RR raw (ms): 779 665 920 1014 1193 1283 1409 1304 1191 1363  | stored (0=gap): 779 665 0 1014 1193 1283 1409 1304 1191 1363
+01:16:34 
+01:16:34  DIAGNOSIS:  Uncertain
+01:16:34  Confidence: 96.8%
+01:16:34  Anomaly:    1.75  [outside training data]
+01:16:34  [Suppressed: outside the training data (anomaly score)]
+01:16:34  > Improve signal quality / hold still.
+01:16:34 +===========================================+
+01:16:34 
+01:16:35 
+01:16:35 Running AI classifier...
+01:16:35 Inference: 1254 us
+01:16:35 
+01:16:35 +===========================================+
+01:16:35  BPM:   93.6
+01:16:35  SpO2:  98.8%
+01:16:35         [reflective sensor + correction applied]
+01:16:35  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:35  HRV:   78.3 ms RMSSD  pNN50: 88.9%
+01:16:35  SigQ:  80%  [Good]
+01:16:35  [DBG] PI: 0.70%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.467  raw SpO2: 95.8%
+01:16:35  [DBG] RR raw (ms): 665 920 1014 1193 1283 1409 1304 1191 1363 1733  | stored (0=gap): 665 0 1014 1193 1283 1409 1304 1191 1363 0
+01:16:35 
+01:16:35  DIAGNOSIS:  Uncertain
+01:16:35  Confidence: 99.0%
+01:16:35  Anomaly:    1.94  [outside training data]
+01:16:35  [Suppressed: outside the training data (anomaly score)]
+01:16:35  > Improve signal quality / hold still.
+01:16:35 +===========================================+
+01:16:35 
+01:16:36 
+01:16:36 Running AI classifier...
+01:16:36 Inference: 1249 us
+01:16:36 
+01:16:36 +===========================================+
+01:16:36  BPM:   93.6
+01:16:36  SpO2:  98.8%
+01:16:36         [reflective sensor + correction applied]
+01:16:36  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:36  HRV:   83.0 ms RMSSD  pNN50: 100.0%
+01:16:36  SigQ:  72%  [Good]
+01:16:36  [DBG] PI: 0.59%  motion: 0/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.467  raw SpO2: 95.8%
+01:16:36  [DBG] RR raw (ms): 920 1014 1193 1283 1409 1304 1191 1363 1733 1104  | stored (0=gap): 0 1014 1193 1283 1409 1304 1191 1363 0 0
+01:16:36 
+01:16:36  DIAGNOSIS:  Uncertain
+01:16:36  Confidence: 99.7%
+01:16:36  Anomaly:    2.21  [outside training data]
+01:16:36  [Suppressed: outside the training data (anomaly score)]
+01:16:36  > Improve signal quality / hold still.
+01:16:36 +===========================================+
+01:16:36 
+01:16:37 
+01:16:37 Running AI classifier...
+01:16:37 Inference: 1248 us
+01:16:37 
+01:16:37 +===========================================+
+01:16:37  BPM:   93.6
+01:16:37  SpO2:  98.9%
+01:16:37         [reflective sensor + correction applied]
+01:16:37  Temp:  35.0 C  [not validated]
+01:16:37  HRV:   83.0 ms RMSSD  pNN50: 100.0%
+01:16:37  SigQ:  80%  [Excellent]
+01:16:37  [DBG] PI: 0.71%  motion: 0/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.468  raw SpO2: 95.9%
+01:16:37  [DBG] RR raw (ms): 920 1014 1193 1283 1409 1304 1191 1363 1733 1104  | stored (0=gap): 0 1014 1193 1283 1409 1304 1191 1363 0 0
+01:16:37 
+01:16:37  DIAGNOSIS:  Uncertain
+01:16:37  Confidence: 99.9%
+01:16:37  Anomaly:    2.57  [outside training data]
+01:16:37  [Suppressed: outside the training data (anomaly score)]
+01:16:37  > Improve signal quality / hold still.
+01:16:37 +===========================================+
+01:16:37 
+01:16:38 
+01:16:38 Running AI classifier...
+01:16:38 Inference: 1252 us
+01:16:38 
+01:16:38 +===========================================+
+01:16:38  BPM:   93.6
+01:16:38  SpO2:  98.9%
+01:16:38         [reflective sensor + correction applied]
+01:16:38  Temp:  30.5 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:38  HRV:   91.1 ms RMSSD  pNN50: 100.0%
+01:16:38  SigQ:  80%  [Excellent]
+01:16:38  [DBG] PI: 0.73%  motion: 0/95 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.468  raw SpO2: 95.9%
+01:16:38  [DBG] RR raw (ms): 1193 1283 1409 1304 1191 1363 1733 1104 1076 833  | stored (0=gap): 1193 1283 1409 1304 1191 1363 0 0 1076 0
+01:16:38 
+01:16:38  DIAGNOSIS:  Uncertain
+01:16:38  Confidence: 100.0%
+01:16:38  Anomaly:    2.89  [outside training data]
+01:16:38  [Suppressed: outside the training data (anomaly score)]
+01:16:38  > Improve signal quality / hold still.
+01:16:38 +===========================================+
+01:16:38 
+01:16:39 
+01:16:39 Running AI classifier...
+01:16:39 Inference: 1218 us
+01:16:39 
+01:16:39 +===========================================+
+01:16:39  BPM:   93.6
+01:16:39  SpO2:  98.9%
+01:16:39         [reflective sensor + correction applied]
+01:16:39  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:39  HRV:   91.1 ms RMSSD  pNN50: 100.0%
+01:16:39  SigQ:  79%  [Good]
+01:16:39  [DBG] PI: 0.69%  motion: 0/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.468  raw SpO2: 95.9%
+01:16:39  [DBG] RR raw (ms): 1193 1283 1409 1304 1191 1363 1733 1104 1076 833  | stored (0=gap): 1193 1283 1409 1304 1191 1363 0 0 1076 0
+01:16:39 
+01:16:39  DIAGNOSIS:  Uncertain
+01:16:39  Confidence: 100.0%
+01:16:39  Anomaly:    3.08  [outside training data]
+01:16:39  [Suppressed: outside the training data (anomaly score)]
+01:16:39  > Improve signal quality / hold still.
+01:16:39 +===========================================+
+01:16:39 
+01:16:40 
+01:16:40 Running AI classifier...
+01:16:40 Inference: 1248 us
+01:16:40 
+01:16:40 +===========================================+
+01:16:40  BPM:   93.6
+01:16:40  SpO2:  98.9%
+01:16:40         [reflective sensor + correction applied]
+01:16:40  Temp:  30.7 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:40  HRV:   94.6 ms RMSSD  pNN50: 100.0%
+01:16:40  SigQ:  71%  [Good]
+01:16:40  [DBG] PI: 0.58%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.468  raw SpO2: 95.9%
+01:16:40  [DBG] RR raw (ms): 1283 1409 1304 1191 1363 1733 1104 1076 833 1170  | stored (0=gap): 1283 1409 1304 1191 1363 0 0 1076 0 0
+01:16:40 
+01:16:40  DIAGNOSIS:  Uncertain
+01:16:40  Confidence: 100.0%
+01:16:40  Anomaly:    3.06  [outside training data]
+01:16:40  [Suppressed: outside the training data (anomaly score)]
+01:16:40  > Improve signal quality / hold still.
+01:16:40 +===========================================+
+01:16:40 
+01:16:41 
+01:16:41 Running AI classifier...
+01:16:41 Inference: 1253 us
+01:16:41 
+01:16:41 +===========================================+
+01:16:41  BPM:   93.6
+01:16:41  SpO2:  98.9%
+01:16:41         [reflective sensor + correction applied]
+01:16:41  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:41  HRV:   98.4 ms RMSSD  pNN50: 100.0%
+01:16:41  SigQ:  69%  [Good]
+01:16:41  [DBG] PI: 0.55%  motion: 0/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:16:41  [DBG] RR raw (ms): 1409 1304 1191 1363 1733 1104 1076 833 1170 960  | stored (0=gap): 1409 1304 1191 1363 0 0 1076 0 0 0
+01:16:41 
+01:16:41  DIAGNOSIS:  Uncertain
+01:16:41  Confidence: 100.0%
+01:16:41  Anomaly:    3.04  [outside training data]
+01:16:41  [Suppressed: outside the training data (anomaly score)]
+01:16:41  > Improve signal quality / hold still.
+01:16:41 +===========================================+
+01:16:41 
+01:16:42 
+01:16:42 Running AI classifier...
+01:16:42 Inference: 1247 us
+01:16:42 
+01:16:42 +===========================================+
+01:16:42  BPM:   93.6
+01:16:42  SpO2:  98.9%
+01:16:42         [reflective sensor + correction applied]
+01:16:42  Temp:  30.7 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:42  HRV:   101.7 ms RMSSD  pNN50: 100.0%
+01:16:42  SigQ:  77%  [Good]
+01:16:42  [DBG] PI: 0.65%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:16:42  [DBG] RR raw (ms): 1304 1191 1363 1733 1104 1076 833 1170 960 1042  | stored (0=gap): 1304 1191 1363 0 0 1076 0 0 0 1042
+01:16:42 
+01:16:42  DIAGNOSIS:  Uncertain
+01:16:42  Confidence: 100.0%
+01:16:42  Anomaly:    3.03  [outside training data]
+01:16:42  [Suppressed: outside the training data (anomaly score)]
+01:16:42  > Improve signal quality / hold still.
+01:16:42 +===========================================+
+01:16:42 
+01:16:43 
+01:16:43 Running AI classifier...
+01:16:43 Inference: 1242 us
+01:16:43 
+01:16:43 +===========================================+
+01:16:43  BPM:   93.6
+01:16:43  SpO2:  98.9%
+01:16:43         [reflective sensor + correction applied]
+01:16:43  Temp:  30.7 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:43  HRV:   103.9 ms RMSSD  pNN50: 87.5%
+01:16:43  SigQ:  68%  [Good]
+01:16:43  [DBG] PI: 0.54%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:16:43  [DBG] RR raw (ms): 1191 1363 1733 1104 1076 833 1170 960 1042 1028  | stored (0=gap): 1191 1363 0 0 1076 0 0 0 1042 1028
+01:16:43 
+01:16:43  DIAGNOSIS:  Uncertain
+01:16:43  Confidence: 100.0%
+01:16:43  Anomaly:    2.83  [outside training data]
+01:16:43  [Suppressed: outside the training data (anomaly score)]
+01:16:43  > Improve signal quality / hold still.
+01:16:43 +===========================================+
+01:16:43 
+01:16:44 
+01:16:44 Running AI classifier...
+01:16:44 Inference: 1246 us
+01:16:44 
+01:16:44 +===========================================+
+01:16:44  BPM:   93.6
+01:16:44  SpO2:  98.9%
+01:16:44         [reflective sensor + correction applied]
+01:16:44  Temp:  30.7 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:44  HRV:   105.9 ms RMSSD  pNN50: 87.5%
+01:16:44  SigQ:  75%  [Good]
+01:16:44  [DBG] PI: 0.63%  motion: 16/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:16:44  [DBG] RR raw (ms): 1363 1733 1104 1076 833 1170 960 1042 1028 1179  | stored (0=gap): 1363 0 0 1076 0 0 0 1042 1028 0
+01:16:44 
+01:16:44  DIAGNOSIS:  Uncertain
+01:16:44  Confidence: 100.0%
+01:16:44  Anomaly:    2.57  [outside training data]
+01:16:44  [Suppressed: outside the training data (anomaly score)]
+01:16:44  > Improve signal quality / hold still.
+01:16:44 +===========================================+
+01:16:44 
+01:16:45 
+01:16:45 Running AI classifier...
+01:16:45 Inference: 1214 us
+01:16:45 
+01:16:45 +===========================================+
+01:16:45  BPM:   93.6
+01:16:45  SpO2:  98.9%
+01:16:45         [reflective sensor + correction applied]
+01:16:45  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:45  HRV:   105.9 ms RMSSD  pNN50: 87.5%
+01:16:45  SigQ:  70%  [Good]
+01:16:45  [DBG] PI: 0.57%  motion: 0/95 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:16:45  [DBG] RR raw (ms): 1363 1733 1104 1076 833 1170 960 1042 1028 1179  | stored (0=gap): 1363 0 0 1076 0 0 0 1042 1028 0
+01:16:45 
+01:16:45  DIAGNOSIS:  Uncertain
+01:16:45  Confidence: 100.0%
+01:16:45  Anomaly:    2.31  [outside training data]
+01:16:45  [Suppressed: outside the training data (anomaly score)]
+01:16:45  > Improve signal quality / hold still.
+01:16:45 +===========================================+
+01:16:45 
+01:16:46 
+01:16:46 Running AI classifier...
+01:16:46 Inference: 1247 us
+01:16:46 
+01:16:46 +===========================================+
+01:16:46  BPM:   93.6
+01:16:46  SpO2:  98.9%
+01:16:46         [reflective sensor + correction applied]
+01:16:46  Temp:  35.1 C  [not validated]
+01:16:46  HRV:   107.7 ms RMSSD  pNN50: 87.5%
+01:16:46  SigQ:  76%  [Good]
+01:16:46  [DBG] PI: 0.64%  motion: 0/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:16:46  [DBG] RR raw (ms): 1733 1104 1076 833 1170 960 1042 1028 1179 1743  | stored (0=gap): 0 0 1076 0 0 0 1042 1028 0 0
+01:16:46 
+01:16:46  DIAGNOSIS:  Uncertain
+01:16:46  Confidence: 100.0%
+01:16:46  Anomaly:    2.25  [outside training data]
+01:16:46  [Suppressed: outside the training data (anomaly score)]
+01:16:46  > Improve signal quality / hold still.
+01:16:46 +===========================================+
+01:16:46 
+01:16:47 
+01:16:47 Running AI classifier...
+01:16:47 Inference: 1253 us
+01:16:47 
+01:16:47 +===========================================+
+01:16:47  BPM:   91.8
+01:16:47  SpO2:  98.9%
+01:16:47         [reflective sensor + correction applied]
+01:16:47  Temp:  35.2 C  [not validated]
+01:16:47  HRV:   111.0 ms RMSSD  pNN50: 85.7%
+01:16:47  SigQ:  73%  [Good]
+01:16:47  [DBG] PI: 0.60%  motion: 0/95 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.473  raw SpO2: 95.9%
+01:16:47  [DBG] RR raw (ms): 1076 833 1170 960 1042 1028 1179 1743 738 627  | stored (0=gap): 1076 0 0 0 1042 1028 0 0 0 627
+01:16:47 
+01:16:47  DIAGNOSIS:  Uncertain
+01:16:47  Confidence: 100.0%
+01:16:47  Anomaly:    2.21  [outside training data]
+01:16:47  [Suppressed: outside the training data (anomaly score)]
+01:16:47  > Improve signal quality / hold still.
+01:16:47 +===========================================+
+01:16:47 
+01:16:48 
+01:16:48 Running AI classifier...
+01:16:48 Inference: 1247 us
+01:16:48 
+01:16:48 +===========================================+
+01:16:48  BPM:   91.9
+01:16:48  SpO2:  98.9%
+01:16:48         [reflective sensor + correction applied]
+01:16:48  Temp:  35.2 C  [not validated]
+01:16:48  HRV:   111.8 ms RMSSD  pNN50: 75.0%
+01:16:48  SigQ:  68%  [Good]
+01:16:48  [DBG] PI: 0.54%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.473  raw SpO2: 95.9%
+01:16:48  [DBG] RR raw (ms): 833 1170 960 1042 1028 1179 1743 738 627 577  | stored (0=gap): 0 0 0 1042 1028 0 0 0 627 577
+01:16:48 
+01:16:48  DIAGNOSIS:  Uncertain
+01:16:48  Confidence: 100.0%
+01:16:48  Anomaly:    2.04  [outside training data]
+01:16:48  [Suppressed: outside the training data (anomaly score)]
+01:16:48  > Improve signal quality / hold still.
+01:16:48 +===========================================+
+01:16:48 
+01:16:49 
+01:16:49 Running AI classifier...
+01:16:49 Inference: 1253 us
+01:16:49 
+01:16:49 +===========================================+
+01:16:49  BPM:   92.3
+01:16:49  SpO2:  98.7%
+01:16:49         [reflective sensor + correction applied]
+01:16:49  Temp:  35.2 C  [not validated]
+01:16:49  HRV:   110.3 ms RMSSD  pNN50: 75.0%
+01:16:49  SigQ:  64%  [Good]
+01:16:49  [DBG] PI: 0.48%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.583  raw SpO2: 95.7%
+01:16:49  [DBG] RR raw (ms): 960 1042 1028 1179 1743 738 627 577 668 595  | stored (0=gap): 0 1042 1028 0 0 0 627 577 668 595
+01:16:49 
+01:16:49  DIAGNOSIS:  Uncertain
+01:16:49  Confidence: 100.0%
+01:16:49  Anomaly:    1.78  [outside training data]
+01:16:49  [Suppressed: outside the training data (anomaly score)]
+01:16:49  > Improve signal quality / hold still.
+01:16:49 +===========================================+
+01:16:49 
+01:16:50 
+01:16:50 Running AI classifier...
+01:16:50 Inference: 1247 us
+01:16:50 
+01:16:50 +===========================================+
+01:16:50  BPM:   92.8
+01:16:50  SpO2:  98.7%
+01:16:50         [reflective sensor + correction applied]
+01:16:50  Temp:  30.6 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:50  HRV:   108.6 ms RMSSD  pNN50: 62.5%
+01:16:50  SigQ:  63%  [Good]
+01:16:50  [DBG] PI: 0.48%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.583  raw SpO2: 95.7%
+01:16:50  [DBG] RR raw (ms): 1042 1028 1179 1743 738 627 577 668 595 614  | stored (0=gap): 1042 1028 0 0 0 627 577 668 595 614
+01:16:50 
+01:16:50  DIAGNOSIS:  Uncertain
+01:16:50  Confidence: 100.0%
+01:16:50  Anomaly:    1.42  [outside training data]
+01:16:50  [Suppressed: outside the training data (anomaly score)]
+01:16:50  > Improve signal quality / hold still.
+01:16:50 +===========================================+
+01:16:50 
+01:16:51 
+01:16:51 Running AI classifier...
+01:16:51 Inference: 1241 us
+01:16:51 
+01:16:51 +===========================================+
+01:16:51  BPM:   92.9
+01:16:51  SpO2:  98.7%
+01:16:51         [reflective sensor + correction applied]
+01:16:51  Temp:  30.7 C (skin only - TEMP_OFFSET needs adjustment)
+01:16:51  HRV:   105.1 ms RMSSD  pNN50: 62.5%
+01:16:51  SigQ:  60%  [Good]
+01:16:51  [DBG] PI: 0.43%  motion: 0/94 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.583  raw SpO2: 95.7%
+01:16:51  [DBG] RR raw (ms): 1179 1743 738 627 577 668 595 614 703 607  | stored (0=gap): 0 0 0 627 577 668 595 614 703 607
+01:16:51 
+01:16:51  DIAGNOSIS:  Uncertain
+01:16:51  Confidence: 100.0%
+01:16:51  Anomaly:    1.12  [outside training data]
+01:16:51  [Suppressed: outside the training data (anomaly score)]
+01:16:51  > Improve signal quality / hold still.
+01:16:51 +===========================================+
+01:16:51 
+01:16:52 
+01:16:52 Running AI classifier...
+01:16:52 Inference: 1259 us
+01:16:52 
+01:16:52 +===========================================+
+01:16:52  BPM:   93.0
+01:16:52  SpO2:  98.7%
+01:16:52         [reflective sensor + correction applied]
+01:16:52  Temp:  35.3 C  [not validated]
+01:16:52  HRV:   101.1 ms RMSSD  pNN50: 50.0%
+01:16:52  SigQ:  61%  [Good]
+01:16:52  [DBG] PI: 0.45%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.474  raw SpO2: 95.7%
+01:16:52  [DBG] RR raw (ms): 1743 738 627 577 668 595 614 703 607 604  | stored (0=gap): 0 0 627 577 668 595 614 703 607 604
+01:16:52 
+01:16:52  DIAGNOSIS:  Uncertain
+01:16:52  Confidence: 99.9%
+01:16:52  Anomaly:    0.82  [outside training data]
+01:16:52  [Suppressed: outside the training data (anomaly score)]
+01:16:52  > Improve signal quality / hold still.
+01:16:52 +===========================================+
+01:16:52 
+01:16:53 
+01:16:53 Running AI classifier...
+01:16:53 Inference: 1242 us
+01:16:53 
+01:16:53 +===========================================+
+01:16:53  BPM:   94.5
+01:16:53  SpO2:  98.7%
+01:16:53         [reflective sensor + correction applied]
+01:16:53  Temp:  35.3 C  [not validated]
+01:16:53  HRV:   94.3 ms RMSSD  pNN50: 50.0%
+01:16:53  SigQ:  61%  [Good]
+01:16:53  [DBG] PI: 0.44%  motion: 0/94 samples  RR clean/gap: 0/2  SpO2 windows rejected: 0  R: 0.474  raw SpO2: 95.7%
+01:16:53  [DBG] RR raw (ms): 627 577 668 595 614 703 607 604 481 711  | stored (0=gap): 627 577 668 595 614 703 607 604 0 0
+01:16:53 
+01:16:53  DIAGNOSIS:  Uncertain
+01:16:53  Confidence: 97.9%
+01:16:53  Anomaly:    0.62  [outside training data]
+01:16:53  [Suppressed: outside the training data (anomaly score)]
+01:16:53  > Improve signal quality / hold still.
+01:16:53 +===========================================+
+01:16:53 
+01:16:54 
+01:16:54 Running AI classifier...
+01:16:54 Inference: 1258 us
+01:16:54 
+01:16:54 +===========================================+
+01:16:54  BPM:   95.2
+01:16:54  SpO2:  98.7%
+01:16:54         [reflective sensor + correction applied]
+01:16:54  Temp:  35.2 C  [not validated]
+01:16:54  HRV:   91.3 ms RMSSD  pNN50: 50.0%
+01:16:54  SigQ:  61%  [Good]
+01:16:54  [DBG] PI: 0.45%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.495  raw SpO2: 95.7%
+01:16:54  [DBG] RR raw (ms): 577 668 595 614 703 607 604 481 711 610  | stored (0=gap): 577 668 595 614 703 607 604 0 0 610
+01:16:54 
+01:16:54  DIAGNOSIS:  Uncertain
+01:16:54  Confidence: 76.0%
+01:16:54  Anomaly:    0.58  [outside training data]
+01:16:54  [Suppressed: outside the training data (anomaly score)]
+01:16:55  > Improve signal quality / hold still.
+01:16:55 +===========================================+
+01:16:55 
+01:16:55 
+01:16:55 Running AI classifier...
+01:16:55 Inference: 1242 us
+01:16:55 
+01:16:55 +===========================================+
+01:16:55  BPM:   94.7
+01:16:55  SpO2:  98.7%
+01:16:55         [reflective sensor + correction applied]
+01:16:55  Temp:  35.2 C  [not validated]
+01:16:55  HRV:   86.3 ms RMSSD  pNN50: 50.0%
+01:16:55  SigQ:  56%  [Good]
+01:16:56  [DBG] PI: 0.38%  motion: 0/94 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.495  raw SpO2: 95.7%
+01:16:56  [DBG] RR raw (ms): 595 614 703 607 604 481 711 610 723 641  | stored (0=gap): 595 614 703 607 604 0 0 610 0 641
+01:16:56 
+01:16:56  DIAGNOSIS:  Uncertain
+01:16:56  Confidence: 62.3%
+01:16:56  Anomaly:    0.63  [outside training data]
+01:16:56  [Suppressed: outside the training data (anomaly score)]
+01:16:56  > Improve signal quality / hold still.
+01:16:56 +===========================================+
+01:16:56 
+01:16:57 
+01:16:57 Running AI classifier...
+01:16:57 Inference: 1258 us
+01:16:57 
+01:16:57 +===========================================+
+01:16:57  BPM:   94.0
+01:16:57  SpO2:  98.5%
+01:16:57         [reflective sensor + correction applied]
+01:16:57  Temp:  35.2 C  [not validated]
+01:16:57  HRV:   84.2 ms RMSSD  pNN50: 50.0%
+01:16:57  SigQ:  57%  [Good]
+01:16:57  [DBG] PI: 0.40%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.543  raw SpO2: 95.5%
+01:16:57  [DBG] RR raw (ms): 614 703 607 604 481 711 610 723 641 761  | stored (0=gap): 614 703 607 604 0 0 610 0 641 0
+01:16:57 
+01:16:57  DIAGNOSIS:  Uncertain
+01:16:57  Confidence: 73.3%
+01:16:57  Anomaly:    0.68  [outside training data]
+01:16:57  [Suppressed: outside the training data (anomaly score)]
+01:16:57  > Improve signal quality / hold still.
+01:16:57 +===========================================+
+01:16:57 
+01:16:58 
+01:16:58 Running AI classifier...
+01:16:58 Inference: 1241 us
+01:16:58 
+01:16:58 +===========================================+
+01:16:58  BPM:   93.9
+01:16:58  SpO2:  98.5%
+01:16:58         [reflective sensor + correction applied]
+01:16:58  Temp:  35.2 C  [not validated]
+01:16:58  HRV:   81.0 ms RMSSD  pNN50: 57.1%
+01:16:58  SigQ:  62%  [Good]
+01:16:58  [DBG] PI: 0.46%  motion: 0/94 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.543  raw SpO2: 95.5%
+01:16:58  [DBG] RR raw (ms): 607 604 481 711 610 723 641 761 525 591  | stored (0=gap): 607 604 0 0 610 0 641 0 0 591
+01:16:58 
+01:16:58  DIAGNOSIS:  Uncertain
+01:16:58  Confidence: 71.2%
+01:16:58  Anomaly:    0.72  [outside training data]
+01:16:58  [Suppressed: outside the training data (anomaly score)]
+01:16:58  > Improve signal quality / hold still.
+01:16:58 +===========================================+
+01:16:58 
+01:16:59 
+01:16:59 Running AI classifier...
+01:16:59 Inference: 1259 us
+01:16:59 
+01:16:59 +===========================================+
+01:16:59  BPM:   94.2
+01:16:59  SpO2:  98.6%
+01:16:59         [reflective sensor + correction applied]
+01:16:59  Temp:  35.2 C  [not validated]
+01:16:59  HRV:   79.5 ms RMSSD  pNN50: 50.0%
+01:16:59  SigQ:  66%  [Good]
+01:16:59  [DBG] PI: 0.51%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.481  raw SpO2: 95.6%
+01:16:59  [DBG] RR raw (ms): 604 481 711 610 723 641 761 525 591 621  | stored (0=gap): 604 0 0 610 0 641 0 0 591 621
+01:16:59 
+01:16:59  DIAGNOSIS:  Uncertain
+01:16:59  Confidence: 65.8%
+01:16:59  Anomaly:    0.76  [outside training data]
+01:16:59  [Suppressed: outside the training data (anomaly score)]
+01:16:59  > Improve signal quality / hold still.
+01:16:59 +===========================================+
+01:16:59 
+01:17:00 
+01:17:00 Running AI classifier...
+01:17:00 Inference: 1242 us
+01:17:00 
+01:17:00 +===========================================+
+01:17:00  BPM:   95.4
+01:17:00  SpO2:  98.6%
+01:17:00         [reflective sensor + correction applied]
+01:17:00  Temp:  35.4 C  [not validated]
+01:17:00  HRV:   76.5 ms RMSSD  pNN50: 50.0%
+01:17:00  SigQ:  65%  [Good]
+01:17:00  [DBG] PI: 0.50%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.481  raw SpO2: 95.6%
+01:17:00  [DBG] RR raw (ms): 711 610 723 641 761 525 591 621 632 541  | stored (0=gap): 0 610 0 641 0 0 591 621 632 541
+01:17:00 
+01:17:00  DIAGNOSIS:  Uncertain
+01:17:00  Confidence: 79.4%
+01:17:00  Anomaly:    0.81  [outside training data]
+01:17:00  [Suppressed: outside the training data (anomaly score)]
+01:17:00  > Improve signal quality / hold still.
+01:17:00 +===========================================+
+01:17:00 
+01:17:01 
+01:17:01 Running AI classifier...
+01:17:01 Inference: 1259 us
+01:17:01 
+01:17:01 +===========================================+
+01:17:01  BPM:   96.5
+01:17:01  SpO2:  98.7%
+01:17:01         [reflective sensor + correction applied]
+01:17:01  Temp:  35.4 C  [not validated]
+01:17:01  HRV:   73.9 ms RMSSD  pNN50: 50.0%
+01:17:01  SigQ:  66%  [Good]
+01:17:01  [DBG] PI: 0.52%  motion: 0/94 samples  RR clean/gap: 1/1  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:01  [DBG] RR raw (ms): 723 641 761 525 591 621 632 541 533 689  | stored (0=gap): 0 641 0 0 591 621 632 541 533 0
+01:17:01 
+01:17:01  DIAGNOSIS:  Uncertain
+01:17:01  Confidence: 92.2%
+01:17:01  Anomaly:    0.87  [outside training data]
+01:17:01  [Suppressed: outside the training data (anomaly score)]
+01:17:01  > Improve signal quality / hold still.
+01:17:01 +===========================================+
+01:17:01 
+01:17:02 
+01:17:02 Running AI classifier...
+01:17:02 Inference: 1242 us
+01:17:02 
+01:17:02 +===========================================+
+01:17:02  BPM:   97.0
+01:17:02  SpO2:  98.7%
+01:17:02         [reflective sensor + correction applied]
+01:17:02  Temp:  35.5 C  [not validated]
+01:17:02  HRV:   72.5 ms RMSSD  pNN50: 44.4%
+01:17:02  SigQ:  76%  [Good]
+01:17:02  [DBG] PI: 0.64%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:02  [DBG] RR raw (ms): 641 761 525 591 621 632 541 533 689 614  | stored (0=gap): 641 0 0 591 621 632 541 533 0 614
+01:17:02 
+01:17:02  DIAGNOSIS:  Uncertain
+01:17:02  Confidence: 97.2%
+01:17:02  Anomaly:    0.95  [outside training data]
+01:17:02  [Suppressed: outside the training data (anomaly score)]
+01:17:02  > Improve signal quality / hold still.
+01:17:02 +===========================================+
+01:17:02 
+01:17:03 
+01:17:03 Running AI classifier...
+01:17:03 Inference: 1252 us
+01:17:03 
+01:17:03 +===========================================+
+01:17:03  BPM:   97.1
+01:17:03  SpO2:  98.7%
+01:17:03         [reflective sensor + correction applied]
+01:17:03  Temp:  35.6 C  [not validated]
+01:17:03  HRV:   70.7 ms RMSSD  pNN50: 33.3%
+01:17:03  SigQ:  80%  [Excellent]
+01:17:03  [DBG] PI: 0.72%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:03  [DBG] RR raw (ms): 761 525 591 621 632 541 533 689 614 611  | stored (0=gap): 0 0 591 621 632 541 533 0 614 611
+01:17:03 
+01:17:03  DIAGNOSIS:  Uncertain
+01:17:03  Confidence: 98.8%
+01:17:03  Anomaly:    1.05  [outside training data]
+01:17:03  [Suppressed: outside the training data (anomaly score)]
+01:17:03  > Improve signal quality / hold still.
+01:17:03 +===========================================+
+01:17:03 
+01:17:04 
+01:17:04 Running AI classifier...
+01:17:04 Inference: 1243 us
+01:17:04 
+01:17:04 +===========================================+
+01:17:04  BPM:   96.2
+01:17:04  SpO2:  98.7%
+01:17:04         [reflective sensor + correction applied]
+01:17:04  Temp:  35.4 C  [not validated]
+01:17:04  HRV:   68.5 ms RMSSD  pNN50: 44.4%
+01:17:04  SigQ:  80%  [Good]
+01:17:04  [DBG] PI: 0.70%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:04  [DBG] RR raw (ms): 591 621 632 541 533 689 614 611 697 643  | stored (0=gap): 591 621 632 541 533 0 614 611 697 643
+01:17:04 
+01:17:04  DIAGNOSIS:  Uncertain
+01:17:04  Confidence: 98.9%
+01:17:04  Anomaly:    1.07  [outside training data]
+01:17:04  [Suppressed: outside the training data (anomaly score)]
+01:17:04  > Improve signal quality / hold still.
+01:17:04 +===========================================+
+01:17:04 
+01:17:05 
+01:17:05 Running AI classifier...
+01:17:05 Inference: 1252 us
+01:17:05 
+01:17:05 +===========================================+
+01:17:05  BPM:   95.6
+01:17:05  SpO2:  98.7%
+01:17:05         [reflective sensor + correction applied]
+01:17:05  Temp:  35.7 C  [not validated]
+01:17:05  HRV:   66.6 ms RMSSD  pNN50: 33.3%
+01:17:05  SigQ:  70%  [Good]
+01:17:05  [DBG] PI: 0.57%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:05  [DBG] RR raw (ms): 621 632 541 533 689 614 611 697 643 692  | stored (0=gap): 621 632 541 533 0 614 611 697 643 692
+01:17:05 
+01:17:05  DIAGNOSIS:  Uncertain
+01:17:05  Confidence: 99.5%
+01:17:05  Anomaly:    0.92  [outside training data]
+01:17:05  [Suppressed: outside the training data (anomaly score)]
+01:17:05  > Improve signal quality / hold still.
+01:17:05 +===========================================+
+01:17:05 
+01:17:06 
+01:17:06 Running AI classifier...
+01:17:06 Inference: 1242 us
+01:17:06 
+01:17:06 +===========================================+
+01:17:06  BPM:   94.6
+01:17:06  SpO2:  98.7%
+01:17:06         [reflective sensor + correction applied]
+01:17:06  Temp:  35.4 C  [not validated]
+01:17:06  HRV:   65.1 ms RMSSD  pNN50: 33.3%
+01:17:06  SigQ:  71%  [Good]
+01:17:06  [DBG] PI: 0.59%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:06  [DBG] RR raw (ms): 632 541 533 689 614 611 697 643 692 733  | stored (0=gap): 632 541 533 0 614 611 697 643 692 733
+01:17:06 
+01:17:06  DIAGNOSIS:  Uncertain
+01:17:06  Confidence: 99.4%
+01:17:06  Anomaly:    0.85  [outside training data]
+01:17:06  [Suppressed: outside the training data (anomaly score)]
+01:17:06  > Improve signal quality / hold still.
+01:17:06 +===========================================+
+01:17:06 
+01:17:07 
+01:17:07 Running AI classifier...
+01:17:07 Inference: 1248 us
+01:17:07 
+01:17:07 +===========================================+
+01:17:07  BPM:   92.8
+01:17:07  SpO2:  98.7%
+01:17:07         [reflective sensor + correction applied]
+01:17:07  Temp:  35.7 C  [not validated]
+01:17:07  HRV:   62.3 ms RMSSD  pNN50: 36.4%
+01:17:07  SigQ:  70%  [Good]
+01:17:07  [DBG] PI: 0.57%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:07  [DBG] RR raw (ms): 533 689 614 611 697 643 692 733 728 651  | stored (0=gap): 533 0 614 611 697 643 692 733 728 651
+01:17:07 
+01:17:07  DIAGNOSIS:  Uncertain
+01:17:07  Confidence: 99.6%
+01:17:07  Anomaly:    0.70  [outside training data]
+01:17:07  [Suppressed: outside the training data (anomaly score)]
+01:17:07  > Improve signal quality / hold still.
+01:17:07 +===========================================+
+01:17:07 
+01:17:08 
+01:17:08 Running AI classifier...
+01:17:08 Inference: 1242 us
+01:17:08 
+01:17:08 +===========================================+
+01:17:08  BPM:   92.2
+01:17:08  SpO2:  98.7%
+01:17:08         [reflective sensor + correction applied]
+01:17:08  Temp:  35.5 C  [not validated]
+01:17:08  HRV:   61.1 ms RMSSD  pNN50: 33.3%
+01:17:08  SigQ:  76%  [Good]
+01:17:08  [DBG] PI: 0.64%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:08  [DBG] RR raw (ms): 689 614 611 697 643 692 733 728 651 628  | stored (0=gap): 0 614 611 697 643 692 733 728 651 628
+01:17:08 
+01:17:08  DIAGNOSIS:  Uncertain
+01:17:08  Confidence: 99.5%
+01:17:08  Anomaly:    0.63  [outside training data]
+01:17:08  [Suppressed: outside the training data (anomaly score)]
+01:17:08  > Improve signal quality / hold still.
+01:17:08 +===========================================+
+01:17:08 
+01:17:09 
+01:17:09 Running AI classifier...
+01:17:09 Inference: 1247 us
+01:17:09 
+01:17:09 +===========================================+
+01:17:09  BPM:   91.5
+01:17:09  SpO2:  98.7%
+01:17:09         [reflective sensor + correction applied]
+01:17:09  Temp:  35.4 C  [not validated]
+01:17:09  HRV:   60.0 ms RMSSD  pNN50: 33.3%
+01:17:09  SigQ:  80%  [Excellent]
+01:17:09  [DBG] PI: 0.76%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:09  [DBG] RR raw (ms): 614 611 697 643 692 733 728 651 628 844  | stored (0=gap): 614 611 697 643 692 733 728 651 628 0
+01:17:09 
+01:17:09  DIAGNOSIS:  Uncertain
+01:17:09  Confidence: 99.1%
+01:17:09  Anomaly:    0.58  [outside training data]
+01:17:09  [Suppressed: outside the training data (anomaly score)]
+01:17:09  > Improve signal quality / hold still.
+01:17:09 +===========================================+
+01:17:09 
+01:17:10 
+01:17:10 Running AI classifier...
+01:17:10 Inference: 1244 us
+01:17:10 
+01:17:10 +===========================================+
+01:17:10  BPM:   91.5
+01:17:10  SpO2:  98.7%
+01:17:10         [reflective sensor + correction applied]
+01:17:10  Temp:  35.6 C  [not validated]
+01:17:10  HRV:   59.0 ms RMSSD  pNN50: 33.3%
+01:17:10  SigQ:  81%  [Excellent]
+01:17:10  [DBG] PI: 0.86%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:10  [DBG] RR raw (ms): 611 697 643 692 733 728 651 628 844 990  | stored (0=gap): 611 697 643 692 733 728 651 628 0 990
+01:17:10 
+01:17:10  DIAGNOSIS:  Uncertain
+01:17:10  Confidence: 98.7%
+01:17:10  Anomaly:    0.56  [outside training data]
+01:17:10  [Suppressed: outside the training data (anomaly score)]
+01:17:10  > Improve signal quality / hold still.
+01:17:10 +===========================================+
+01:17:10 
+01:17:11 
+01:17:11 Running AI classifier...
+01:17:11 Inference: 1251 us
+01:17:11 
+01:17:11 +===========================================+
+01:17:11  BPM:   91.5
+01:17:11  SpO2:  98.7%
+01:17:11         [reflective sensor + correction applied]
+01:17:11  Temp:  35.5 C  [not validated]
+01:17:11  HRV:   58.2 ms RMSSD  pNN50: 38.5%
+01:17:11  SigQ:  81%  [Excellent]
+01:17:11  [DBG] PI: 0.88%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.443  raw SpO2: 95.7%
+01:17:11  [DBG] RR raw (ms): 697 643 692 733 728 651 628 844 990 1048  | stored (0=gap): 697 643 692 733 728 651 628 0 990 1048
+01:17:11 
+01:17:11  DIAGNOSIS:  Uncertain
+01:17:11  Confidence: 97.9%
+01:17:11  Anomaly:    0.57  [outside training data]
+01:17:11  [Suppressed: outside the training data (anomaly score)]
+01:17:11  > Improve signal quality / hold still.
+01:17:11 +===========================================+
+01:17:11 
+01:17:12 
+01:17:12 Running AI classifier...
+01:17:12 Inference: 1251 us
+01:17:12 
+01:17:12 +===========================================+
+01:17:12  BPM:   91.5
+01:17:12  SpO2:  98.8%
+01:17:12         [reflective sensor + correction applied]
+01:17:12  Temp:  35.5 C  [not validated]
+01:17:12  HRV:   58.2 ms RMSSD  pNN50: 38.5%
+01:17:12  SigQ:  81%  [Excellent]
+01:17:12  [DBG] PI: 0.87%  motion: 0/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.460  raw SpO2: 95.8%
+01:17:12  [DBG] RR raw (ms): 697 643 692 733 728 651 628 844 990 1048  | stored (0=gap): 697 643 692 733 728 651 628 0 990 1048
+01:17:12 
+01:17:12  DIAGNOSIS:  Uncertain
+01:17:12  Confidence: 96.3%
+01:17:12  Anomaly:    0.61  [outside training data]
+01:17:12  [Suppressed: outside the training data (anomaly score)]
+01:17:12  > Improve signal quality / hold still.
+01:17:12 +===========================================+
+01:17:12 
+01:17:13 
+01:17:13 Running AI classifier...
+01:17:13 Inference: 1251 us
+01:17:13 
+01:17:13 +===========================================+
+01:17:13  BPM:   91.5
+01:17:13  SpO2:  98.8%
+01:17:13         [reflective sensor + correction applied]
+01:17:13  Temp:  35.7 C  [not validated]
+01:17:13  HRV:   57.5 ms RMSSD  pNN50: 38.5%
+01:17:13  SigQ:  79%  [Good]
+01:17:13  [DBG] PI: 0.68%  motion: 0/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.460  raw SpO2: 95.8%
+01:17:13  [DBG] RR raw (ms): 643 692 733 728 651 628 844 990 1048 1686  | stored (0=gap): 643 692 733 728 651 628 0 990 1048 0
+01:17:13 
+01:17:13  DIAGNOSIS:  Uncertain
+01:17:13  Confidence: 93.6%
+01:17:13  Anomaly:    0.67  [outside training data]
+01:17:13  [Suppressed: outside the training data (anomaly score)]
+01:17:13  > Improve signal quality / hold still.
+01:17:13 +===========================================+
+01:17:13 
+01:17:14 
+01:17:14 Running AI classifier...
+01:17:14 Inference: 1253 us
+01:17:14 
+01:17:14 +===========================================+
+01:17:14  BPM:   91.5
+01:17:14  SpO2:  98.8%
+01:17:14         [reflective sensor + correction applied]
+01:17:14  Temp:  35.7 C  [not validated]
+01:17:14  HRV:   56.8 ms RMSSD  pNN50: 38.5%
+01:17:14  SigQ:  72%  [Good]
+01:17:14  [DBG] PI: 0.59%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.462  raw SpO2: 95.8%
+01:17:14  [DBG] RR raw (ms): 692 733 728 651 628 844 990 1048 1686 1173  | stored (0=gap): 692 733 728 651 628 0 990 1048 0 1173
+01:17:14 
+01:17:14  DIAGNOSIS:  Uncertain
+01:17:14  Confidence: 92.0%
+01:17:14  Anomaly:    0.69  [outside training data]
+01:17:14  [Suppressed: outside the training data (anomaly score)]
+01:17:14  > Improve signal quality / hold still.
+01:17:14 +===========================================+
+01:17:14 
+01:17:15 
+01:17:15 Running AI classifier...
+01:17:15 Inference: 1247 us
+01:17:15 
+01:17:15 +===========================================+
+01:17:15  BPM:   91.5
+01:17:15  SpO2:  98.8%
+01:17:15         [reflective sensor + correction applied]
+01:17:15  Temp:  35.7 C  [not validated]
+01:17:15  HRV:   57.3 ms RMSSD  pNN50: 46.2%
+01:17:15  SigQ:  73%  [Good]
+01:17:15  [DBG] PI: 0.60%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.462  raw SpO2: 95.8%
+01:17:15  [DBG] RR raw (ms): 733 728 651 628 844 990 1048 1686 1173 1305  | stored (0=gap): 733 728 651 628 0 990 1048 0 1173 1305
+01:17:15 
+01:17:15  DIAGNOSIS:  Uncertain
+01:17:15  Confidence: 90.2%
+01:17:15  Anomaly:    0.72  [outside training data]
+01:17:15  [Suppressed: outside the training data (anomaly score)]
+01:17:15  > Improve signal quality / hold still.
+01:17:15 +===========================================+
+01:17:15 
+01:17:16 
+01:17:16 Running AI classifier...
+01:17:16 Inference: 1242 us
+01:17:16 
+01:17:16 +===========================================+
+01:17:16  BPM:   91.5
+01:17:16  SpO2:  98.8%
+01:17:16         [reflective sensor + correction applied]
+01:17:16  Temp:  35.5 C  [not validated]
+01:17:16  HRV:   58.1 ms RMSSD  pNN50: 50.0%
+01:17:16  SigQ:  65%  [Good]
+01:17:16  [DBG] PI: 0.50%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.462  raw SpO2: 95.8%
+01:17:16  [DBG] RR raw (ms): 728 651 628 844 990 1048 1686 1173 1305 997  | stored (0=gap): 728 651 628 0 990 1048 0 1173 1305 0
+01:17:16 
+01:17:16  DIAGNOSIS:  Uncertain
+01:17:16  Confidence: 79.3%
+01:17:16  Anomaly:    0.84  [outside training data]
+01:17:16  [Suppressed: outside the training data (anomaly score)]
+01:17:16  > Improve signal quality / hold still.
+01:17:16 +===========================================+
+01:17:16 
+01:17:17 
+01:17:17 Running AI classifier...
+01:17:17 Inference: 1247 us
+01:17:17 
+01:17:17 +===========================================+
+01:17:17  BPM:   90.8
+01:17:17  SpO2:  98.8%
+01:17:17         [reflective sensor + correction applied]
+01:17:17  Temp:  35.7 C  [not validated]
+01:17:17  HRV:   58.4 ms RMSSD  pNN50: 45.5%
+01:17:17  SigQ:  63%  [Good]
+01:17:17  [DBG] PI: 0.48%  motion: 0/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.462  raw SpO2: 95.8%
+01:17:17  [DBG] RR raw (ms): 651 628 844 990 1048 1686 1173 1305 997 739  | stored (0=gap): 651 628 0 990 1048 0 1173 1305 0 0
+01:17:17 
+01:17:17  DIAGNOSIS:  Uncertain
+01:17:17  Confidence: 57.9%
+01:17:17  Anomaly:    0.99  [outside training data]
+01:17:17  [Suppressed: outside the training data (anomaly score)]
+01:17:17  > Improve signal quality / hold still.
+01:17:17 +===========================================+
+01:17:17 
+01:17:18 
+01:17:18 Running AI classifier...
+01:17:18 Inference: 1252 us
+01:17:18 
+01:17:18 +===========================================+
+01:17:18  BPM:   89.7
+01:17:18  SpO2:  98.8%
+01:17:18         [reflective sensor + correction applied]
+01:17:18  Temp:  35.6 C  [not validated]
+01:17:18  HRV:   59.4 ms RMSSD  pNN50: 45.5%
+01:17:18  SigQ:  61%  [Good]
+01:17:18  [DBG] PI: 0.45%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.514  raw SpO2: 95.8%
+01:17:18  [DBG] RR raw (ms): 844 990 1048 1686 1173 1305 997 739 640 607  | stored (0=gap): 0 990 1048 0 1173 1305 0 0 640 607
+01:17:18 
+01:17:18  DIAGNOSIS:  Uncertain
+01:17:18  Confidence: 49.2%
+01:17:18  Anomaly:    1.12  [outside training data]
+01:17:18  [Suppressed: outside the training data (anomaly score)]
+01:17:18  > Improve signal quality / hold still.
+01:17:18 +===========================================+
+01:17:18 
+01:17:19 
+01:17:19 Running AI classifier...
+01:17:19 Inference: 1223 us
+01:17:19 
+01:17:19 +===========================================+
+01:17:19  BPM:   89.7
+01:17:19  SpO2:  98.8%
+01:17:19         [reflective sensor + correction applied]
+01:17:19  Temp:  35.5 C  [not validated]
+01:17:19  HRV:   59.4 ms RMSSD  pNN50: 45.5%
+01:17:19  SigQ:  80%  [Excellent]
+01:17:19  [DBG] PI: 0.74%  motion: 19/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.514  raw SpO2: 95.8%
+01:17:19  [DBG] RR raw (ms): 844 990 1048 1686 1173 1305 997 739 640 607  | stored (0=gap): 0 990 1048 0 1173 1305 0 0 640 607
+01:17:19 
+01:17:19  DIAGNOSIS:  Uncertain
+01:17:19  Confidence: 55.3%
+01:17:19  Anomaly:    1.07  [outside training data]
+01:17:19  [Suppressed: outside the training data (anomaly score)]
+01:17:19  > Improve signal quality / hold still.
+01:17:19 +===========================================+
+01:17:19 
+01:17:20 
+01:17:20 Running AI classifier...
+01:17:20 Inference: 1243 us
+01:17:20 
+01:17:20 +===========================================+
+01:17:20  BPM:   89.7
+01:17:20  SpO2:  98.8%
+01:17:20         [reflective sensor + correction applied]
+01:17:20  Temp:  35.9 C  [not validated]
+01:17:20  HRV:   59.7 ms RMSSD  pNN50: 45.5%
+01:17:20  SigQ:  79%  [Good]
+01:17:20  [DBG] PI: 0.68%  motion: 0/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 1  R: 0.514  raw SpO2: 95.8%
+01:17:20  [DBG] RR raw (ms): 990 1048 1686 1173 1305 997 739 640 607 1202  | stored (0=gap): 990 1048 0 1173 1305 0 0 640 607 0
+01:17:20 
+01:17:20  DIAGNOSIS:  Uncertain
+01:17:20  Confidence: 56.9%
+01:17:20  Anomaly:    1.01  [outside training data]
+01:17:20  [Suppressed: outside the training data (anomaly score)]
+01:17:20  > Improve signal quality / hold still.
+01:17:20 +===========================================+
+01:17:20 
+01:17:21 
+01:17:21 Running AI classifier...
+01:17:21 Inference: 1248 us
+01:17:21 
+01:17:21 +===========================================+
+01:17:21  BPM:   89.7
+01:17:21  SpO2:  98.8%
+01:17:21         [reflective sensor + correction applied]
+01:17:21  Temp:  35.8 C  [not validated]
+01:17:21  HRV:   60.2 ms RMSSD  pNN50: 50.0%
+01:17:21  SigQ:  71%  [Good]
+01:17:21  [DBG] PI: 0.58%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.514  raw SpO2: 95.8%
+01:17:21  [DBG] RR raw (ms): 1048 1686 1173 1305 997 739 640 607 1202 1328  | stored (0=gap): 1048 0 1173 1305 0 0 640 607 0 1328
+01:17:21 
+01:17:21  DIAGNOSIS:  Uncertain
+01:17:21  Confidence: 56.7%
+01:17:21  Anomaly:    0.99  [outside training data]
+01:17:21  [Suppressed: outside the training data (anomaly score)]
+01:17:21  > Improve signal quality / hold still.
+01:17:21 +===========================================+
+01:17:21 
+01:17:22 
+01:17:22 Running AI classifier...
+01:17:22 Inference: 1249 us
+01:17:22 
+01:17:22 +===========================================+
+01:17:22  BPM:   89.7
+01:17:22  SpO2:  98.8%
+01:17:22         [reflective sensor + correction applied]
+01:17:22  Temp:  35.8 C  [not validated]
+01:17:22  HRV:   60.2 ms RMSSD  pNN50: 50.0%
+01:17:22  SigQ:  80%  [Excellent]
+01:17:22  [DBG] PI: 0.72%  motion: 7/94 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.464  raw SpO2: 95.8%
+01:17:22  [DBG] RR raw (ms): 1048 1686 1173 1305 997 739 640 607 1202 1328  | stored (0=gap): 1048 0 1173 1305 0 0 640 607 0 1328
+01:17:22 
+01:17:22  DIAGNOSIS:  Uncertain
+01:17:22  Confidence: 60.7%
+01:17:22  Anomaly:    1.08  [outside training data]
+01:17:22  [Suppressed: outside the training data (anomaly score)]
+01:17:22  > Improve signal quality / hold still.
+01:17:22 +===========================================+
+01:17:22 
+01:17:23 
+01:17:23 Running AI classifier...
+01:17:23 Inference: 1248 us
+01:17:23 
+01:17:23 +===========================================+
+01:17:23  BPM:   89.7
+01:17:23  SpO2:  98.8%
+01:17:23         [reflective sensor + correction applied]
+01:17:23  Temp:  35.7 C  [not validated]
+01:17:23  HRV:   60.5 ms RMSSD  pNN50: 44.4%
+01:17:23  SigQ:  80%  [Excellent]
+01:17:23  [DBG] PI: 0.76%  motion: 14/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.464  raw SpO2: 95.8%
+01:17:23  [DBG] RR raw (ms): 1686 1173 1305 997 739 640 607 1202 1328 1480  | stored (0=gap): 0 1173 1305 0 0 640 607 0 1328 0
+01:17:23 
+01:17:23  DIAGNOSIS:  Uncertain
+01:17:23  Confidence: 60.1%
+01:17:23  Anomaly:    1.07  [outside training data]
+01:17:23  [Suppressed: outside the training data (anomaly score)]
+01:17:23  > Improve signal quality / hold still.
+01:17:23 +===========================================+
+01:17:23 
+01:17:24 
+01:17:24 Running AI classifier...
+01:17:24 Inference: 1243 us
+01:17:24 
+01:17:24 +===========================================+
+01:17:24  BPM:   89.7
+01:17:24  SpO2:  98.8%
+01:17:24         [reflective sensor + correction applied]
+01:17:24  Temp:  35.8 C  [not validated]
+01:17:24  HRV:   60.8 ms RMSSD  pNN50: 37.5%
+01:17:24  SigQ:  76%  [Good]
+01:17:24  [DBG] PI: 0.65%  motion: 0/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 1  R: 0.464  raw SpO2: 95.8%
+01:17:24  [DBG] RR raw (ms): 1173 1305 997 739 640 607 1202 1328 1480 1261  | stored (0=gap): 1173 1305 0 0 640 607 0 1328 0 0
+01:17:24 
+01:17:24  DIAGNOSIS:  Uncertain
+01:17:24  Confidence: 49.9%
+01:17:24  Anomaly:    0.95  [outside training data]
+01:17:24  [Suppressed: outside the training data (anomaly score)]
+01:17:24  > Improve signal quality / hold still.
+01:17:24 +===========================================+
+01:17:24 
+01:17:25 
+01:17:25 Running AI classifier...
+01:17:25 Inference: 1251 us
+01:17:25 
+01:17:25 +===========================================+
+01:17:25  BPM:   89.7
+01:17:25  SpO2:  98.8%
+01:17:25         [reflective sensor + correction applied]
+01:17:25  Temp:  35.9 C  [not validated]
+01:17:25  HRV:   61.3 ms RMSSD  pNN50: 42.9%
+01:17:25  SigQ:  75%  [Good]
+01:17:25  [DBG] PI: 0.64%  motion: 7/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.464  raw SpO2: 95.8%
+01:17:25  [DBG] RR raw (ms): 1305 997 739 640 607 1202 1328 1480 1261 831  | stored (0=gap): 1305 0 0 640 607 0 1328 0 0 0
+01:17:25 
+01:17:25  DIAGNOSIS:  Uncertain
+01:17:25  Confidence: 69.4%
+01:17:25  Anomaly:    0.80  [outside training data]
+01:17:25  [Suppressed: outside the training data (anomaly score)]
+01:17:25  > Improve signal quality / hold still.
+01:17:25 +===========================================+
+01:17:25 
+01:17:26 
+01:17:26 Running AI classifier...
+01:17:26 Inference: 1252 us
+01:17:26 
+01:17:26 +===========================================+
+01:17:26  BPM:   89.7
+01:17:26  SpO2:  98.8%
+01:17:26         [reflective sensor + correction applied]
+01:17:26  Temp:  35.9 C  [not validated]
+01:17:26  HRV:   62.0 ms RMSSD  pNN50: 50.0%
+01:17:26  SigQ:  70%  [Good]
+01:17:26  [DBG] PI: 0.57%  motion: 0/94 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.469  raw SpO2: 95.8%
+01:17:26  [DBG] RR raw (ms): 997 739 640 607 1202 1328 1480 1261 831 1096  | stored (0=gap): 0 0 640 607 0 1328 0 0 0 0
+01:17:26 
+01:17:26  DIAGNOSIS:  Uncertain
+01:17:26  Confidence: 68.1%
+01:17:26  Anomaly:    0.82  [outside training data]
+01:17:26  [Suppressed: outside the training data (anomaly score)]
+01:17:26  > Improve signal quality / hold still.
+01:17:26 +===========================================+
+01:17:26 
+01:17:27 
+01:17:27 Running AI classifier...
+01:17:27 Inference: 1246 us
+01:17:27 
+01:17:27 +===========================================+
+01:17:27  BPM:   89.7
+01:17:27  SpO2:  98.8%
+01:17:27         [reflective sensor + correction applied]
+01:17:27  Temp:  36.1 C  [not validated]
+01:17:27  HRV:   63.3 ms RMSSD  pNN50: 60.0%
+01:17:27  SigQ:  73%  [Good]
+01:17:27  [DBG] PI: 0.61%  motion: 0/94 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.469  raw SpO2: 95.8%
+01:17:27  [DBG] RR raw (ms): 739 640 607 1202 1328 1480 1261 831 1096 964  | stored (0=gap): 0 640 607 0 1328 0 0 0 0 964
+01:17:27 
+01:17:27  DIAGNOSIS:  Uncertain
+01:17:27  Confidence: 54.4%
+01:17:27  Anomaly:    1.05  [outside training data]
+01:17:27  [Suppressed: outside the training data (anomaly score)]
+01:17:27  > Improve signal quality / hold still.
+01:17:27 +===========================================+
+01:17:27 
+01:17:28 Waiting for valid BPM / SpO2 / HRV...
+01:17:28  [DBG] BPM 89.7 ok | SpO2 ok (R 0.469) | HRV -- | SigQ 80% PI 0.70% | motion 4/91 | RR clean/gap 0/1
+01:17:28  [DBG] RR raw (ms): 640 607 1202 1328 1480 1261 831 1096 964 1075  | stored (0=gap): 640 607 0 1328 0 0 0 0 964 0
+01:17:30 Waiting for valid BPM / SpO2 / HRV...
+01:17:30  [DBG] BPM 89.7 ok | SpO2 ok (R 0.481) | HRV -- | SigQ 69% PI 0.55% | motion 0/202 | RR clean/gap 1/0
+01:17:30  [DBG] RR raw (ms): 607 1202 1328 1480 1261 831 1096 964 1075 1254  | stored (0=gap): 607 0 1328 0 0 0 0 964 0 1254
+01:17:32 Waiting for valid BPM / SpO2 / HRV...
+01:17:32  [DBG] BPM 89.7 ok | SpO2 ok (R 0.459) | HRV -- | SigQ 65% PI 0.50% | motion 0/202 | RR clean/gap 1/1
+01:17:32  [DBG] RR raw (ms): 1328 1480 1261 831 1096 964 1075 1254 1462 1058  | stored (0=gap): 1328 0 0 0 0 964 0 1254 1462 0
+01:17:34 Waiting for valid BPM / SpO2 / HRV...
+01:17:34  [DBG] BPM 88.6 ok | SpO2 ok (R 0.440) | HRV -- | SigQ 62% PI 0.47% | motion 0/202 | RR clean/gap 1/2
+01:17:34  [DBG] RR raw (ms): 831 1096 964 1075 1254 1462 1058 773 822 627  | stored (0=gap): 0 0 964 0 1254 1462 0 0 822 0
+01:17:36 Waiting for valid BPM / SpO2 / HRV...
+01:17:36  [DBG] BPM 89.3 ok | SpO2 ok (R 0.472) | HRV -- | SigQ 56% PI 0.38% | motion 0/201 | RR clean/gap 3/0
+01:17:36  [DBG] RR raw (ms): 1075 1254 1462 1058 773 822 627 601 600 614  | stored (0=gap): 0 1254 1462 0 0 822 0 601 600 614
+01:17:40 
+01:17:40 Running AI classifier...
+01:17:40 Inference: 1261 us
+01:17:40 
+01:17:40 +===========================================+
+01:17:40  BPM:   90.1
+01:17:40  SpO2:  98.7%
+01:17:40         [reflective sensor + correction applied]
+01:17:40  Temp:  36.0 C  [not validated]
+01:17:40  HRV:   72.7 ms RMSSD  pNN50: 12.5%
+01:17:40  SigQ:  68%  [Good]
+01:17:40  [DBG] PI: 0.54%  motion: 0/316 samples  RR clean/gap: 5/0  SpO2 windows rejected: 0  R: 0.580  raw SpO2: 95.7%
+01:17:40  [DBG] RR raw (ms): 822 627 601 600 614 630 670 702 678 687  | stored (0=gap): 822 0 601 600 614 630 670 702 678 687
+01:17:40 
+01:17:40  DIAGNOSIS:  Uncertain
+01:17:40  Confidence: 100.0%
+01:17:40  Anomaly:    0.67  [outside training data]
+01:17:40  [Suppressed: outside the training data (anomaly score)]
+01:17:40  > Improve signal quality / hold still.
+01:17:40 +===========================================+
+01:17:40 
+01:17:41 
+01:17:41 Running AI classifier...
+01:17:41 Inference: 1240 us
+01:17:41 
+01:17:41 +===========================================+
+01:17:41  BPM:   89.9
+01:17:41  SpO2:  98.8%
+01:17:41         [reflective sensor + correction applied]
+01:17:41  Temp:  36.0 C  [not validated]
+01:17:41  HRV:   72.9 ms RMSSD  pNN50: 11.1%
+01:17:41  SigQ:  60%  [Good]
+01:17:41  [DBG] PI: 0.43%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.461  raw SpO2: 95.8%
+01:17:41  [DBG] RR raw (ms): 627 601 600 614 630 670 702 678 687 637  | stored (0=gap): 0 601 600 614 630 670 702 678 687 637
+01:17:41 
+01:17:41  DIAGNOSIS:  Uncertain
+01:17:41  Confidence: 100.0%
+01:17:41  Anomaly:    0.76  [outside training data]
+01:17:41  [Suppressed: outside the training data (anomaly score)]
+01:17:41  > Improve signal quality / hold still.
+01:17:41 +===========================================+
+01:17:41 
+01:17:42 
+01:17:42 Running AI classifier...
+01:17:42 Inference: 1243 us
+01:17:42 
+01:17:42 +===========================================+
+01:17:42  BPM:   89.8
+01:17:42  SpO2:  98.8%
+01:17:42         [reflective sensor + correction applied]
+01:17:42  Temp:  36.2 C  [not validated]
+01:17:42  HRV:   72.7 ms RMSSD  pNN50: 10.0%
+01:17:42  SigQ:  61%  [Good]
+01:17:42  [DBG] PI: 0.44%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.461  raw SpO2: 95.8%
+01:17:42  [DBG] RR raw (ms): 601 600 614 630 670 702 678 687 637 674  | stored (0=gap): 601 600 614 630 670 702 678 687 637 674
+01:17:42 
+01:17:42  DIAGNOSIS:  Uncertain
+01:17:42  Confidence: 99.9%
+01:17:42  Anomaly:    0.85  [outside training data]
+01:17:42  [Suppressed: outside the training data (anomaly score)]
+01:17:42  > Improve signal quality / hold still.
+01:17:42 +===========================================+
+01:17:42 
+01:17:43 
+01:17:43 Running AI classifier...
+01:17:43 Inference: 1230 us
+01:17:43 
+01:17:43 +===========================================+
+01:17:43  BPM:   89.8
+01:17:43  SpO2:  98.8%
+01:17:43         [reflective sensor + correction applied]
+01:17:43  Temp:  36.2 C  [not validated]
+01:17:43  HRV:   72.6 ms RMSSD  pNN50: 10.0%
+01:17:43  SigQ:  59%  [Good]
+01:17:43  [DBG] PI: 0.42%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.461  raw SpO2: 95.8%
+01:17:43  [DBG] RR raw (ms): 600 614 630 670 702 678 687 637 674 1194  | stored (0=gap): 600 614 630 670 702 678 687 637 674 0
+01:17:43 
+01:17:43  DIAGNOSIS:  Uncertain
+01:17:43  Confidence: 99.8%
+01:17:43  Anomaly:    0.89  [outside training data]
+01:17:43  [Suppressed: outside the training data (anomaly score)]
+01:17:43  > Improve signal quality / hold still.
+01:17:43 +===========================================+
+01:17:43 
+01:17:44 
+01:17:44 Running AI classifier...
+01:17:44 Inference: 1254 us
+01:17:44 
+01:17:44 +===========================================+
+01:17:44  BPM:   89.8
+01:17:44  SpO2:  98.7%
+01:17:44         [reflective sensor + correction applied]
+01:17:44  Temp:  36.2 C  [not validated]
+01:17:44  HRV:   72.4 ms RMSSD  pNN50: 10.0%
+01:17:44  SigQ:  57%  [Good]
+01:17:44  [DBG] PI: 0.39%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.521  raw SpO2: 95.7%
+01:17:44  [DBG] RR raw (ms): 614 630 670 702 678 687 637 674 1194 1179  | stored (0=gap): 614 630 670 702 678 687 637 674 0 1179
+01:17:44 
+01:17:44  DIAGNOSIS:  Uncertain
+01:17:44  Confidence: 99.7%
+01:17:44  Anomaly:    0.91  [outside training data]
+01:17:44  [Suppressed: outside the training data (anomaly score)]
+01:17:44  > Improve signal quality / hold still.
+01:17:44 +===========================================+
+01:17:44 
+01:17:45 
+01:17:45 Running AI classifier...
+01:17:45 Inference: 1232 us
+01:17:45 
+01:17:45 +===========================================+
+01:17:45  BPM:   89.8
+01:17:45  SpO2:  98.7%
+01:17:45         [reflective sensor + correction applied]
+01:17:45  Temp:  36.0 C  [not validated]
+01:17:45  HRV:   72.3 ms RMSSD  pNN50: 18.2%
+01:17:45  SigQ:  55%  [Good]
+01:17:45  [DBG] PI: 0.36%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.521  raw SpO2: 95.7%
+01:17:45  [DBG] RR raw (ms): 630 670 702 678 687 637 674 1194 1179 1111  | stored (0=gap): 630 670 702 678 687 637 674 0 1179 1111
+01:17:45 
+01:17:45  DIAGNOSIS:  Uncertain
+01:17:45  Confidence: 99.8%
+01:17:45  Anomaly:    0.89  [outside training data]
+01:17:45  [Suppressed: outside the training data (anomaly score)]
+01:17:45  > Improve signal quality / hold still.
+01:17:45 +===========================================+
+01:17:45 
+01:17:46 
+01:17:46 Running AI classifier...
+01:17:46 Inference: 1249 us
+01:17:46 
+01:17:46 +===========================================+
+01:17:46  BPM:   89.8
+01:17:46  SpO2:  98.7%
+01:17:46         [reflective sensor + correction applied]
+01:17:46  Temp:  36.2 C  [not validated]
+01:17:46  HRV:   72.3 ms RMSSD  pNN50: 18.2%
+01:17:46  SigQ:  58%  [Good]
+01:17:46  [DBG] PI: 0.41%  motion: 0/95 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.477  raw SpO2: 95.7%
+01:17:46  [DBG] RR raw (ms): 630 670 702 678 687 637 674 1194 1179 1111  | stored (0=gap): 630 670 702 678 687 637 674 0 1179 1111
+01:17:46 
+01:17:46  DIAGNOSIS:  Uncertain
+01:17:46  Confidence: 99.9%
+01:17:46  Anomaly:    0.80  [outside training data]
+01:17:46  [Suppressed: outside the training data (anomaly score)]
+01:17:46  > Improve signal quality / hold still.
+01:17:46 +===========================================+
+01:17:46 
+01:17:47 
+01:17:47 Running AI classifier...
+01:17:47 Inference: 1232 us
+01:17:47 
+01:17:47 +===========================================+
+01:17:47  BPM:   89.8
+01:17:47  SpO2:  98.7%
+01:17:47         [reflective sensor + correction applied]
+01:17:47  Temp:  36.2 C  [not validated]
+01:17:47  HRV:   72.2 ms RMSSD  pNN50: 18.2%
+01:17:47  SigQ:  63%  [Good]
+01:17:47  [DBG] PI: 0.48%  motion: 0/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.477  raw SpO2: 95.7%
+01:17:47  [DBG] RR raw (ms): 670 702 678 687 637 674 1194 1179 1111 1625  | stored (0=gap): 670 702 678 687 637 674 0 1179 1111 0
+01:17:47 
+01:17:47  DIAGNOSIS:  Uncertain
+01:17:47  Confidence: 100.0%
+01:17:47  Anomaly:    0.74  [outside training data]
+01:17:47  [Suppressed: outside the training data (anomaly score)]
+01:17:47  > Improve signal quality / hold still.
+01:17:47 +===========================================+
+01:17:47 
+01:17:48 
+01:17:48 Running AI classifier...
+01:17:48 Inference: 1242 us
+01:17:48 
+01:17:48 +===========================================+
+01:17:48  BPM:   89.8
+01:17:48  SpO2:  98.7%
+01:17:48         [reflective sensor + correction applied]
+01:17:48  Temp:  36.2 C  [not validated]
+01:17:48  HRV:   68.4 ms RMSSD  pNN50: 10.0%
+01:17:48  SigQ:  65%  [Good]
+01:17:48  [DBG] PI: 0.49%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.477  raw SpO2: 95.7%
+01:17:48  [DBG] RR raw (ms): 702 678 687 637 674 1194 1179 1111 1625 1065  | stored (0=gap): 702 678 687 637 674 0 1179 1111 0 1065
+01:17:48 
+01:17:48  DIAGNOSIS:  Uncertain
+01:17:48  Confidence: 100.0%
+01:17:48  Anomaly:    0.70  [outside training data]
+01:17:48  [Suppressed: outside the training data (anomaly score)]
+01:17:48  > Improve signal quality / hold still.
+01:17:48 +===========================================+
+01:17:48 
+01:17:49 
+01:17:49 Running AI classifier...
+01:17:49 Inference: 1232 us
+01:17:49 
+01:17:49 +===========================================+
+01:17:49  BPM:   89.8
+01:17:49  SpO2:  98.7%
+01:17:49         [reflective sensor + correction applied]
+01:17:49  Temp:  35.9 C  [not validated]
+01:17:49  HRV:   65.1 ms RMSSD  pNN50: 10.0%
+01:17:49  SigQ:  69%  [Good]
+01:17:49  [DBG] PI: 0.55%  motion: 8/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.477  raw SpO2: 95.7%
+01:17:49  [DBG] RR raw (ms): 678 687 637 674 1194 1179 1111 1625 1065 925  | stored (0=gap): 678 687 637 674 0 1179 1111 0 1065 0
+01:17:49 
+01:17:49  DIAGNOSIS:  Uncertain
+01:17:49  Confidence: 99.9%
+01:17:49  Anomaly:    0.71  [outside training data]
+01:17:49  [Suppressed: outside the training data (anomaly score)]
+01:17:49  > Improve signal quality / hold still.
+01:17:49 +===========================================+
+01:17:49 
+01:17:50 
+01:17:50 Running AI classifier...
+01:17:50 Inference: 1254 us
+01:17:50 
+01:17:50 +===========================================+
+01:17:50  BPM:   89.8
+01:17:50  SpO2:  98.8%
+01:17:50         [reflective sensor + correction applied]
+01:17:50  Temp:  36.0 C  [not validated]
+01:17:50  HRV:   62.1 ms RMSSD  pNN50: 10.0%
+01:17:50  SigQ:  68%  [Good]
+01:17:50  [DBG] PI: 0.55%  motion: 0/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.466  raw SpO2: 95.8%
+01:17:50  [DBG] RR raw (ms): 687 637 674 1194 1179 1111 1625 1065 925 801  | stored (0=gap): 687 637 674 0 1179 1111 0 1065 0 0
+01:17:50 
+01:17:50  DIAGNOSIS:  Uncertain
+01:17:50  Confidence: 99.1%
+01:17:50  Anomaly:    0.72  [outside training data]
+01:17:50  [Suppressed: outside the training data (anomaly score)]
+01:17:50  > Improve signal quality / hold still.
+01:17:50 +===========================================+
+01:17:50 
+01:17:51 
+01:17:51 Running AI classifier...
+01:17:51 Inference: 1230 us
+01:17:51 
+01:17:51 +===========================================+
+01:17:51  BPM:   89.9
+01:17:51  SpO2:  98.8%
+01:17:51         [reflective sensor + correction applied]
+01:17:51  Temp:  36.3 C  [not validated]
+01:17:51  HRV:   59.4 ms RMSSD  pNN50: 10.0%
+01:17:51  SigQ:  64%  [Good]
+01:17:51  [DBG] PI: 0.49%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.466  raw SpO2: 95.8%
+01:17:51  [DBG] RR raw (ms): 637 674 1194 1179 1111 1625 1065 925 801 628  | stored (0=gap): 637 674 0 1179 1111 0 1065 0 0 0
+01:17:51 
+01:17:51  DIAGNOSIS:  Uncertain
+01:17:51  Confidence: 91.0%
+01:17:51  Anomaly:    0.72  [outside training data]
+01:17:51  [Suppressed: outside the training data (anomaly score)]
+01:17:51  > Improve signal quality / hold still.
+01:17:51 +===========================================+
+01:17:51 
+01:17:52 
+01:17:52 Running AI classifier...
+01:17:52 Inference: 1254 us
+01:17:52 
+01:17:52 +===========================================+
+01:17:52  BPM:   89.9
+01:17:52  SpO2:  98.6%
+01:17:52         [reflective sensor + correction applied]
+01:17:52  Temp:  36.0 C  [not validated]
+01:17:52  HRV:   56.9 ms RMSSD  pNN50: 10.0%
+01:17:52  SigQ:  61%  [Good]
+01:17:52  [DBG] PI: 0.45%  motion: 0/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.537  raw SpO2: 95.6%
+01:17:52  [DBG] RR raw (ms): 674 1194 1179 1111 1625 1065 925 801 628 1253  | stored (0=gap): 674 0 1179 1111 0 1065 0 0 0 0
+01:17:52 
+01:17:52  DIAGNOSIS:  Uncertain
+01:17:52  Confidence: 71.1%
+01:17:52  Anomaly:    0.67  [outside training data]
+01:17:52  [Suppressed: outside the training data (anomaly score)]
+01:17:52  > Improve signal quality / hold still.
+01:17:52 +===========================================+
+01:17:52 
+01:17:53 
+01:17:53 Running AI classifier...
+01:17:53 Inference: 1231 us
+01:17:53 
+01:17:53 +===========================================+
+01:17:53  BPM:   89.9
+01:17:53  SpO2:  98.6%
+01:17:53         [reflective sensor + correction applied]
+01:17:53  Temp:  36.1 C  [not validated]
+01:17:53  HRV:   54.7 ms RMSSD  pNN50: 10.0%
+01:17:53  SigQ:  56%  [Good]
+01:17:53  [DBG] PI: 0.38%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.537  raw SpO2: 95.6%
+01:17:53  [DBG] RR raw (ms): 1194 1179 1111 1625 1065 925 801 628 1253 1258  | stored (0=gap): 0 1179 1111 0 1065 0 0 0 0 1258
+01:17:53 
+01:17:53  DIAGNOSIS:  Uncertain
+01:17:53  Confidence: 45.3%
+01:17:53  Anomaly:    0.63  [outside training data]
+01:17:53  [Suppressed: outside the training data (anomaly score)]
+01:17:53  > Improve signal quality / hold still.
+01:17:53 +===========================================+
+01:17:53 
+01:17:54 
+01:17:54 Running AI classifier...
+01:17:54 Inference: 1254 us
+01:17:54 
+01:17:54 +===========================================+
+01:17:54  BPM:   89.9
+01:17:54  SpO2:  98.7%
+01:17:54         [reflective sensor + correction applied]
+01:17:54  Temp:  36.1 C  [not validated]
+01:17:54  HRV:   52.9 ms RMSSD  pNN50: 11.1%
+01:17:54  SigQ:  54%  [Good]
+01:17:54  [DBG] PI: 0.36%  motion: 0/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.470  raw SpO2: 95.7%
+01:17:54  [DBG] RR raw (ms): 1179 1111 1625 1065 925 801 628 1253 1258 1264  | stored (0=gap): 1179 1111 0 1065 0 0 0 0 1258 0
+01:17:54 
+01:17:54  DIAGNOSIS:  Uncertain
+01:17:54  Confidence: 54.2%
+01:17:54  Anomaly:    0.60  [outside training data]
+01:17:54  [Suppressed: outside the training data (anomaly score)]
+01:17:54  > Improve signal quality / hold still.
+01:17:54 +===========================================+
+01:17:54 
+01:17:55 
+01:17:55 Running AI classifier...
+01:17:55 Inference: 1208 us
+01:17:55 
+01:17:55 +===========================================+
+01:17:55  BPM:   89.9
+01:17:55  SpO2:  98.7%
+01:17:55         [reflective sensor + correction applied]
+01:17:55  Temp:  36.2 C  [not validated]
+01:17:55  HRV:   52.9 ms RMSSD  pNN50: 11.1%
+01:17:55  SigQ:  55%  [Good]
+01:17:55  [DBG] PI: 0.37%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.470  raw SpO2: 95.7%
+01:17:55  [DBG] RR raw (ms): 1179 1111 1625 1065 925 801 628 1253 1258 1264  | stored (0=gap): 1179 1111 0 1065 0 0 0 0 1258 0
+01:17:55 
+01:17:55  DIAGNOSIS:  Uncertain
+01:17:55  Confidence: 58.8%
+01:17:55  Anomaly:    0.56  [outside training data]
+01:17:55  [Suppressed: outside the training data (anomaly score)]
+01:17:55  > Improve signal quality / hold still.
+01:17:55 +===========================================+
+01:17:55 
+01:17:56 
+01:17:56 Running AI classifier...
+01:17:56 Inference: 1253 us
+01:17:56 
+01:17:56 +===========================================+
+01:17:56  BPM:   89.9
+01:17:56  SpO2:  98.8%
+01:17:56         [reflective sensor + correction applied]
+01:17:56  Temp:  36.2 C  [not validated]
+01:17:56  HRV:   51.5 ms RMSSD  pNN50: 12.5%
+01:17:56  SigQ:  67%  [Good]
+01:17:56  [DBG] PI: 0.53%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.431  raw SpO2: 95.8%
+01:17:56  [DBG] RR raw (ms): 1111 1625 1065 925 801 628 1253 1258 1264 1109  | stored (0=gap): 1111 0 1065 0 0 0 0 1258 0 1109
+01:17:56 
+01:17:56  DIAGNOSIS:  Uncertain
+01:17:56  Confidence: 63.9%
+01:17:56  Anomaly:    0.51  [outside training data]
+01:17:56  [Suppressed: outside the training data (anomaly score)]
+01:17:56  > Improve signal quality / hold still.
+01:17:56 +===========================================+
+01:17:56 
+01:17:57 
+01:17:57 Running AI classifier...
+01:17:57 Inference: 1234 us
+01:17:57 
+01:17:57 +===========================================+
+01:17:57  BPM:   89.9
+01:17:57  SpO2:  98.8%
+01:17:57         [reflective sensor + correction applied]
+01:17:57  Temp:  36.2 C  [not validated]
+01:17:57  HRV:   50.2 ms RMSSD  pNN50: 12.5%
+01:17:57  SigQ:  71%  [Good]
+01:17:57  [DBG] PI: 0.58%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.431  raw SpO2: 95.8%
+01:17:57  [DBG] RR raw (ms): 1625 1065 925 801 628 1253 1258 1264 1109 1107  | stored (0=gap): 0 1065 0 0 0 0 1258 0 1109 1107
+01:17:57 
+01:17:57  DIAGNOSIS:  Uncertain
+01:17:57  Confidence: 68.1%
+01:17:57  Anomaly:    0.46  [outside training data]
+01:17:57  [Suppressed: outside the training data (anomaly score)]
+01:17:57  > Improve signal quality / hold still.
+01:17:57 +===========================================+
+01:17:57 
+01:17:58 
+01:17:58 Running AI classifier...
+01:17:58 Inference: 1242 us
+01:17:58 
+01:17:58 +===========================================+
+01:17:58  BPM:   89.9
+01:17:58  SpO2:  98.8%
+01:17:58         [reflective sensor + correction applied]
+01:17:58  Temp:  36.0 C  [not validated]
+01:17:58  HRV:   50.5 ms RMSSD  pNN50: 25.0%
+01:17:58  SigQ:  65%  [Good]
+01:17:58  [DBG] PI: 0.50%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.431  raw SpO2: 95.8%
+01:17:58  [DBG] RR raw (ms): 1065 925 801 628 1253 1258 1264 1109 1107 1219  | stored (0=gap): 1065 0 0 0 0 1258 0 1109 1107 1219
+01:17:58 
+01:17:58  DIAGNOSIS:  Uncertain
+01:17:58  Confidence: 51.9%
+01:17:58  Anomaly:    0.35  [outside training data]
+01:17:58  [Suppressed: outside the training data (anomaly score)]
+01:17:58  > Improve signal quality / hold still.
+01:17:58 +===========================================+
+01:17:58 
+01:17:59 
+01:17:59 Running AI classifier...
+01:17:59 Inference: 1233 us
+01:17:59 
+01:17:59 +===========================================+
+01:17:59  BPM:   89.9
+01:17:59  SpO2:  98.8%
+01:17:59         [reflective sensor + correction applied]
+01:17:59  Temp:  36.1 C  [not validated]
+01:17:59  HRV:   51.0 ms RMSSD  pNN50: 28.6%
+01:17:59  SigQ:  72%  [Good]
+01:17:59  [DBG] PI: 0.59%  motion: 6/95 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.431  raw SpO2: 95.8%
+01:17:59  [DBG] RR raw (ms): 925 801 628 1253 1258 1264 1109 1107 1219 1296  | stored (0=gap): 0 0 0 0 1258 0 1109 1107 1219 0
+01:17:59 
+01:17:59  DIAGNOSIS:  Poor_signal
+01:17:59  Confidence: 93.8%
+01:17:59  Anomaly:    0.23
+01:17:59  > Poor signal - adjust finger.
+01:17:59 +===========================================+
+01:17:59 
+01:18:00 
+01:18:00 Running AI classifier...
+01:18:00 Inference: 1219 us
+01:18:00 
+01:18:00 +===========================================+
+01:18:00  BPM:   89.9
+01:18:00  SpO2:  98.8%
+01:18:00         [reflective sensor + correction applied]
+01:18:00  Temp:  35.9 C  [not validated]
+01:18:00  HRV:   51.0 ms RMSSD  pNN50: 28.6%
+01:18:00  SigQ:  69%  [Good]
+01:18:00  [DBG] PI: 0.56%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.431  raw SpO2: 95.8%
+01:18:00  [DBG] RR raw (ms): 925 801 628 1253 1258 1264 1109 1107 1219 1296  | stored (0=gap): 0 0 0 0 1258 0 1109 1107 1219 0
+01:18:00 
+01:18:00  DIAGNOSIS:  Poor_signal
+01:18:00  Confidence: 97.7%
+01:18:00  Anomaly:    0.26
+01:18:00  > Poor signal - adjust finger.
+01:18:00 +===========================================+
+01:18:00 
+01:18:01 
+01:18:01 Running AI classifier...
+01:18:01 Inference: 1235 us
+01:18:01 
+01:18:01 +===========================================+
+01:18:01  BPM:   89.9
+01:18:01  SpO2:  98.8%
+01:18:01         [reflective sensor + correction applied]
+01:18:01  Temp:  36.1 C  [not validated]
+01:18:01  HRV:   51.9 ms RMSSD  pNN50: 33.3%
+01:18:01  SigQ:  67%  [Good]
+01:18:01  [DBG] PI: 0.53%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.431  raw SpO2: 95.8%
+01:18:01  [DBG] RR raw (ms): 801 628 1253 1258 1264 1109 1107 1219 1296 1351  | stored (0=gap): 0 0 0 1258 0 1109 1107 1219 0 1351
+01:18:01 
+01:18:01  DIAGNOSIS:  Uncertain
+01:18:01  Confidence: 97.2%
+01:18:01  Anomaly:    0.46  [outside training data]
+01:18:01  [Suppressed: outside the training data (anomaly score)]
+01:18:01  > Improve signal quality / hold still.
+01:18:01 +===========================================+
+01:18:01 
+01:18:02 
+01:18:02 Running AI classifier...
+01:18:02 Inference: 1254 us
+01:18:02 
+01:18:02 +===========================================+
+01:18:02  BPM:   89.9
+01:18:02  SpO2:  98.9%
+01:18:02         [reflective sensor + correction applied]
+01:18:02  Temp:  36.0 C  [not validated]
+01:18:02  HRV:   53.2 ms RMSSD  pNN50: 50.0%
+01:18:02  SigQ:  71%  [Good]
+01:18:02  [DBG] PI: 0.58%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:18:02  [DBG] RR raw (ms): 628 1253 1258 1264 1109 1107 1219 1296 1351 1416  | stored (0=gap): 0 0 1258 0 1109 1107 1219 0 1351 1416
+01:18:02 
+01:18:02  DIAGNOSIS:  Uncertain
+01:18:02  Confidence: 94.6%
+01:18:02  Anomaly:    0.52  [outside training data]
+01:18:02  [Suppressed: outside the training data (anomaly score)]
+01:18:02  > Improve signal quality / hold still.
+01:18:02 +===========================================+
+01:18:02 
+01:18:03 
+01:18:03 Running AI classifier...
+01:18:03 Inference: 1208 us
+01:18:03 
+01:18:03 +===========================================+
+01:18:03  BPM:   89.9
+01:18:03  SpO2:  98.9%
+01:18:03         [reflective sensor + correction applied]
+01:18:03  Temp:  36.0 C  [not validated]
+01:18:03  HRV:   53.2 ms RMSSD  pNN50: 50.0%
+01:18:03  SigQ:  79%  [Good]
+01:18:03  [DBG] PI: 0.69%  motion: 0/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:18:03  [DBG] RR raw (ms): 628 1253 1258 1264 1109 1107 1219 1296 1351 1416  | stored (0=gap): 0 0 1258 0 1109 1107 1219 0 1351 1416
+01:18:03 
+01:18:03  DIAGNOSIS:  Uncertain
+01:18:03  Confidence: 74.6%
+01:18:03  Anomaly:    0.69  [outside training data]
+01:18:03  [Suppressed: outside the training data (anomaly score)]
+01:18:03  > Improve signal quality / hold still.
+01:18:03 +===========================================+
+01:18:03 
+01:18:04 
+01:18:04 Running AI classifier...
+01:18:04 Inference: 1244 us
+01:18:04 
+01:18:04 +===========================================+
+01:18:04  BPM:   89.9
+01:18:04  SpO2:  98.9%
+01:18:04         [reflective sensor + correction applied]
+01:18:04  Temp:  36.3 C  [not validated]
+01:18:04  HRV:   57.6 ms RMSSD  pNN50: 66.7%
+01:18:04  SigQ:  79%  [Good]
+01:18:04  [DBG] PI: 0.68%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:18:04  [DBG] RR raw (ms): 1253 1258 1264 1109 1107 1219 1296 1351 1416 1232  | stored (0=gap): 0 1258 0 1109 1107 1219 0 1351 1416 1232
+01:18:04 
+01:18:04  DIAGNOSIS:  Uncertain
+01:18:04  Confidence: 72.3%
+01:18:04  Anomaly:    1.20  [outside training data]
+01:18:04  [Suppressed: outside the training data (anomaly score)]
+01:18:04  > Improve signal quality / hold still.
+01:18:04 +===========================================+
+01:18:04 
+01:18:05 
+01:18:05 Running AI classifier...
+01:18:05 Inference: 1233 us
+01:18:05 
+01:18:05 +===========================================+
+01:18:05  BPM:   89.9
+01:18:05  SpO2:  98.9%
+01:18:05         [reflective sensor + correction applied]
+01:18:05  Temp:  36.1 C  [not validated]
+01:18:05  HRV:   62.0 ms RMSSD  pNN50: 83.3%
+01:18:05  SigQ:  74%  [Good]
+01:18:05  [DBG] PI: 0.62%  motion: 0/95 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:18:05  [DBG] RR raw (ms): 1258 1264 1109 1107 1219 1296 1351 1416 1232 1150  | stored (0=gap): 1258 0 1109 1107 1219 0 1351 1416 1232 1150
+01:18:05 
+01:18:05  DIAGNOSIS:  Uncertain
+01:18:05  Confidence: 66.6%
+01:18:05  Anomaly:    1.59  [outside training data]
+01:18:05  [Suppressed: outside the training data (anomaly score)]
+01:18:05  > Improve signal quality / hold still.
+01:18:05 +===========================================+
+01:18:05 
+01:18:06 
+01:18:06 Running AI classifier...
+01:18:06 Inference: 1241 us
+01:18:06 
+01:18:06 +===========================================+
+01:18:06  BPM:   89.9
+01:18:06  SpO2:  98.9%
+01:18:06         [reflective sensor + correction applied]
+01:18:06  Temp:  36.0 C  [not validated]
+01:18:06  HRV:   66.5 ms RMSSD  pNN50: 85.7%
+01:18:06  SigQ:  74%  [Good]
+01:18:06  [DBG] PI: 0.62%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.458  raw SpO2: 95.9%
+01:18:06  [DBG] RR raw (ms): 1264 1109 1107 1219 1296 1351 1416 1232 1150 1288  | stored (0=gap): 0 1109 1107 1219 0 1351 1416 1232 1150 1288
+01:18:06 
+01:18:06  DIAGNOSIS:  Uncertain
+01:18:06  Confidence: 95.5%
+01:18:06  Anomaly:    1.93  [outside training data]
+01:18:06  [Suppressed: outside the training data (anomaly score)]
+01:18:06  > Improve signal quality / hold still.
+01:18:06 +===========================================+
+01:18:06 
+01:18:07 
+01:18:07 Running AI classifier...
+01:18:07 Inference: 1242 us
+01:18:07 
+01:18:07 +===========================================+
+01:18:07  BPM:   89.9
+01:18:07  SpO2:  98.9%
+01:18:07         [reflective sensor + correction applied]
+01:18:07  Temp:  36.0 C  [not validated]
+01:18:07  HRV:   66.5 ms RMSSD  pNN50: 85.7%
+01:18:07  SigQ:  80%  [Excellent]
+01:18:07  [DBG] PI: 0.76%  motion: 6/96 samples  RR clean/gap: 0/0  SpO2 windows rejected: 0  R: 0.474  raw SpO2: 95.9%
+01:18:07  [DBG] RR raw (ms): 1264 1109 1107 1219 1296 1351 1416 1232 1150 1288  | stored (0=gap): 0 1109 1107 1219 0 1351 1416 1232 1150 1288
+01:18:07 
+01:18:07  DIAGNOSIS:  Uncertain
+01:18:07  Confidence: 99.0%
+01:18:07  Anomaly:    2.24  [outside training data]
+01:18:07  [Suppressed: outside the training data (anomaly score)]
+01:18:07  > Improve signal quality / hold still.
+01:18:07 +===========================================+
+01:18:07 
+01:18:08 
+01:18:08 Running AI classifier...
+01:18:08 Inference: 1245 us
+01:18:08 
+01:18:08 +===========================================+
+01:18:08  BPM:   89.9
+01:18:08  SpO2:  98.9%
+01:18:08         [reflective sensor + correction applied]
+01:18:08  Temp:  36.3 C  [not validated]
+01:18:08  HRV:   74.9 ms RMSSD  pNN50: 83.3%
+01:18:08  SigQ:  81%  [Excellent]
+01:18:08  [DBG] PI: 0.79%  motion: 7/95 samples  RR clean/gap: 0/2  SpO2 windows rejected: 0  R: 0.474  raw SpO2: 95.9%
+01:18:08  [DBG] RR raw (ms): 1107 1219 1296 1351 1416 1232 1150 1288 1165 717  | stored (0=gap): 1107 1219 0 1351 1416 1232 1150 1288 0 0
+01:18:08 
+01:18:08  DIAGNOSIS:  Uncertain
+01:18:08  Confidence: 99.6%
+01:18:08  Anomaly:    2.34  [outside training data]
+01:18:08  [Suppressed: outside the training data (anomaly score)]
+01:18:08  > Improve signal quality / hold still.
+01:18:08 +===========================================+
+01:18:08 
+01:18:09 
+01:18:09 Running AI classifier...
+01:18:09 Inference: 1238 us
+01:18:09 
+01:18:09 +===========================================+
+01:18:09  BPM:   89.9
+01:18:09  SpO2:  98.9%
+01:18:09         [reflective sensor + correction applied]
+01:18:09  Temp:  36.1 C  [not validated]
+01:18:09  HRV:   78.7 ms RMSSD  pNN50: 83.3%
+01:18:09  SigQ:  81%  [Excellent]
+01:18:09  [DBG] PI: 0.84%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.474  raw SpO2: 95.9%
+01:18:09  [DBG] RR raw (ms): 1219 1296 1351 1416 1232 1150 1288 1165 717 636  | stored (0=gap): 1219 0 1351 1416 1232 1150 1288 0 0 636
+01:18:09 
+01:18:09  DIAGNOSIS:  Uncertain
+01:18:09  Confidence: 99.8%
+01:18:09  Anomaly:    2.28  [outside training data]
+01:18:09  [Suppressed: outside the training data (anomaly score)]
+01:18:09  > Improve signal quality / hold still.
+01:18:09 +===========================================+
+01:18:09 
+01:18:10 
+01:18:10 Running AI classifier...
+01:18:10 Inference: 1244 us
+01:18:10 
+01:18:10 +===========================================+
+01:18:10  BPM:   89.9
+01:18:10  SpO2:  98.9%
+01:18:10         [reflective sensor + correction applied]
+01:18:10  Temp:  36.0 C  [not validated]
+01:18:10  HRV:   83.1 ms RMSSD  pNN50: 62.5%
+01:18:10  SigQ:  81%  [Excellent]
+01:18:10  [DBG] PI: 0.80%  motion: 0/95 samples  RR clean/gap: 2/0  SpO2 windows rejected: 0  R: 0.474  raw SpO2: 95.9%
+01:18:10  [DBG] RR raw (ms): 1351 1416 1232 1150 1288 1165 717 636 670 644  | stored (0=gap): 1351 1416 1232 1150 1288 0 0 636 670 644
+01:18:10 
+01:18:10  DIAGNOSIS:  Uncertain
+01:18:10  Confidence: 99.8%
+01:18:10  Anomaly:    1.95  [outside training data]
+01:18:10  [Suppressed: outside the training data (anomaly score)]
+01:18:10  > Improve signal quality / hold still.
+01:18:10 +===========================================+
+01:18:10 
+01:18:11 
+01:18:11 Running AI classifier...
+01:18:11 Inference: 1237 us
+01:18:11 
+01:18:11 +===========================================+
+01:18:11  BPM:   90.2
+01:18:11  SpO2:  98.9%
+01:18:11         [reflective sensor + correction applied]
+01:18:11  Temp:  36.5 C  [not validated]
+01:18:11  HRV:   84.1 ms RMSSD  pNN50: 55.6%
+01:18:11  SigQ:  76%  [Good]
+01:18:11  [DBG] PI: 0.64%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.474  raw SpO2: 95.9%
+01:18:11  [DBG] RR raw (ms): 1416 1232 1150 1288 1165 717 636 670 644 622  | stored (0=gap): 1416 1232 1150 1288 0 0 636 670 644 622
+01:18:11 
+01:18:11  DIAGNOSIS:  Uncertain
+01:18:11  Confidence: 99.6%
+01:18:11  Anomaly:    1.43  [outside training data]
+01:18:11  [Suppressed: outside the training data (anomaly score)]
+01:18:11  > Improve signal quality / hold still.
+01:18:11 +===========================================+
+01:18:11 
+01:18:12 
+01:18:12 Running AI classifier...
+01:18:12 Inference: 1245 us
+01:18:12 
+01:18:12 +===========================================+
+01:18:12  BPM:   90.2
+01:18:12  SpO2:  98.9%
+01:18:12         [reflective sensor + correction applied]
+01:18:12  Temp:  35.9 C  [not validated]
+01:18:12  HRV:   85.1 ms RMSSD  pNN50: 55.6%
+01:18:12  SigQ:  69%  [Good]
+01:18:12  [DBG] PI: 0.55%  motion: 0/96 samples  RR clean/gap: 0/1  SpO2 windows rejected: 0  R: 0.474  raw SpO2: 95.9%
+01:18:12  [DBG] RR raw (ms): 1232 1150 1288 1165 717 636 670 644 622 1039  | stored (0=gap): 1232 1150 1288 0 0 636 670 644 622 0
+01:18:12 
+01:18:12  DIAGNOSIS:  Uncertain
+01:18:12  Confidence: 99.0%
+01:18:12  Anomaly:    0.99  [outside training data]
+01:18:12  [Suppressed: outside the training data (anomaly score)]
+01:18:12  > Improve signal quality / hold still.
+01:18:12 +===========================================+
+01:18:12 
+01:18:13 
+01:18:13 Running AI classifier...
+01:18:13 Inference: 1243 us
+01:18:13 
+01:18:13 +===========================================+
+01:18:13  BPM:   89.9
+01:18:13  SpO2:  98.6%
+01:18:13         [reflective sensor + correction applied]
+01:18:13  Temp:  36.2 C  [not validated]
+01:18:13  HRV:   86.7 ms RMSSD  pNN50: 55.6%
+01:18:13  SigQ:  70%  [Good]
+01:18:13  [DBG] PI: 0.57%  motion: 0/95 samples  RR clean/gap: 0/2  SpO2 windows rejected: 0  R: 0.584  raw SpO2: 95.6%
+01:18:13  [DBG] RR raw (ms): 1288 1165 717 636 670 644 622 1039 826 585  | stored (0=gap): 1288 0 0 636 670 644 622 0 0 0
+01:18:13 
+01:18:13  DIAGNOSIS:  Uncertain
+01:18:13  Confidence: 97.2%
+01:18:13  Anomaly:    0.77  [outside training data]
+01:18:13  [Suppressed: outside the training data (anomaly score)]
+01:18:13  > Improve signal quality / hold still.
+01:18:13 +===========================================+
+01:18:13 
+01:18:14 
+01:18:14 Running AI classifier...
+01:18:14 Inference: 1247 us
+01:18:14 
+01:18:14 +===========================================+
+01:18:14  BPM:   90.2
+01:18:14  SpO2:  98.6%
+01:18:14         [reflective sensor + correction applied]
+01:18:14  Temp:  36.0 C  [not validated]
+01:18:14  HRV:   87.4 ms RMSSD  pNN50: 55.6%
+01:18:14  SigQ:  74%  [Good]
+01:18:14  [DBG] PI: 0.62%  motion: 0/96 samples  RR clean/gap: 1/0  SpO2 windows rejected: 0  R: 0.584  raw SpO2: 95.6%
+01:18:14  [DBG] RR raw (ms): 1165 717 636 670 644 622 1039 826 585 574  | stored (0=gap): 0 0 636 670 644 622 0 0 0 574
+01:18:14 
+01:18:14  DIAGNOSIS:  Uncertain
+01:18:14  Confidence: 97.1%
+01:18:14  Anomaly:    0.72  [outside training data]
+01:18:14  [Suppressed: outside the training data (anomaly score)]
+01:18:14  > Improve signal quality / hold still.
+01:18:14 +===========================================+
+01:18:14 
+01:18:15 
